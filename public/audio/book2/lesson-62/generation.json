@@ -1,0 +1,412 @@
+{
+  "model": "Piper Cori English / Kokoro-82M v1.1-zh Mandarin",
+  "license": {
+    "english_model": "MIT",
+    "english_dataset": "Public domain",
+    "chinese_model": "Apache-2.0"
+  },
+  "model_source": {
+    "english": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+    "chinese": "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh"
+  },
+  "runtime": {
+    "english": "piper-tts",
+    "chinese": "kokoro-onnx"
+  },
+  "voices": {
+    "english": "en_GB-cori-high",
+    "chinese": "zf_001"
+  },
+  "clips": [
+    {
+      "file": "audio/book2/lesson-62/01-control-en-cori-slow-035.wav",
+      "text": "control",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "kəntɹˈəʊl",
+      "duration": 2.009,
+      "sha256": "ec01704314597a4d5488ecbe757cc450a2eaf615da0a2e73896ba5e8930a568a"
+    },
+    {
+      "file": "audio/book2/lesson-62/01-control-en-cori-normal-045.wav",
+      "text": "control",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "kəntɹˈəʊl",
+      "duration": 1.428,
+      "sha256": "be5e73d270bb0575119409d6e4c4fd7a9a142b0fdbd2448822b7b0652f5504e0"
+    },
+    {
+      "file": "audio/book2/lesson-62/01-control-zh-zf_001.wav",
+      "text": "名词，控制。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.555,
+      "sha256": "8a5340cf61b39ff6692d52ebe10482212d3480423ff2147a4ec0cdbaba64f5f5"
+    },
+    {
+      "file": "audio/book2/lesson-62/02-smoke-en-cori-slow-035.wav",
+      "text": "smoke",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "smˈəʊk",
+      "duration": 1.718,
+      "sha256": "4493c7e24e3e2858a497e60a3bd96e2a0d6b8403ebcb3b5e2fef15993153f6af"
+    },
+    {
+      "file": "audio/book2/lesson-62/02-smoke-en-cori-normal-045.wav",
+      "text": "smoke",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "smˈəʊk",
+      "duration": 1.451,
+      "sha256": "8fb7a8a352f5e30611c22f6dbcd7417cebf2caac779c32b614ab214aff28111e"
+    },
+    {
+      "file": "audio/book2/lesson-62/02-smoke-zh-zf_001.wav",
+      "text": "名词，烟。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.451,
+      "sha256": "7e09a5b0239c0dca2f7762f36ab24d1e4ab06a647e23ab4fc1e8b13372d3c206"
+    },
+    {
+      "file": "audio/book2/lesson-62/03-desolate-en-cori-slow-035.wav",
+      "text": "desolate",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "dˈɛsələt",
+      "duration": 2.032,
+      "sha256": "c9758ed00f95a3c304b99f98d90ee4aa877eb2f0c74466cbd7e0543adda51e47"
+    },
+    {
+      "file": "audio/book2/lesson-62/03-desolate-en-cori-normal-045.wav",
+      "text": "desolate",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "dˈɛsələt",
+      "duration": 1.625,
+      "sha256": "87b90133adbffba37962537f92606a3e8dae7229dd2a5c0327fb7773ccca0098"
+    },
+    {
+      "file": "audio/book2/lesson-62/03-desolate-zh-zf_001.wav",
+      "text": "形容词，荒凉的。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.857,
+      "sha256": "1904369a90b4ce2ace0e328d9571182be5e6f2200451936b2cc42690130d6630"
+    },
+    {
+      "file": "audio/book2/lesson-62/04-threaten-en-cori-slow-035.wav",
+      "text": "threaten",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "θɹˈɛtən",
+      "duration": 1.614,
+      "sha256": "63a44b92ffc202a3728339964185241a8ad53b70d63c91038c820197398d7c91"
+    },
+    {
+      "file": "audio/book2/lesson-62/04-threaten-en-cori-normal-045.wav",
+      "text": "threaten",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "θɹˈɛtən",
+      "duration": 1.393,
+      "sha256": "0904ac3f560ac6bbeecc47ef6ed3be88de82b13b4fae4d91d15b1094ce63e59f"
+    },
+    {
+      "file": "audio/book2/lesson-62/04-threaten-zh-zf_001.wav",
+      "text": "动词，威胁。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.534,
+      "sha256": "41e6dbb35fb979bf5479699795b839fcd4784f77136b92b0abe1d6c47c45fba3"
+    },
+    {
+      "file": "audio/book2/lesson-62/05-surrounding-en-cori-slow-035.wav",
+      "text": "surrounding",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "səɹˈaʊndɪŋ",
+      "duration": 2.345,
+      "sha256": "1219b5ce9d1da5e46cb872cabc8d384d24e2948815ee024e0a854e14b81ade99"
+    },
+    {
+      "file": "audio/book2/lesson-62/05-surrounding-en-cori-normal-045.wav",
+      "text": "surrounding",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "səɹˈaʊndɪŋ",
+      "duration": 1.974,
+      "sha256": "ec1f1f12a7a812031dcb8d8cf8e7c9e41ca79517a2403e0b9103f48babf6d40b"
+    },
+    {
+      "file": "audio/book2/lesson-62/05-surrounding-zh-zf_001.wav",
+      "text": "形容词，周围的。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.934,
+      "sha256": "28d3d59230a1678e594c341ab95f4ba96389d4992a898fdda4e609a9974ce01c"
+    },
+    {
+      "file": "audio/book2/lesson-62/06-destruction-en-cori-slow-035.wav",
+      "text": "destruction",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "dɪstɹˈʌkʃən",
+      "duration": 2.264,
+      "sha256": "bdc33eb849491bca1c3e33f4cbf15a7069b11d2e701bae0b7561e4a1d6f60714"
+    },
+    {
+      "file": "audio/book2/lesson-62/06-destruction-en-cori-normal-045.wav",
+      "text": "destruction",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "dɪstɹˈʌkʃən",
+      "duration": 1.776,
+      "sha256": "ea8fb08dff1acd50f9563d2be0587c912f0da3d15f1bf5da2e1ba6f93c9e2497"
+    },
+    {
+      "file": "audio/book2/lesson-62/06-destruction-zh-zf_001.wav",
+      "text": "名词，破坏，毁灭。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 2.062,
+      "sha256": "6f91359e82847fb142e5fe705d14968238d584d259adc92d1bf3ee495780da78"
+    },
+    {
+      "file": "audio/book2/lesson-62/07-flood-en-cori-slow-035.wav",
+      "text": "flood",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "flˈʌd",
+      "duration": 1.927,
+      "sha256": "f3734e3d6bcc4f42926e062998004a03a7b913381efd7c7d3248e22d8fe7e75c"
+    },
+    {
+      "file": "audio/book2/lesson-62/07-flood-en-cori-normal-045.wav",
+      "text": "flood",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "flˈʌd",
+      "duration": 1.509,
+      "sha256": "034b72473434c383ef1e38c1135c40613d2ff7a65252ebecb06d08287c542979"
+    },
+    {
+      "file": "audio/book2/lesson-62/07-flood-zh-zf_001.wav",
+      "text": "名词，洪水，水灾。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 2.046,
+      "sha256": "1bf95e2e44644c31d21b8381702494857aacc1ad6676fe64673b55ffe4e8eea4"
+    },
+    {
+      "file": "audio/book2/lesson-62/08-authority-en-cori-slow-035.wav",
+      "text": "authority",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "ɐθˈɒɹɪti",
+      "duration": 2.276,
+      "sha256": "cd779be70aadd97e8eb6805a3478373019bda9adabdd65d529223ae8abda8b09"
+    },
+    {
+      "file": "audio/book2/lesson-62/08-authority-en-cori-normal-045.wav",
+      "text": "authority",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "ɐθˈɒɹɪti",
+      "duration": 1.753,
+      "sha256": "0150467a2a1f81924b4bad282ce0fcfad3bf6e0b4b669881d1fd66821c83f775"
+    },
+    {
+      "file": "audio/book2/lesson-62/08-authority-zh-zf_001.wav",
+      "text": "名词，(常用复数)当局。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 2.341,
+      "sha256": "9e619d60c9ca4b0945803d7d8fdfb6a4eb9a385cb05d98567121159f5bc4f2d9"
+    },
+    {
+      "file": "audio/book2/lesson-62/09-grass-seed-en-cori-slow-035.wav",
+      "text": "grass seed",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "ɡɹˈas sˈiːd",
+      "duration": 2.566,
+      "sha256": "2ee80560862277438ac36c2daffe0c153e82db3a0763284d97fc277c5ffef589"
+    },
+    {
+      "file": "audio/book2/lesson-62/09-grass-seed-en-cori-normal-045.wav",
+      "text": "grass seed",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "ɡɹˈas sˈiːd",
+      "duration": 2.113,
+      "sha256": "b5fc3828043c8ac3fac08505b8f4d1235e44047793ad0aa6d3878338b562e6c4"
+    },
+    {
+      "file": "audio/book2/lesson-62/09-grass-seed-zh-zf_001.wav",
+      "text": "名词，草籽。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.608,
+      "sha256": "9449d14e42cbd4225653f7da7ef68d72c81cc43ece6b65cdf873e129b9d540a2"
+    },
+    {
+      "file": "audio/book2/lesson-62/10-spray-en-cori-slow-035.wav",
+      "text": "spray",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "spɹˈeɪ",
+      "duration": 2.148,
+      "sha256": "a52dc3a1975bd5e020ebd321177c9dde106758ae5656b7c6b4307b729e6f7401"
+    },
+    {
+      "file": "audio/book2/lesson-62/10-spray-en-cori-normal-045.wav",
+      "text": "spray",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "spɹˈeɪ",
+      "duration": 1.695,
+      "sha256": "1899b0795bc5a9e34a403d09b39a22aa9b4ae0a7693ff4746845f1898b683981"
+    },
+    {
+      "file": "audio/book2/lesson-62/10-spray-zh-zf_001.wav",
+      "text": "动词，喷撒。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.565,
+      "sha256": "6d4efa4f13d0d9f700080cdeae1023c16ec7678bbe2f7feed6f488c680485480"
+    },
+    {
+      "file": "audio/book2/lesson-62/11-quantity-en-cori-slow-035.wav",
+      "text": "quantity",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "kwˈɒntɪti",
+      "duration": 1.95,
+      "sha256": "a0269d070a2d08fde6f890f281a423b62ce2d3c258ce27a5e6389a09a61a7888"
+    },
+    {
+      "file": "audio/book2/lesson-62/11-quantity-en-cori-normal-045.wav",
+      "text": "quantity",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "kwˈɒntɪti",
+      "duration": 1.532,
+      "sha256": "6344ad1c6c07a023d478b50a22ef97d84e6199d34e04452210d86b8a177435a5"
+    },
+    {
+      "file": "audio/book2/lesson-62/11-quantity-zh-zf_001.wav",
+      "text": "名词，量。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.493,
+      "sha256": "1f9a06bba171833da37c399f4fc80d7119ee7f19e8e8692ef0f5f34fb579b04c"
+    },
+    {
+      "file": "audio/book2/lesson-62/12-root-en-cori-slow-035.wav",
+      "text": "root",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "ɹˈuːt",
+      "duration": 1.312,
+      "sha256": "a2d24e3b5a1e40e154fbd897ca85df3d4ded72b03e7c8cd34960ac9b03ab56ac"
+    },
+    {
+      "file": "audio/book2/lesson-62/12-root-en-cori-normal-045.wav",
+      "text": "root",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "ɹˈuːt",
+      "duration": 1.149,
+      "sha256": "84c9f8e82982dfe11a7508e419a95047713d5a1397a8d7ec62ba14ba0421b35f"
+    },
+    {
+      "file": "audio/book2/lesson-62/12-root-zh-zf_001.wav",
+      "text": "名词，根。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.344,
+      "sha256": "d44d04f567279195feb65c698226a79567d309a04512c80476bfdb37dc47b088"
+    },
+    {
+      "file": "audio/book2/lesson-62/13-century-en-cori-slow-035.wav",
+      "text": "century",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "sˈɛntʃəɹi",
+      "duration": 2.078,
+      "sha256": "6476e30f2ad98289438da7cff4b3b5d4b7acb29dde7127a1c0be34f99722d20f"
+    },
+    {
+      "file": "audio/book2/lesson-62/13-century-en-cori-normal-045.wav",
+      "text": "century",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "sˈɛntʃəɹi",
+      "duration": 1.625,
+      "sha256": "74d73b4afca78359fce8f688714b3b04ddf866274dc5e88f32ba818cd860a013"
+    },
+    {
+      "file": "audio/book2/lesson-62/13-century-zh-zf_001.wav",
+      "text": "名词，世纪。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.524,
+      "sha256": "b3bc3d8cd674caeccbf3e4645f237ab979f17c7926bff57e0b8acee90ee71ae4"
+    },
+    {
+      "file": "audio/book2/lesson-62/14-patch-en-cori-slow-035.wav",
+      "text": "patch",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "pˈatʃ",
+      "duration": 1.591,
+      "sha256": "5b79c9b905e71cfebf896c80bd70e416ae84948f5a9af1ccb626b7daf9a3f0c6"
+    },
+    {
+      "file": "audio/book2/lesson-62/14-patch-en-cori-normal-045.wav",
+      "text": "patch",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "pˈatʃ",
+      "duration": 1.254,
+      "sha256": "b3c99e210a2643c7ae8d8fe0158cd38dc86c8be3cea0c0e4ab8d81a861f6c7c6"
+    },
+    {
+      "file": "audio/book2/lesson-62/14-patch-zh-zf_001.wav",
+      "text": "名词，小片。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 1.565,
+      "sha256": "96a24d76ac6e24a4052cf55c1dee5ddaf5c001120980d5114138a276af020edd"
+    },
+    {
+      "file": "audio/book2/lesson-62/15-blacken-en-cori-slow-035.wav",
+      "text": "blacken",
+      "voice": "en_GB-cori-high",
+      "speed": 0.35,
+      "phonemes": "blˈakən",
+      "duration": 1.974,
+      "sha256": "fe74cc70e3d10a7702b0eaabc8ec60d539dadc40e8f81c389232d8b9fd9f384c"
+    },
+    {
+      "file": "audio/book2/lesson-62/15-blacken-en-cori-normal-045.wav",
+      "text": "blacken",
+      "voice": "en_GB-cori-high",
+      "speed": 0.45,
+      "phonemes": "blˈakən",
+      "duration": 1.44,
+      "sha256": "f295f645d9c9525c3485cd6f1c0f64307a321f3d4ebbb33d73c98a4e01bb9c7c"
+    },
+    {
+      "file": "audio/book2/lesson-62/15-blacken-zh-zf_001.wav",
+      "text": "动词，变黑，发暗。",
+      "voice": "zf_001",
+      "speed": 1.0,
+      "duration": 2.085,
+      "sha256": "b675ecce94eedf5a6d1c2c5e57eca915511a9acbfc4e267e04e1e576a9a123a8"
+    }
+  ]
+}

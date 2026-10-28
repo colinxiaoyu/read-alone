@@ -1,0 +1,196 @@
+{
+  "book": 2,
+  "lesson": 62,
+  "title": "After the fire",
+  "voices": {
+    "english": "en_GB-cori-high",
+    "chinese": "zf_001"
+  },
+  "voice_labels": {
+    "english": "英音慢读",
+    "chinese": "普通话女声"
+  },
+  "model": "Piper Cori English / Kokoro-82M v1.1-zh Mandarin",
+  "words": [
+    {
+      "id": "book2-62-01",
+      "word": "control",
+      "phonetic": "[ kən'trəul ]",
+      "pos": "n.",
+      "meaning": "控制",
+      "audio": {
+        "slow": "audio/book2/lesson-62/01-control-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/01-control-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/01-control-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-02",
+      "word": "smoke",
+      "phonetic": "[ sməuk ]",
+      "pos": "n.",
+      "meaning": "烟",
+      "audio": {
+        "slow": "audio/book2/lesson-62/02-smoke-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/02-smoke-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/02-smoke-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-03",
+      "word": "desolate",
+      "phonetic": "/ˈdesələt/",
+      "pos": "adj.",
+      "meaning": "荒凉的",
+      "audio": {
+        "slow": "audio/book2/lesson-62/03-desolate-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/03-desolate-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/03-desolate-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-04",
+      "word": "threaten",
+      "phonetic": "[ 'θretn ]",
+      "pos": "v.",
+      "meaning": "威胁",
+      "audio": {
+        "slow": "audio/book2/lesson-62/04-threaten-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/04-threaten-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/04-threaten-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-05",
+      "word": "surrounding",
+      "phonetic": "[ sə'raundiŋ ]",
+      "pos": "adj.",
+      "meaning": "周围的",
+      "audio": {
+        "slow": "audio/book2/lesson-62/05-surrounding-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/05-surrounding-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/05-surrounding-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-06",
+      "word": "destruction",
+      "phonetic": "[ di'strʌkʃən ]",
+      "pos": "n.",
+      "meaning": "破坏，毁灭",
+      "audio": {
+        "slow": "audio/book2/lesson-62/06-destruction-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/06-destruction-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/06-destruction-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-07",
+      "word": "flood",
+      "phonetic": "[ flʌd ]",
+      "pos": "n.",
+      "meaning": "洪水，水灾",
+      "audio": {
+        "slow": "audio/book2/lesson-62/07-flood-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/07-flood-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/07-flood-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-08",
+      "word": "authority",
+      "phonetic": "[ ɔ:'θɔriti ]",
+      "pos": "n.",
+      "meaning": "(常用复数)当局",
+      "audio": {
+        "slow": "audio/book2/lesson-62/08-authority-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/08-authority-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/08-authority-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-09",
+      "word": "grass-seed",
+      "phonetic": "[ 'gra:s'si:d ]",
+      "pos": "n.",
+      "meaning": "草籽",
+      "audio": {
+        "slow": "audio/book2/lesson-62/09-grass-seed-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/09-grass-seed-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/09-grass-seed-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-10",
+      "word": "spray",
+      "phonetic": "[ sprei ]",
+      "pos": "v.",
+      "meaning": "喷撒",
+      "audio": {
+        "slow": "audio/book2/lesson-62/10-spray-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/10-spray-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/10-spray-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-11",
+      "word": "quantity",
+      "phonetic": "[ 'kwɔntəti ]",
+      "pos": "n.",
+      "meaning": "量",
+      "audio": {
+        "slow": "audio/book2/lesson-62/11-quantity-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/11-quantity-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/11-quantity-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-12",
+      "word": "root",
+      "phonetic": "[ ru:t ]",
+      "pos": "n.",
+      "meaning": "根",
+      "audio": {
+        "slow": "audio/book2/lesson-62/12-root-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/12-root-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/12-root-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-13",
+      "word": "century",
+      "phonetic": "[ 'sentʃəri ]",
+      "pos": "n.",
+      "meaning": "世纪",
+      "audio": {
+        "slow": "audio/book2/lesson-62/13-century-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/13-century-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/13-century-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-14",
+      "word": "patch",
+      "phonetic": "[ pætʃ ]",
+      "pos": "n.",
+      "meaning": "小片",
+      "audio": {
+        "slow": "audio/book2/lesson-62/14-patch-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/14-patch-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/14-patch-zh-zf_001.wav"
+      }
+    },
+    {
+      "id": "book2-62-15",
+      "word": "blacken",
+      "phonetic": "[ 'blækən ]",
+      "pos": "v.",
+      "meaning": "变黑，发暗",
+      "audio": {
+        "slow": "audio/book2/lesson-62/15-blacken-en-cori-slow-035.wav",
+        "normal": "audio/book2/lesson-62/15-blacken-en-cori-normal-045.wav",
+        "meaning": "audio/book2/lesson-62/15-blacken-zh-zf_001.wav"
+      }
+    }
+  ]
+}

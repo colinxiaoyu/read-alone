@@ -1,0 +1,17 @@
+{
+  "source": "MRZFq23KBw8",
+  "reference_duration_seconds": 76,
+  "sample_file": "audio/reference/sample-30s.wav",
+  "sample_duration_seconds": 30.0,
+  "sample_rate_hz": 24000,
+  "channels": 1,
+  "silence_threshold_db": -35,
+  "minimum_silence_seconds": 0.2,
+  "silence_count": 26,
+  "median_detected_silence_seconds": 2.136043,
+  "estimated_median_fundamental_hz": 220.2,
+  "pitch_method": "40 ms Hann-window autocorrelation, 20 ms hop, 70-400 Hz search, normalized correlation above 0.55",
+  "silence_method": "ffmpeg silencedetect; signal metrics require listening validation for teaching rhythm",
+  "mean_volume_db": -22.3,
+  "max_volume_db": -0.4
+}
