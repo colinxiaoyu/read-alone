@@ -1,0 +1,16 @@
+﻿文件,类型,原视频起点,原视频终点,时长（秒）,文字状态
+01-chinese-reference.wav,中文讲解参考,00:00:30.580,00:00:42.350,11.77,automatic_draft
+02-english-question.wav,英文整句参考,00:00:48.350,00:00:53.120,4.77,asr_matches_video_text
+03-03m00s-text_explanation.wav,教学候选样本,00:03:00.300,00:03:23.280,22.98,not_prepared
+04-08m00s-text_explanation.wav,教学候选样本,00:08:00.350,00:08:22.940,22.59,not_prepared
+05-13m00s-text_summary_and_vocabulary.wav,教学候选样本,00:13:01.800,00:13:23.650,21.85,not_prepared
+06-18m00s-vocabulary.wav,教学候选样本,00:18:00.570,00:18:23.790,23.22,not_prepared
+07-23m00s-grammar.wav,教学候选样本,00:23:01.160,00:23:23.420,22.26,not_prepared
+08-28m00s-grammar.wav,教学候选样本,00:28:00.160,00:28:23.160,23.0,not_prepared
+09-33m00s-grammar.wav,教学候选样本,00:33:00.890,00:33:21.920,21.03,not_prepared
+10-38m00s-grammar_exercise.wav,教学候选样本,00:38:00.590,00:38:22.410,21.82,not_prepared
+11-43m00s-pronunciation.wav,教学候选样本,00:43:00.310,00:43:23.790,23.48,not_prepared
+12-48m00s-pronunciation.wav,教学候选样本,00:48:00.730,00:48:23.780,23.05,not_prepared
+13-51m00s-lesson_summary.wav,教学候选样本,00:51:01.350,00:51:22.460,21.11,not_prepared
+14-english-slow-phrases.wav,英文慢读示范,00:43:12.550,00:43:26.500,13.95,not_prepared
+15-english-full-sentence.wav,英文整句参考,00:43:29.600,00:43:35.700,6.1,asr_matches_video_text

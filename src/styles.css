@@ -5,3 +5,6 @@
 
 .loading{display:grid;place-items:center;font-size:clamp(24px,4vh,80px)}
 @media(max-width:700px){.word-panel-heading{gap:6px}.list-zoom-controls{font-size:14px;gap:5px;flex-basis:100%}.list-zoom-controls button{min-height:30px;min-width:28px;font-size:20px}.list-zoom-controls input{min-width:25px}.word-row{min-width:max-content;min-height:calc(64px * var(--list-zoom,1));gap:12px;padding:6px 3px}.word-number{font-size:calc(14px * var(--list-zoom,1))}.word-name{font-size:calc(24px * var(--list-zoom,1))}.word-phonetic{font-size:calc(18px * var(--list-zoom,1))}.word-meaning{font-size:calc(20px * var(--list-zoom,1))}.word-pos{margin-right:4px}}
+
+.lesson-picker{display:flex;align-items:center;gap:.8vw;font-size:clamp(18px,2.4vh,54px);white-space:nowrap}.lesson-picker select{max-width:40vw;min-height:4.8vh;padding:.4vh .6vw;border:1px solid #999;background:#fff;color:#151515;font:inherit}
+@media(max-width:700px){.header{flex-wrap:wrap;gap:8px}.lesson-picker{font-size:16px;gap:8px}.lesson-picker select{max-width:70vw;min-height:36px}}

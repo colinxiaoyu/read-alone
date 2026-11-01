@@ -3,6 +3,7 @@ import useLessonPlayer from './useLessonPlayer.js';
 import WordList from './WordList.jsx';
 import PlayerControls from './PlayerControls.jsx';
 import CurrentWord from './CurrentWord.jsx';
+import { lessons, readSelectedLesson, saveSelectedLesson } from './lessons.js';
 import useLayoutSettings from './useLayoutSettings.js';
 
 function status(view) {
@@ -15,6 +16,7 @@ function status(view) {
 }
 
 export default function App() {
+  const [selectedLesson, setSelectedLesson] = useState(readSelectedLesson);
   const [lesson, setLesson] = useState(null);
   const [error, setError] = useState('');
   const layout = useLayoutSettings();
@@ -26,23 +28,39 @@ export default function App() {
 
   useEffect(() => {
     const abort = new AbortController();
-    fetch(`${import.meta.env.BASE_URL}data/book2/lesson-62.json`, { signal: abort.signal, cache: 'no-store' })
+    fetch(`${import.meta.env.BASE_URL}data/book2/lesson-${selectedLesson}.json`, { signal: abort.signal, cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error('词表加载失败，请刷新页面重试。');
         return response.json();
       })
-      .then(data => setLesson({ ...data, words: data.words.map(word => ({ ...word,
-        audio: Object.fromEntries(Object.entries(word.audio).map(([kind, path]) => [kind, `${import.meta.env.BASE_URL}${path}`])),
-      })) }))
-      .catch(failure => { if (failure.name !== 'AbortError') setError(failure.message); });
+      .then(data => {
+        if (abort.signal.aborted) return;
+        setLesson({ ...data, words: data.words.map(word => ({ ...word,
+          audio: Object.fromEntries(Object.entries(word.audio).map(([kind, path]) => [kind, `${import.meta.env.BASE_URL}${path}`])),
+        })) });
+      })
+      .catch(failure => { if (!abort.signal.aborted) setError(failure.message); });
     return () => abort.abort();
-  }, []);
+  }, [selectedLesson]);
+
+  useEffect(() => {
+    document.title = `新概念第二册第 ${selectedLesson} 课 · 单词跟读`;
+  }, [selectedLesson]);
+
+  const selectLesson = event => {
+    const number = Number(event.target.value);
+    controller.stop();
+    setLesson(null);
+    setError('');
+    setSelectedLesson(number);
+    saveSelectedLesson(number);
+  };
 
   const word = lesson && view ? lesson.words[view.index] : null;
   const progress = view ? (view.state === 'complete' ? lesson.words.length : view.completed.size) : 0;
 
   return <div className="shell" style={{ '--list-zoom': layout.zoom }}>
-    <header className="header"><h1>新概念英语第二册 · 第 62 课</h1><span>单词跟读</span></header>
+    <header className="header"><h1>新概念英语第二册 · 第 {selectedLesson} 课</h1><label className="lesson-picker" htmlFor="lesson-select">选择课程<select id="lesson-select" value={selectedLesson} onChange={selectLesson}>{lessons.map(item => <option key={item.lesson} value={item.lesson}>第 {item.lesson} 课 · {item.title}</option>)}</select></label></header>
     <main>
       {error ? <div id="load-error" className="error-message" role="alert">{error}</div> : !word ? <div className="loading" role="status">正在准备词表…</div> : <>
         <div className={`workspace${resizing ? ' is-resizing' : ''}`} id="workspace" ref={workspace} aria-busy="false" style={{ '--list-columns': `${layout.width}fr`, '--word-columns': `${100 - layout.width}fr` }}>

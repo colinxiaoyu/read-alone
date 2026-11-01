@@ -1,0 +1,19 @@
+{
+  "file": "docs/57-Lesson 57.mp4",
+  "sha256": "77e759af68fe4827c008aafa4f1a9435dc9aa9efb8f9c82ffabfabfd292efbbe",
+  "bytes": 307467784,
+  "duration_seconds": 3110.36,
+  "audio": {
+    "codec": "aac",
+    "sample_rate_hz": 44100,
+    "channels": 2
+  },
+  "sample_purpose": "voice_reference_for_lesson_63",
+  "artifact_type": "reference_audio_samples",
+  "processing": {
+    "speed": 1.0,
+    "pitch_shift": 0,
+    "denoise": false,
+    "loudness_normalization": false
+  }
+}

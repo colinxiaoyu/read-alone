@@ -1,6 +1,6 @@
 # 新概念英语电视跟读实施方案
 
-使用 React 与 Vite 构建的 Web 应用，在 85 寸电视、约 5 米观看距离下练习新概念英语第二册单词。首课为第 62 课，共 15 个词；后续范围为第 63 至 96 课。
+使用 React 与 Vite 构建的 Web 应用，在 85 寸电视、约 5 米观看距离下练习新概念英语第二册单词。已提供第 62 课（15 个词）和第 63 课（6 个词）；后续范围为第 64 至 96 课。首次打开默认进入第 63 课，并保存用户之后选择的课程。
 
 ## 电视页面
 
@@ -26,19 +26,27 @@
 5. 再次留白供用户跟读，默认 2.2 秒。
 6. 进入下一个单词。
 
+切换课程会取消旧音频、跟读计时与旧数据请求，恢复新课程的首词。
+
 默认开启整课循环，最后一个词完成后直接回到第一个词。用户可关闭循环并保存该设置。播放列表包含上述单词内容，课名、册数、课号和完成状态通过页面文字展示。
 
 ## 发音与音色
 
-英文采用 Piper 的 `en_GB-cori-high` 英音女声音色。第一遍和第二遍均为慢读，通过生成模型的时长参数控制，保留音高、音节和词尾。初始生成速度系数分别为 0.35、0.45，使用倒数作为 Piper 的 `length_scale`。
+第 62 课英文采用 Piper 的 `en_GB-cori-high` 英音女声音色。第一遍和第二遍均为慢读，通过生成模型的时长参数控制，保留音高、音节和词尾。初始生成速度系数分别为 0.35、0.45，使用倒数作为 Piper 的 `length_scale`。
 
-中文采用 Kokoro-82M v1.1-zh 的 `zf_001` 普通话女声，生成速度为 1.0。中文发音、音色和节奏通过词条试听确认。
+第 62 课中文采用 Kokoro-82M v1.1-zh 的 `zf_001` 普通话女声，生成速度为 1.0。中文发音、音色和节奏通过词条试听确认。
 
-每词生成两段英文及一段中文，共 45 段。音频输入只包含目标词或对应中文词性释义，英文记录实际输入音素。生成后检查额外起音、缺音、词尾、静音和文件完整性。
+每词生成两段英文及一段中文。第 62 课共 45 段，第 63 课共 18 段。音频输入只包含目标词或对应中文词性释义，英文记录实际输入音素。生成后检查额外起音、缺音、词尾、静音和文件完整性。
 
 第 62 课的 desolate 按形容词 `/ˈdesələt/` 生成，源 HTML、源 JSON 与课程数据保持一致。[词典依据](https://dictionary.cambridge.org/dictionary/english/desolate)。
 
 模型及来源：[Piper Cori 模型](https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/cori/high)、[Piper 项目](https://github.com/OHF-Voice/piper1-gpl)、[Kokoro 中文模型](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)。音色与工具许可记录在 `public/THIRD_PARTY_NOTICES.txt`。
+
+第 63 课采用 Qwen3-TTS-12Hz-1.7B-Base 的 MLX 8 位模型，运行于 Apple Silicon Mac，英文与中文分别使用第 57 课视频的对应参考片段。保留参考样本、输入文字、校验值和生成参数。英文以 FFmpeg `atempo` 制作 0.72、0.86 两档慢读，保持音高；中文保持生成速度。
+
+第 63 课需要词性提示的英文先通过短句生成，其余词独立生成，再按 `scripts/lesson-63-trims.json` 截取目标词。重新生成后需核对这些截取边界。
+
+第 63 课的 close 使用形容词 `/kləʊs/`，先使用 `The adjective: close.` 这一词性提示生成，再截取目标词；reception 的中文释义为“招待会”。源词表与课程 JSON 保持一致。[close 词典依据](https://dictionary.cambridge.org/dictionary/english/close)、[reception 词典依据](https://dictionary.cambridge.org/dictionary/english/reception)。
 
 ## 播放同步与设置
 
@@ -56,7 +64,8 @@
 | --- | --- |
 | `index.html` | Vite HTML 入口 |
 | `src/main.jsx` | React 挂载入口 |
-| `src/App.jsx` | 课程加载与页面布局 |
+| `src/App.jsx` | 课程切换、加载与页面布局 |
+| `src/lessons.js` | 可用课程与课程选择保存 |
 | `src/WordList.jsx` | 横向词条、列表缩放及自动滚动 |
 | `src/PlayerControls.jsx` | 播放设置、音量与全屏控件 |
 | `src/useLessonPlayer.js` | React 播放状态、键盘和设置保存 |
@@ -64,10 +73,15 @@
 | `src/CurrentWord.jsx` | 当前单词自适应字号 |
 | `src/styles.css` | 大屏布局与字号 |
 | `src/player.js` | 单词播放、两遍示范、留白、暂停与循环 |
-| `public/data/book2/lesson-62.json` | 15 个词及其音频索引 |
-| `public/audio/book2/lesson-62/` | 45 段音频、整课音频及生成参数 |
+| `public/data/book2/lesson-62.json` | 第 62 课词条与音频索引 |
+| `public/data/book2/lesson-63.json` | 第 63 课词条与音频索引 |
+| `public/audio/book2/lesson-62/` | 第 62 课的 45 段音频、整课音频及生成参数 |
+| `public/audio/book2/lesson-63/` | 第 63 课的 18 段参考音色音频、整课音频及生成参数 |
 | `public/audio/reference/` | 参考视频音频、30 秒采样及分析数据 |
-| `scripts/generate_audio.py` | 本地音频生成和整课合成 |
+| `scripts/generate_audio.py` | 第 62 课音频生成和整课合成 |
+| `scripts/generate_cloned_audio.py` | 参考声音合成、单词截取与第 63 课整课合成 |
+| `scripts/requirements-clone.txt` | Apple Silicon 声音克隆依赖 |
+| `scripts/lesson-63-trims.json` | 第 63 课英文目标词的截取时间 |
 | `scripts/requirements-audio.txt` | 音频生成依赖 |
 | `vite.config.js` | React 插件、开发服务与预览配置 |
 | `scripts/start.mjs` | 依赖检查、构建与本地预览启动 |

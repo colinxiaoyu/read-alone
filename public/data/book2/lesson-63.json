@@ -1,0 +1,88 @@
+{
+  "book": 2,
+  "lesson": 63,
+  "title": "She was not amused",
+  "voices": {
+    "english": "lesson-57-teacher",
+    "chinese": "lesson-57-teacher"
+  },
+  "voice_labels": {
+    "english": "老师音色慢读",
+    "chinese": "老师音色普通话"
+  },
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "words": [
+    {
+      "id": "book2-63-01",
+      "word": "circle",
+      "phonetic": "[ 'sə:kəl ]",
+      "pos": "n.",
+      "meaning": "圈子",
+      "audio": {
+        "slow": "audio/book2/lesson-63/01-circle-teacher-slow.wav",
+        "normal": "audio/book2/lesson-63/01-circle-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-63/01-circle-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-63-02",
+      "word": "admire",
+      "phonetic": "[ əd'maiə ]",
+      "pos": "v.",
+      "meaning": "赞美，钦佩",
+      "audio": {
+        "slow": "audio/book2/lesson-63/02-admire-teacher-slow.wav",
+        "normal": "audio/book2/lesson-63/02-admire-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-63/02-admire-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-63-03",
+      "word": "close",
+      "phonetic": "/kləʊs/",
+      "pos": "adj.",
+      "meaning": "亲密的",
+      "audio": {
+        "slow": "audio/book2/lesson-63/03-close-teacher-slow.wav",
+        "normal": "audio/book2/lesson-63/03-close-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-63/03-close-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-63-04",
+      "word": "wedding",
+      "phonetic": "[ 'wediŋ ]",
+      "pos": "n.",
+      "meaning": "婚礼",
+      "audio": {
+        "slow": "audio/book2/lesson-63/04-wedding-teacher-slow.wav",
+        "normal": "audio/book2/lesson-63/04-wedding-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-63/04-wedding-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-63-05",
+      "word": "reception",
+      "phonetic": "[ ri'sepʃən ]",
+      "pos": "n.",
+      "meaning": "招待会",
+      "audio": {
+        "slow": "audio/book2/lesson-63/05-reception-teacher-slow.wav",
+        "normal": "audio/book2/lesson-63/05-reception-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-63/05-reception-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-63-06",
+      "word": "sort",
+      "phonetic": "[ sɔ:t ]",
+      "pos": "n.",
+      "meaning": "种类",
+      "audio": {
+        "slow": "audio/book2/lesson-63/06-sort-teacher-slow.wav",
+        "normal": "audio/book2/lesson-63/06-sort-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-63/06-sort-teacher-meaning.wav"
+      }
+    }
+  ]
+}

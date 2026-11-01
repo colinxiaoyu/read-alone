@@ -34,7 +34,7 @@ export default function useLessonPlayer(lesson) {
   const [view, setView] = useState(null);
 
   useEffect(() => {
-    if (!lesson) return;
+    if (!lesson) { setView(null); return; }
     let alive = true;
     const player = new LessonPlayer(lesson, {
       settings: readSettings(),
@@ -67,6 +67,11 @@ export default function useLessonPlayer(lesson) {
   }, [lesson]);
 
   const start = useCallback(index => playerRef.current?.start(index), []);
+  const stop = useCallback(() => {
+    playerRef.current?.dispose();
+    playerRef.current = null;
+    setView(null);
+  }, []);
   const toggle = useCallback(() => playerRef.current?.toggle(), []);
   const previous = useCallback(() => {
     const player = playerRef.current;
@@ -84,5 +89,5 @@ export default function useLessonPlayer(lesson) {
     try { localStorage.setItem(storageKey, JSON.stringify(player.settings)); } catch { /* Playback still works. */ }
   }, []);
 
-  return { view, start, toggle, previous, next, replay, update };
+  return { view, start, stop, toggle, previous, next, replay, update };
 }

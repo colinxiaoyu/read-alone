@@ -1,0 +1,389 @@
+{
+  "source": "source.json",
+  "sample_count": 15,
+  "total_duration_seconds": 282.98,
+  "clips": [
+    {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "source_start_seconds": 30.58,
+      "source_end_seconds": 42.35,
+      "kind": "chinese_explanation",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 11.77,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -11.98,
+        "rms_dbfs": -29.61,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.2687
+      },
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5",
+      "listening_review": "pending",
+      "transcript": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "transcript_status": "automatic_draft",
+      "transcript_check": "Rechecked on the cropped sample with faster-whisper-small; listening review pending."
+    },
+    {
+      "file": "audio/reference/lesson-57/02-english-question.wav",
+      "source_start_seconds": 48.35,
+      "source_end_seconds": 53.12,
+      "kind": "english_sentence",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 4.77,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -8.84,
+        "rms_dbfs": -26.62,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3109
+      },
+      "sha256": "560f912ee6023dd666390e6b494046dfdc8ff174234dd11c1422dca91d77a591",
+      "listening_review": "pending",
+      "transcript": "Did the woman get what she wanted?",
+      "transcript_status": "asr_matches_video_text"
+    },
+    {
+      "file": "audio/reference/lesson-57/03-03m00s-text_explanation.wav",
+      "source_start_seconds": 180.3,
+      "source_end_seconds": 203.28,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 22.98,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -7.58,
+        "rms_dbfs": -26.74,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.2341
+      },
+      "sha256": "46f8beab7acaba2cdc7a130a828d53222e7728e0cb3e6ae8522c1310a0d8650b",
+      "listening_review": "pending",
+      "section": "text_explanation",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/04-08m00s-text_explanation.wav",
+      "source_start_seconds": 480.35,
+      "source_end_seconds": 502.94,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 22.59,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -5.38,
+        "rms_dbfs": -26.37,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.2985
+      },
+      "sha256": "9d0e6bec29f92633533ae594464aa43b15a55a59893c265d95db54952099b3cc",
+      "listening_review": "pending",
+      "section": "text_explanation",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/05-13m00s-text_summary_and_vocabulary.wav",
+      "source_start_seconds": 781.8,
+      "source_end_seconds": 803.65,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 21.85,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -8.25,
+        "rms_dbfs": -28.74,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.2482
+      },
+      "sha256": "0b20463d52d3ebadc8455509a1fb1230be3a1d33a92bfea84cb49999f7fa74c4",
+      "listening_review": "pending",
+      "section": "text_summary_and_vocabulary",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/06-18m00s-vocabulary.wav",
+      "source_start_seconds": 1080.57,
+      "source_end_seconds": 1103.79,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 23.22,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -9.89,
+        "rms_dbfs": -30.49,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.4711
+      },
+      "sha256": "38a9ad593a87fed5effb4adbc398c7768793a5fb613f6a09906e4f3e838bee96",
+      "listening_review": "pending",
+      "section": "vocabulary",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/07-23m00s-grammar.wav",
+      "source_start_seconds": 1381.16,
+      "source_end_seconds": 1403.42,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 22.26,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -7.9,
+        "rms_dbfs": -29.31,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3783
+      },
+      "sha256": "37d00ade0b9411cdaa6c098f2c31d46cd4244457c7b344037add6137d63e5195",
+      "listening_review": "pending",
+      "section": "grammar",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/08-28m00s-grammar.wav",
+      "source_start_seconds": 1680.16,
+      "source_end_seconds": 1703.16,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 23.0,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -7.26,
+        "rms_dbfs": -27.48,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.2913
+      },
+      "sha256": "a28789544b38ffd304f7f539e8cdcc7c4302eaa6868b3b6caf577ccd80cc7ee5",
+      "listening_review": "pending",
+      "section": "grammar",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/09-33m00s-grammar.wav",
+      "source_start_seconds": 1980.89,
+      "source_end_seconds": 2001.92,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 21.03,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -3.36,
+        "rms_dbfs": -25.91,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3149
+      },
+      "sha256": "10c6bcc06867a8d45bcd17988521d946435220c7fbde276216a3ae7135d381c9",
+      "listening_review": "pending",
+      "section": "grammar",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/10-38m00s-grammar_exercise.wav",
+      "source_start_seconds": 2280.59,
+      "source_end_seconds": 2302.41,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 21.82,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -5.37,
+        "rms_dbfs": -28.59,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3767
+      },
+      "sha256": "c70d458e460f2a66daac5ba2cb988473543ed669aee53a0f246071f894abdaae",
+      "listening_review": "pending",
+      "section": "grammar_exercise",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/11-43m00s-pronunciation.wav",
+      "source_start_seconds": 2580.31,
+      "source_end_seconds": 2603.79,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 23.48,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -6.73,
+        "rms_dbfs": -26.66,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3424
+      },
+      "sha256": "66eb09e1bf7add106eb2cfd1285f11531432309075ef76454e0df9bb91d3b424",
+      "listening_review": "pending",
+      "section": "pronunciation",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/12-48m00s-pronunciation.wav",
+      "source_start_seconds": 2880.73,
+      "source_end_seconds": 2903.78,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 23.05,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -8.81,
+        "rms_dbfs": -29.73,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3915
+      },
+      "sha256": "596f0f24f9e29bfe0225525f638e19fd4e97a41433072f90cc9c4ddb2ce2295d",
+      "listening_review": "pending",
+      "section": "pronunciation",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/13-51m00s-lesson_summary.wav",
+      "source_start_seconds": 3061.35,
+      "source_end_seconds": 3082.46,
+      "kind": "context_candidate",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 21.11,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -13.11,
+        "rms_dbfs": -31.06,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3156
+      },
+      "sha256": "68b342bfed455a83283acfc874bf7ef6187a328c2ebc0ffdcbbbf1018335f380",
+      "listening_review": "pending",
+      "section": "lesson_summary",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/14-english-slow-phrases.wav",
+      "source_start_seconds": 2592.55,
+      "source_end_seconds": 2606.5,
+      "kind": "english_pronunciation",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 13.95,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -6.73,
+        "rms_dbfs": -26.53,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.297
+      },
+      "sha256": "3efda5bf97e949cec7be1b90b5a01c7a0da65acbff4882bcdb3f161e26dad15b",
+      "listening_review": "pending",
+      "transcript_status": "not_prepared"
+    },
+    {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "source_start_seconds": 2609.6,
+      "source_end_seconds": 2615.7,
+      "kind": "english_sentence",
+      "processing": [
+        "stereo_to_mono",
+        "resample_24000_hz",
+        "pcm_s16le"
+      ],
+      "audio": {
+        "duration_seconds": 6.1,
+        "sample_rate_hz": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "peak_dbfs": -11.11,
+        "rms_dbfs": -29.58,
+        "clipped_samples": 0,
+        "quiet_fraction_below_minus_42_dbfs": 0.3869
+      },
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e",
+      "listening_review": "pending",
+      "transcript_status": "asr_matches_video_text",
+      "transcript": "The assistant who served her did not like the way she was dressed."
+    }
+  ],
+  "recommended_references": {
+    "english": "audio/reference/lesson-57/15-english-full-sentence.wav",
+    "english_alternate": "audio/reference/lesson-57/02-english-question.wav",
+    "chinese": "audio/reference/lesson-57/01-chinese-reference.wav"
+  },
+  "review_status": "signal_validation_complete_listening_review_pending",
+  "transcript_note": "Automatic reference transcripts are supplied where available. Confirm wording by listening before transcript-conditioned voice cloning."
+}
