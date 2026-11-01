@@ -25,11 +25,11 @@ def download(cache, name, url=None):
     return target
 
 
-def build_full_audio(lesson):
+def build_full_audio(lesson, public_dir=PUBLIC, gap_seconds=2.2):
     sequence = []
     for word in lesson["words"]:
         sequence.extend([word["audio"]["slow"], word["audio"]["meaning"], None, word["audio"]["normal"], None])
-    target = PUBLIC / "audio/book2" / f"lesson-{lesson['lesson']}" / f"lesson-{lesson['lesson']}-full.wav"
+    target = public_dir / "audio/book2" / f"lesson-{lesson['lesson']}" / f"lesson-{lesson['lesson']}-full.wav"
     temporary = target.with_suffix(".tmp.wav")
     with wave.open(str(temporary), "wb") as output:
         output.setnchannels(1)
@@ -37,9 +37,9 @@ def build_full_audio(lesson):
         output.setframerate(24000)
         for clip in sequence:
             if clip is None:
-                output.writeframes(b"\0\0" * int(24000 * 2.2))
+                output.writeframes(b"\0\0" * int(24000 * gap_seconds))
             else:
-                with wave.open(str(PUBLIC / clip), "rb") as source:
+                with wave.open(str(public_dir / clip), "rb") as source:
                     output.writeframes(source.readframes(source.getnframes()))
     temporary.replace(target)
     return target

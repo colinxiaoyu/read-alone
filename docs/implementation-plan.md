@@ -32,17 +32,13 @@
 
 ## 发音与音色
 
-第 62 课英文采用 Piper 的 `en_GB-cori-high` 英音女声音色。第一遍和第二遍均为慢读，通过生成模型的时长参数控制，保留音高、音节和词尾。初始生成速度系数分别为 0.35、0.45，使用倒数作为 Piper 的 `length_scale`。
+第 62、63 课采用 Qwen3-TTS-12Hz-1.7B-Base 的 MLX 8 位模型，运行于 Apple Silicon Mac。中英文分别使用已保存的老师参考片段和对应转写。保留参考样本、输入文字、原始合成片段、截取时间、校验值和生成参数。英文以 FFmpeg `atempo` 制作 0.72、0.86 两档慢读，保持音高；中文速度为 1.0。
 
-第 62 课中文采用 Kokoro-82M v1.1-zh 的 `zf_001` 普通话女声，生成速度为 1.0。中文发音、音色和节奏通过词条试听确认。
+每词生成两段英文及一段中文。第 62 课共 15 个词、45 段音频，整课约 2 分 18 秒；第 63 课共 6 个词、18 段音频。英文成品只包含目标词，中文包含词性与释义。生成后检查起音、音节、词尾、静音和文件完整性。
 
-每词生成两段英文及一段中文。第 62 课共 45 段，第 63 课共 18 段。音频输入只包含目标词或对应中文词性释义，英文记录实际输入音素。生成后检查额外起音、缺音、词尾、静音和文件完整性。
+第 62 课的 desolate 按形容词 `/ˈdesələt/` 生成，源 HTML、源 JSON 与课程数据保持一致。[词典依据](https://dictionary.cambridge.org/dictionary/english/desolate)。该课配方在 `voices/lesson-57-teacher/recipes/book2-62.json`，截取区间在 `scripts/lesson-62-trims.json`。
 
-第 62 课的 desolate 按形容词 `/ˈdesələt/` 生成，源 HTML、源 JSON 与课程数据保持一致。[词典依据](https://dictionary.cambridge.org/dictionary/english/desolate)。
-
-模型及来源：[Piper Cori 模型](https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/cori/high)、[Piper 项目](https://github.com/OHF-Voice/piper1-gpl)、[Kokoro 中文模型](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)。音色与工具许可记录在 `public/THIRD_PARTY_NOTICES.txt`。
-
-第 63 课采用 Qwen3-TTS-12Hz-1.7B-Base 的 MLX 8 位模型，运行于 Apple Silicon Mac，英文与中文分别使用第 57 课视频的对应参考片段。保留参考样本、输入文字、校验值和生成参数。英文以 FFmpeg `atempo` 制作 0.72、0.86 两档慢读，保持音高；中文保持生成速度。
+模型及来源：[Qwen3-TTS](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base)、[MLX 模型](https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit)、[MLX Audio](https://github.com/Blaizzy/mlx-audio)。许可记录在 `public/THIRD_PARTY_NOTICES.txt`。
 
 第 63 课需要词性提示的英文先通过短句生成，其余词独立生成，再按 `scripts/lesson-63-trims.json` 截取目标词。重新生成后需核对这些截取边界。
 
@@ -122,3 +118,11 @@ Mac 双击 `start.command`，执行依赖检查、构建并启动 Vite 预览，
 - 暂停、继续、切词、重读和连续点击均不会造成声音重叠。
 - 音量实时生效，英文速度调整保持音高，中文速度稳定，设置能够恢复。
 - 两端文件及音频校验一致，Mac 可打开页面并播放。
+
+## 可复用音色与生成技能
+
+老师参考音色统一保存于 `voices/lesson-57-teacher/`：profile 保存中英文 WAV、对应文字、校验值、模型 ID、采样参数和音频处理参数；NPZ 保存模型专用中英文声音特征向量，features 保存模型与输入输出信息。第 63 课配方和实际原始合成片段独立归档。15 段参考采样继续保留于 `public/audio/reference/lesson-57/`。原始视频已删除，生成流程使用这些独立素材。
+
+`skills/read-alone-next-lesson/SKILL.md` 定义新增课程的生成、核对、截取、导出、网页接入和归档流程，通过两台设备的 `~/.codex/skills/read-alone-next-lesson` 入口调用。首次打开默认选择已登记的最新课程；已有选课记录继续恢复。
+
+生成脚本支持课号、标题、课程配方与暂存输出目录。识别工具 `scripts/review_cloned_audio.py` 保存转写与截取建议；`scripts/validate_lesson_audio.py` 验证词数、WAV 格式、音频校验值和整课实际字节顺序。归档第 63 课已通过全部 19 个音频文件的 SHA-256 复现检查，记录在 `voices/lesson-57-teacher/lessons/book2-63/reproduction-check.json`。

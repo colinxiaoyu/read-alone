@@ -1,0 +1,52 @@
+{
+  "voice_id": "lesson-57-teacher",
+  "model": {
+    "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+    "original": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "runtime": "mlx-audio==0.6.3",
+    "weights_sha256": {
+      "model.safetensors": "b965c581ccf6aa852a4124feeb7a8a111542ee7b213139368b4cc7ba7fd4728b",
+      "speech_tokenizer/model.safetensors": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+    }
+  },
+  "artifact_type": "speaker_embeddings",
+  "reference_inputs": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "model_specific": true,
+  "file": "voices/lesson-57-teacher/speaker-embeddings.npz",
+  "sha256": "67bfd89a1a163567031dd3cfc6f22936379e0fb6eb5beac2e3e05bb0180c97a2",
+  "vectors": {
+    "en": {
+      "shape": [
+        1,
+        2048
+      ],
+      "dtype": "float32",
+      "l2_norm": 18.712289810180664
+    },
+    "zh": {
+      "shape": [
+        1,
+        2048
+      ],
+      "dtype": "float32",
+      "l2_norm": 19.28598976135254
+    }
+  },
+  "runtime": {
+    "mlx-audio": "0.6.3",
+    "mlx": "0.32.4",
+    "numpy": "2.5.4",
+    "soundfile": "0.14.0"
+  }
+}

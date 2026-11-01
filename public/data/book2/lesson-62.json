@@ -3,14 +3,14 @@
   "lesson": 62,
   "title": "After the fire",
   "voices": {
-    "english": "en_GB-cori-high",
-    "chinese": "zf_001"
+    "english": "lesson-57-teacher",
+    "chinese": "lesson-57-teacher"
   },
   "voice_labels": {
-    "english": "英音慢读",
-    "chinese": "普通话女声"
+    "english": "老师音色慢读",
+    "chinese": "老师音色普通话"
   },
-  "model": "Piper Cori English / Kokoro-82M v1.1-zh Mandarin",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
   "words": [
     {
       "id": "book2-62-01",
@@ -19,9 +19,9 @@
       "pos": "n.",
       "meaning": "控制",
       "audio": {
-        "slow": "audio/book2/lesson-62/01-control-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/01-control-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/01-control-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/01-control-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/01-control-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/01-control-teacher-meaning.wav"
       }
     },
     {
@@ -31,9 +31,9 @@
       "pos": "n.",
       "meaning": "烟",
       "audio": {
-        "slow": "audio/book2/lesson-62/02-smoke-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/02-smoke-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/02-smoke-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/02-smoke-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/02-smoke-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/02-smoke-teacher-meaning.wav"
       }
     },
     {
@@ -43,9 +43,9 @@
       "pos": "adj.",
       "meaning": "荒凉的",
       "audio": {
-        "slow": "audio/book2/lesson-62/03-desolate-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/03-desolate-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/03-desolate-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/03-desolate-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/03-desolate-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/03-desolate-teacher-meaning.wav"
       }
     },
     {
@@ -55,9 +55,9 @@
       "pos": "v.",
       "meaning": "威胁",
       "audio": {
-        "slow": "audio/book2/lesson-62/04-threaten-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/04-threaten-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/04-threaten-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/04-threaten-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/04-threaten-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/04-threaten-teacher-meaning.wav"
       }
     },
     {
@@ -67,9 +67,9 @@
       "pos": "adj.",
       "meaning": "周围的",
       "audio": {
-        "slow": "audio/book2/lesson-62/05-surrounding-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/05-surrounding-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/05-surrounding-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/05-surrounding-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/05-surrounding-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/05-surrounding-teacher-meaning.wav"
       }
     },
     {
@@ -79,9 +79,9 @@
       "pos": "n.",
       "meaning": "破坏，毁灭",
       "audio": {
-        "slow": "audio/book2/lesson-62/06-destruction-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/06-destruction-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/06-destruction-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/06-destruction-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/06-destruction-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/06-destruction-teacher-meaning.wav"
       }
     },
     {
@@ -91,9 +91,9 @@
       "pos": "n.",
       "meaning": "洪水，水灾",
       "audio": {
-        "slow": "audio/book2/lesson-62/07-flood-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/07-flood-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/07-flood-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/07-flood-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/07-flood-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/07-flood-teacher-meaning.wav"
       }
     },
     {
@@ -103,9 +103,9 @@
       "pos": "n.",
       "meaning": "(常用复数)当局",
       "audio": {
-        "slow": "audio/book2/lesson-62/08-authority-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/08-authority-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/08-authority-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/08-authority-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/08-authority-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/08-authority-teacher-meaning.wav"
       }
     },
     {
@@ -115,9 +115,9 @@
       "pos": "n.",
       "meaning": "草籽",
       "audio": {
-        "slow": "audio/book2/lesson-62/09-grass-seed-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/09-grass-seed-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/09-grass-seed-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/09-grass-seed-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/09-grass-seed-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/09-grass-seed-teacher-meaning.wav"
       }
     },
     {
@@ -127,9 +127,9 @@
       "pos": "v.",
       "meaning": "喷撒",
       "audio": {
-        "slow": "audio/book2/lesson-62/10-spray-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/10-spray-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/10-spray-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/10-spray-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/10-spray-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/10-spray-teacher-meaning.wav"
       }
     },
     {
@@ -139,9 +139,9 @@
       "pos": "n.",
       "meaning": "量",
       "audio": {
-        "slow": "audio/book2/lesson-62/11-quantity-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/11-quantity-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/11-quantity-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/11-quantity-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/11-quantity-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/11-quantity-teacher-meaning.wav"
       }
     },
     {
@@ -151,9 +151,9 @@
       "pos": "n.",
       "meaning": "根",
       "audio": {
-        "slow": "audio/book2/lesson-62/12-root-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/12-root-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/12-root-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/12-root-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/12-root-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/12-root-teacher-meaning.wav"
       }
     },
     {
@@ -163,9 +163,9 @@
       "pos": "n.",
       "meaning": "世纪",
       "audio": {
-        "slow": "audio/book2/lesson-62/13-century-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/13-century-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/13-century-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/13-century-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/13-century-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/13-century-teacher-meaning.wav"
       }
     },
     {
@@ -175,9 +175,9 @@
       "pos": "n.",
       "meaning": "小片",
       "audio": {
-        "slow": "audio/book2/lesson-62/14-patch-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/14-patch-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/14-patch-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/14-patch-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/14-patch-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/14-patch-teacher-meaning.wav"
       }
     },
     {
@@ -187,9 +187,9 @@
       "pos": "v.",
       "meaning": "变黑，发暗",
       "audio": {
-        "slow": "audio/book2/lesson-62/15-blacken-en-cori-slow-035.wav",
-        "normal": "audio/book2/lesson-62/15-blacken-en-cori-normal-045.wav",
-        "meaning": "audio/book2/lesson-62/15-blacken-zh-zf_001.wav"
+        "slow": "audio/book2/lesson-62/15-blacken-teacher-slow.wav",
+        "normal": "audio/book2/lesson-62/15-blacken-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-62/15-blacken-teacher-meaning.wav"
       }
     }
   ]

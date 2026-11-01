@@ -1,0 +1,15 @@
+{
+  "lesson": 63,
+  "input": "voices/lesson-57-teacher/lessons/book2-63/raw",
+  "profile": "voices/lesson-57-teacher/profile.json",
+  "reference_manifest": "public/audio/book2/lesson-63/generation.json",
+  "verified_on": "2026-11-01",
+  "archived_raw_clips": 12,
+  "reproduced_word_clips": 18,
+  "reproduced_full_audio": 1,
+  "duration_seconds": 55.286125,
+  "all_recording_sha256_identical": true,
+  "original_video_required": false,
+  "runtime": "Apple Silicon / mlx-audio 0.6.3 / imageio-ffmpeg 0.7.0",
+  "video_absent_during_reproduction": true
+}

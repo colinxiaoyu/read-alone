@@ -8,12 +8,19 @@
     "sample_rate_hz": 44100,
     "channels": 2
   },
-  "sample_purpose": "voice_reference_for_lesson_63",
+  "sample_purpose": "voice_reference_for_read_alone_lessons",
   "artifact_type": "reference_audio_samples",
   "processing": {
     "speed": 1.0,
     "pitch_shift": 0,
     "denoise": false,
     "loudness_normalization": false
+  },
+  "retention": {
+    "original_video": "deleted_at_user_request",
+    "video_required_for_generation": false,
+    "independent_audio_samples": 15,
+    "voice_profile": "voices/lesson-57-teacher/profile.json",
+    "speaker_features": "voices/lesson-57-teacher/speaker-embeddings.npz"
   }
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Read Alone 下一课音频"
+  short_description: "复用已确认的老师音色，生成下一课单词音频并接入跟读网页"
+  default_prompt: "使用 $read-alone-next-lesson 按本项目保存的老师音色生成下一课音频，并接入网页跟读。"

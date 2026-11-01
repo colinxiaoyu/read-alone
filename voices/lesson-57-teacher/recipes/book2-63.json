@@ -1,0 +1,19 @@
+{
+  "book": 2,
+  "lesson": 63,
+  "title": "She was not amused",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "seed_base": 6300,
+  "english_text": {
+    "circle": "The noun: circle.",
+    "admire": "The verb: admire.",
+    "close": "The adjective: close.",
+    "wedding": "The noun: wedding.",
+    "reception": "reception.",
+    "sort": "The noun: sort."
+  },
+  "trim_file": "scripts/lesson-63-trims.json",
+  "raw_archive": "voices/lesson-57-teacher/lessons/book2-63/raw",
+  "approved_manifest": "public/audio/book2/lesson-63/generation.json",
+  "review_report": "voices/lesson-57-teacher/lessons/book2-63/review-summary.json"
+}

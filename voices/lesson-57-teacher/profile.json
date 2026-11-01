@@ -1,0 +1,75 @@
+{
+  "id": "lesson-57-teacher",
+  "display_name": "第57课老师参考音色",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "reference_inventory": "public/audio/reference/lesson-57/samples.json",
+  "source_record": "public/audio/reference/lesson-57/source.json",
+  "model": {
+    "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+    "original": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "runtime": "mlx-audio==0.6.3",
+    "weights_sha256": {
+      "model.safetensors": "b965c581ccf6aa852a4124feeb7a8a111542ee7b213139368b4cc7ba7fd4728b",
+      "speech_tokenizer/model.safetensors": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+    }
+  },
+  "synthesis": {
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "max_tokens": 192,
+    "seed_rule": "lesson_number * 100 + request_index; English then Chinese per word"
+  },
+  "processing": {
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "bits_per_sample": 16,
+    "english_speeds": {
+      "slow": 0.72,
+      "normal": 0.86
+    },
+    "chinese_speed": 1.0,
+    "gap_seconds": 2.2,
+    "peak_target": 0.82,
+    "max_gain": 5.0,
+    "edge_fade_seconds": 0.004,
+    "padding_seconds": {
+      "before": 0.08,
+      "after": 0.12
+    },
+    "speech_margin_seconds": {
+      "before": 0.09,
+      "after": 0.12
+    },
+    "rms_frame_seconds": 0.01,
+    "rms_relative_threshold": 0.025,
+    "rms_absolute_threshold": 0.0005
+  },
+  "playback_sequence": [
+    "slow",
+    "meaning",
+    "gap",
+    "normal",
+    "gap"
+  ],
+  "feature_files": {
+    "speaker_embeddings": "voices/lesson-57-teacher/speaker-embeddings.npz",
+    "metadata": "voices/lesson-57-teacher/features.json"
+  },
+  "approved_lesson": {
+    "book": 2,
+    "lesson": 63,
+    "recipe": "voices/lesson-57-teacher/recipes/book2-63.json",
+    "manifest": "public/audio/book2/lesson-63/generation.json"
+  }
+}

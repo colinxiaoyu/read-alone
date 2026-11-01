@@ -1,32 +1,6 @@
 Read Alone uses locally generated synthetic speech.
 
-Lesson 62 English: Piper, en_GB-cori-high (British English female).
-Voice model: https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/cori/high
-Piper voice repository license: MIT.
-Dataset: approximately 24 hours of LibriVox recordings, credited in the Cori model card.
-https://librivox.org
-Dataset license stated in the model card: public domain.
-Generation tool: Piper, Open Home Foundation and contributors.
-https://github.com/OHF-Voice/piper1-gpl — GPL-3.0.
-
-Lesson 62 Mandarin Chinese: Kokoro-82M v1.1-zh, preset zf_001.
-https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh
-Model license: Apache License 2.0.
-Model trained by rzvzn, based on StyleTTS2 and ISTFTNet;
-Chinese training data provided by LongMaoData, as credited in the model card.
-ONNX wrapper: kokoro-onnx, thewh1teagle and contributors, MIT.
-https://github.com/thewh1teagle/kokoro-onnx
-Chinese grapheme-to-phoneme processing: Misaki, hexgrad and contributors, Apache-2.0.
-https://github.com/hexgrad/misaki
-
-English phonemization uses eSpeak NG through Piper.
-These generation tools are separate from the static playback app.
-
-Reference audio for pace and pause analysis:
-https://www.youtube.com/shorts/MRZFq23KBw8
-The reference source has its own rights and is separate from model licenses.
-
-Lesson 63: Qwen3-TTS voice cloning from the user-provided Lesson 57 video.
+Lessons 62 and 63: Qwen3-TTS voice cloning using the saved teacher reference voice.
 Original model: Qwen/Qwen3-TTS-12Hz-1.7B-Base, Apache License 2.0.
 https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base
 MLX conversion: mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit.
@@ -34,7 +8,12 @@ https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit
 Inference runtime: MLX Audio 0.6.3, MIT.
 https://github.com/Blaizzy/mlx-audio
 English clips are slowed with FFmpeg atempo, preserving pitch.
-Source: docs/57-Lesson 57.mp4; reference sample provenance is recorded in
-audio/reference/lesson-57/source.json and samples.json.
-The source recording has its own rights, separate from the model licenses.
-Lesson 63 audio is AI-synthesized using the reference voice.
+
+Original source video (removed after reference extraction): docs/57-Lesson 57.mp4.
+Reference sample provenance is recorded in audio/reference/lesson-57/source.json
+and samples.json. The source recording has its own rights, separate from model licenses.
+The playback audio is AI-synthesized using the reference voice.
+
+Additional reference audio for pace and pause analysis:
+https://www.youtube.com/shorts/MRZFq23KBw8
+This reference has its own rights, separate from model licenses.

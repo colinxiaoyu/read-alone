@@ -1,0 +1,16 @@
+{
+  "lesson": 62,
+  "raw_archive": "voices/lesson-57-teacher/lessons/book2-62/raw",
+  "manifest": "public/audio/book2/lesson-62/generation.json",
+  "archived_raw_clips": 30,
+  "word_clips": 45,
+  "full_audio_files": 1,
+  "duration_seconds": 137.96991666666668,
+  "all_recording_sha256_identical": true,
+  "browser_decoded_clips": 45,
+  "playback_order_verified": true,
+  "switching_stops_old_audio": true,
+  "old_lesson_62_recordings_deleted": true,
+  "lesson_63_preserved": true,
+  "original_video_required": false
+}

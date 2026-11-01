@@ -25,13 +25,13 @@ bash start.command
 
 点击“开始跟读”，直接从第一个单词开始。每词播放第一遍慢读、中文释义、跟读留白、第二遍慢读和跟读留白。当前词在左右两侧同步标红。
 
-第 63 课共 6 个词，使用第 57 课视频中的老师声音作为参考合成；第 62 课共 15 个词。两课默认循环播放。点击任意列表单词，可以从该词开始。使用“上一词”“下一词”“重读”调整位置。
+第 62 课共 15 个词，第 63 课共 6 个词，中英文均使用已保存的老师参考音色合成。两课默认循环播放。点击任意列表单词，可以从该词开始。使用“上一词”“下一词”“重读”调整位置。
 
 ## 第三步 调整声音
 
 拖动底部音量滑块调整大小。点击“静音”可关闭声音，再次点击恢复。
 
-在“设置”中调整英文播放速度和留白时间。两遍英文已经按慢读制作，第 63 课的中英文均使用参考老师的音色。英文速度设置只影响英文声音，留白默认 2.2 秒。
+在“设置”中调整英文播放速度和留白时间。两遍英文已经按慢读制作，第 62、63 课的中英文均使用参考老师的音色。英文速度设置只影响英文声音，留白默认 2.2 秒。
 
 “朗读中文释义”控制中文词性释义。“整课循环”控制课程反复播放。设置会保存在当前浏览器。
 
@@ -64,3 +64,13 @@ npm run dev
 在 Apple Silicon Mac 的 Python 3.12 环境中安装 `scripts/requirements-clone.txt`。使用 `scripts/generate_cloned_audio.py --synthesize-only` 生成参考音色原始片段，核对英文目标词边界后，执行 `scripts/generate_cloned_audio.py --finalize-only --trim-json scripts/lesson-63-trims.json`。两次运行使用同一个模型和原始音频缓存目录，可通过 `--model` 与 `--raw-dir` 指定。
 
 脚本生成两档保持音高的英文慢读、中文词性释义、课程 JSON、生成记录和带默认 2.2 秒留白的整课 WAV。成品位于 `public/audio/book2/lesson-63/` 与 `public/data/book2/lesson-63.json`，随项目同步；日常打开网页直接播放成品。
+
+## 复用老师音色
+
+通过项目技能 [read-alone-next-lesson](../skills/read-alone-next-lesson/SKILL.md) 生成下一课。音色数据与模型参数在 `voices/lesson-57-teacher/profile.json`，中英文参考音频、转写与 SHA-256 保留在其中。模型对应的中英文声音特征向量在 `speaker-embeddings.npz`，来源与版本信息在 `features.json`。
+
+本次第 63 课的实际输入文字、12 段原始合成 WAV 和配方均归档在 `voices/lesson-57-teacher/`，可用 `scripts/validate_lesson_audio.py --compare-approved` 检查重新导出的成品。已验证 18 段音频与整课 WAV 字节级一致。原始视频已删除，15 段采样与来源校验记录继续保留。
+
+## 第 62 课音频生成
+
+第 62 课使用 `voices/lesson-57-teacher/recipes/book2-62.json` 配方和 `scripts/lesson-62-trims.json` 截取区间，保持老师参考音色、两档英文慢读和默认 2.2 秒跟读留白。实际使用的 30 段原始合成片段与识别报告保存在 `voices/lesson-57-teacher/lessons/book2-62/raw/`。网页播放目录为 `public/audio/book2/lesson-62/`，其中包括 45 段单词音频及整课 WAV。

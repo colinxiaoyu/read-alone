@@ -1,0 +1,69 @@
+{
+  "method": "faster-whisper-small",
+  "status": "approved_by_user",
+  "english_target_words_verified": true,
+  "chinese_parts_and_meanings_verified": true,
+  "browser_audio_decodes": 18,
+  "checks": [
+    {
+      "word": "circle",
+      "english_recognized": "Circle.",
+      "chinese_recognized": "名詞圈子",
+      "clip_sha256": {
+        "audio/book2/lesson-63/01-circle-teacher-slow.wav": "929adf947dbdc35949632c9e4f3d71fe6e87a4357cad3ea2008ded6d199547c7",
+        "audio/book2/lesson-63/01-circle-teacher-normal.wav": "8c280b5e4ebc21ebb3e09abd91e3ec730c27105cc9cb17c2ac654931545485a6",
+        "audio/book2/lesson-63/01-circle-teacher-meaning.wav": "c2c5c88f7b908710625c262f7ce89ab8a67acc6142cda9a0fe197c1339bb41bc"
+      }
+    },
+    {
+      "word": "admire",
+      "english_recognized": "Admire",
+      "chinese_recognized": "動詞讚美欽佩",
+      "clip_sha256": {
+        "audio/book2/lesson-63/02-admire-teacher-slow.wav": "df2114fdd6aafc5b1bd46f6612088a41e94c6ff4108f06d75a69a13bed39e5db",
+        "audio/book2/lesson-63/02-admire-teacher-normal.wav": "aa4cd4c39fc688af44141b794b031d010e4463c45e9d9da1e49bed2ffc9f9cf6",
+        "audio/book2/lesson-63/02-admire-teacher-meaning.wav": "0c65e71382e19da5f902d97567cfea64c978e0348b1b800b565a291e621061e7"
+      }
+    },
+    {
+      "word": "close",
+      "english_recognized": "Close.",
+      "chinese_recognized": "形容詞親密的",
+      "clip_sha256": {
+        "audio/book2/lesson-63/03-close-teacher-slow.wav": "0946ff7c2055eddfd92d83c1886f89d97dcd42ecffa93d07aec36d53a3afcf73",
+        "audio/book2/lesson-63/03-close-teacher-normal.wav": "fb610d6862d0dfb78e42cc2ddd1f5fc9dc84550e632c1556bbbfc55b1f0683a4",
+        "audio/book2/lesson-63/03-close-teacher-meaning.wav": "a9bfc0ad35439ff964bf7b04fdff44c88eef4b8fbb5dfe34cb4b63e3adc71127"
+      }
+    },
+    {
+      "word": "wedding",
+      "english_recognized": "Wedding.",
+      "chinese_recognized": "名詞婚禮",
+      "clip_sha256": {
+        "audio/book2/lesson-63/04-wedding-teacher-slow.wav": "63e8c0764638f58ba6517e83bd60b433d2d0a26a942d965207ecfea9140db470",
+        "audio/book2/lesson-63/04-wedding-teacher-normal.wav": "ea30715330bac5e2bba88cc6f015fedae7b36adcad3215e37d3aa07b425f0247",
+        "audio/book2/lesson-63/04-wedding-teacher-meaning.wav": "4bdab85a856b25b135ee85ee13a88b49e72ece7c7233d7ffdad1f001356d7125"
+      }
+    },
+    {
+      "word": "reception",
+      "english_recognized": "Reception",
+      "chinese_recognized": "名詞招待會",
+      "clip_sha256": {
+        "audio/book2/lesson-63/05-reception-teacher-slow.wav": "3dc4a02ea9eb1ea3e05fc875a10b83d1f79f01f7020192733114a314fb6c6cae",
+        "audio/book2/lesson-63/05-reception-teacher-normal.wav": "4864161156d1302844fd662c06c925d545e4d7fa4c8312e2c063bd60e97c5915",
+        "audio/book2/lesson-63/05-reception-teacher-meaning.wav": "e82e1f3a052add640b5ca909f88bdebbda5cf79832999370159d804e44534301"
+      }
+    },
+    {
+      "word": "sort",
+      "english_recognized": "SORT",
+      "chinese_recognized": "名詞種類",
+      "clip_sha256": {
+        "audio/book2/lesson-63/06-sort-teacher-slow.wav": "87ced598bfd1ff0c78a24448c3cb9a6a1c362a8250b7288d41282d9237e2f5eb",
+        "audio/book2/lesson-63/06-sort-teacher-normal.wav": "4d38b20349dcf3874dda71060d4f96c2ff432ef005ddc2cf0cca0ffdcdb759a1",
+        "audio/book2/lesson-63/06-sort-teacher-meaning.wav": "162547bb0b271b80f7bd7b7da7918fe23b5144babb30391af60cef35162eda0a"
+      }
+    }
+  ]
+}

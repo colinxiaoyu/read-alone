@@ -10,7 +10,7 @@ export function readSelectedLesson() {
     const selected = Number(localStorage.getItem(storageKey));
     if (lessons.some(item => item.lesson === selected)) return selected;
   } catch { /* The latest course remains available without browser storage. */ }
-  return 63;
+  return lessons.at(-1).lesson;
 }
 
 export function saveSelectedLesson(lesson) {

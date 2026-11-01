@@ -1,0 +1,25 @@
+{
+  "lesson": 63,
+  "mode": "final",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "audio/book2/lesson-63/05-reception-teacher-slow.wav",
+      "word": "reception",
+      "language": "en",
+      "expected": "reception",
+      "recognized": "Reception",
+      "word_timestamps": [
+        {
+          "word": " Reception",
+          "start": 0.0,
+          "end": 1.28,
+          "probability": 0.8110104501247406
+        }
+      ],
+      "matches": true
+    }
+  ],
+  "suggested_trims": {}
+}
