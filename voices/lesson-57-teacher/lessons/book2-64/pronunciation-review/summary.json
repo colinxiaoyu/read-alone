@@ -1,0 +1,174 @@
+{
+  "lesson": 64,
+  "status": "staged_not_published",
+  "selection_rules": "ASR（faster-whisper small，CPU int8，beam 3，无 VAD）去大小写和标点后与目标词完全一致且无问号；句末降调；trim 起点取词起音前的静音处，终点取 raw 时长",
+  "candidate_seeds": [
+    64101,
+    64102,
+    64103,
+    64104,
+    64105,
+    64106
+  ],
+  "reseeded": {
+    "port": "v1 元音后 f0 回升到 354 Hz",
+    "ventilation": "v1 句末平调（~200→222 Hz）",
+    "officially": "v1 词尾出现 323–374 Hz 回升",
+    "connect": "v1 上扬到 307 Hz 收在 281 Hz",
+    "sea level": "v1 与 64104 的 slow/normal 成品被识别为 C-Level；64102 两档成品均识别为 sea level"
+  },
+  "alternatives": {
+    "sea level": "64104 语调更平滑（238→107 Hz），但成品 ASR 为 C-Level，未选"
+  },
+  "pending_listening": {
+    "connect": "7 版均降不到 6 st，选 64102（271→207 Hz）",
+    "zh": "ventilate、connect 的 meaning 成品 ASR 把「动词」识别为「冻死」，fear 识别正常；ventilate raw 识别为「动词」。中文 seed 不在配方覆盖范围内，未重生成"
+  },
+  "words": [
+    {
+      "word": "tunnel",
+      "prompt": "tunnel.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.25,
+        0.88
+      ],
+      "f0_fall": "327→182 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "port",
+      "prompt": "port.",
+      "seed": 64101,
+      "trim": [
+        0.17,
+        0.8
+      ],
+      "f0_fall": "335→213 Hz",
+      "reseeded": true
+    },
+    {
+      "word": "ventilate",
+      "prompt": "ventilate.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.03,
+        1.04
+      ],
+      "f0_fall": "303→142 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "chimney",
+      "prompt": "chimney.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.4,
+        1.12
+      ],
+      "f0_fall": "324→100 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "sea level",
+      "prompt": "sea level.",
+      "seed": 64102,
+      "trim": [
+        0.07,
+        0.96
+      ],
+      "f0_fall": "258→104 Hz，词尾 0.75–0.89 s 低谐噪比段（HNR 1.7 dB）测得 ~590 Hz 为不可靠读数",
+      "reseeded": true
+    },
+    {
+      "word": "double",
+      "prompt": "double.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.44,
+        1.04
+      ],
+      "f0_fall": "224→113 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "ventilation",
+      "prompt": "ventilation.",
+      "seed": 64101,
+      "trim": [
+        0.03,
+        0.96
+      ],
+      "f0_fall": "294→112 Hz",
+      "reseeded": true
+    },
+    {
+      "word": "fear",
+      "prompt": "fear.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.04,
+        0.8
+      ],
+      "f0_fall": "290→186 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "invasion",
+      "prompt": "invasion.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.24,
+        1.04
+      ],
+      "f0_fall": "248→161 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "officially",
+      "prompt": "officially.",
+      "seed": 64101,
+      "trim": [
+        0.13,
+        1.04
+      ],
+      "f0_fall": "389→110 Hz",
+      "reseeded": true
+    },
+    {
+      "word": "connect",
+      "prompt": "connect.",
+      "seed": 64102,
+      "trim": [
+        0.07,
+        0.72
+      ],
+      "f0_fall": "271→207 Hz（约 4.2 st，候选中最好）",
+      "reseeded": true
+    },
+    {
+      "word": "European",
+      "prompt": "European.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.2,
+        0.96
+      ],
+      "f0_fall": "277→119 Hz",
+      "reseeded": false
+    },
+    {
+      "word": "continent",
+      "prompt": "continent.",
+      "seed": "seed_base + request_index",
+      "trim": [
+        0.2,
+        1.04
+      ],
+      "f0_fall": "281→108 Hz",
+      "reseeded": false
+    }
+  ],
+  "final_asr": "voices/lesson-57-teacher/lessons/book2-64/pronunciation-review/final-asr.json",
+  "validate": "voices/lesson-57-teacher/lessons/book2-64/pronunciation-review/validate.json"
+}

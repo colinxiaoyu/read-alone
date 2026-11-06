@@ -1,6 +1,8 @@
 export const lessons = [
   { lesson: 62, title: 'After the fire' },
   { lesson: 63, title: 'She was not amused' },
+  { lesson: 64, title: 'The Channel Tunnel' },
+  { lesson: 65, title: 'Jumbo versus the police' },
 ];
 
 const storageKey = 'read-alone.lesson.v1';

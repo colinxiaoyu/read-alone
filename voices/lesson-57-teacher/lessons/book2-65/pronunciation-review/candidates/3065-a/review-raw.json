@@ -1,0 +1,123 @@
+{
+  "lesson": 65,
+  "mode": "raw",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "03-circus-en-raw.wav",
+      "word": "circus",
+      "language": "en",
+      "expected": "circus.",
+      "recognized": "Circus!",
+      "word_timestamps": [
+        {
+          "word": " Circus!",
+          "start": 0.0,
+          "end": 1.0,
+          "probability": 0.6657746881246567
+        }
+      ]
+    },
+    {
+      "file": "04-present-en-raw.wav",
+      "word": "present",
+      "language": "en",
+      "expected": "a present.",
+      "recognized": "a present.",
+      "word_timestamps": [
+        {
+          "word": " a",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.43404531478881836
+        },
+        {
+          "word": " present.",
+          "start": 0.5,
+          "end": 0.88,
+          "probability": 0.9362029433250427
+        }
+      ]
+    },
+    {
+      "file": "06-approach-en-raw.wav",
+      "word": "approach",
+      "language": "en",
+      "expected": "approach.",
+      "recognized": "approach.",
+      "word_timestamps": [
+        {
+          "word": " approach.",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.7568108439445496
+        }
+      ]
+    },
+    {
+      "file": "07-ought-en-raw.wav",
+      "word": "ought",
+      "language": "en",
+      "expected": "ought.",
+      "recognized": "www.mooji.org",
+      "word_timestamps": [
+        {
+          "word": " www",
+          "start": 0.0,
+          "end": 0.0,
+          "probability": 0.0044573210179805756
+        },
+        {
+          "word": ".mooji",
+          "start": 0.0,
+          "end": 0.04,
+          "probability": 0.6199429072439671
+        },
+        {
+          "word": ".org",
+          "start": 0.04,
+          "end": 0.38,
+          "probability": 0.9389514029026031
+        }
+      ]
+    },
+    {
+      "file": "08-weigh-en-raw.wav",
+      "word": "weigh",
+      "language": "en",
+      "expected": "weigh.",
+      "recognized": "way.",
+      "word_timestamps": [
+        {
+          "word": " way.",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.36815860867500305
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "circus": [
+      0,
+      1.28
+    ],
+    "present": [
+      0.5,
+      1.12
+    ],
+    "approach": [
+      0,
+      1.52
+    ],
+    "ought": [
+      0,
+      0.88
+    ],
+    "weigh": [
+      0,
+      1.04
+    ]
+  }
+}

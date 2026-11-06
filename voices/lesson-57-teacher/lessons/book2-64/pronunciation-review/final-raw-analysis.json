@@ -1,0 +1,456 @@
+[
+ {
+  "file": "01-tunnel-en-raw.wav",
+  "word": "tunnel",
+  "duration": 0.88,
+  "asr": "tunnel",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.35,
+    0.83
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.02
+   ],
+   [
+    0.35,
+    0.83
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.01
+   ]
+  ],
+  "main_onset": 0.35,
+  "main_end": 0.83,
+  "pitch": {
+   "peak_hz": 327.4,
+   "peak_t": 0.54,
+   "tail_hz": 237.0,
+   "drop_st": 5.59,
+   "tail_delta_st": -0.87
+  },
+  "clip_peak": 0.113
+ },
+ {
+  "file": "02-port-en-raw.wav",
+  "word": "port",
+  "duration": 0.8,
+  "asr": "port",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.27,
+    0.74
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.27,
+    0.76
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.27,
+  "main_end": 0.74,
+  "pitch": {
+   "peak_hz": 336.8,
+   "peak_t": 0.41,
+   "tail_hz": 213.3,
+   "drop_st": 7.91,
+   "tail_delta_st": -7.12
+  },
+  "clip_peak": 0.162
+ },
+ {
+  "file": "03-ventilate-en-raw.wav",
+  "word": "ventilate",
+  "duration": 1.04,
+  "asr": "Ventilate.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.07,
+    0.98
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.06,
+    0.88
+   ],
+   [
+    0.94,
+    0.98
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.07,
+  "main_end": 0.98,
+  "pitch": {
+   "peak_hz": 365.8,
+   "peak_t": 0.79,
+   "tail_hz": 362.2,
+   "drop_st": 0.17,
+   "tail_delta_st": 15.22
+  },
+  "clip_peak": 0.235
+ },
+ {
+  "file": "04-chimney-en-raw.wav",
+  "word": "chimney",
+  "duration": 1.12,
+  "asr": "Chimney.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.04
+   ],
+   [
+    0.5,
+    1.05
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.06
+   ],
+   [
+    0.5,
+    1.07
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.04
+   ]
+  ],
+  "main_onset": 0.5,
+  "main_end": 1.05,
+  "pitch": {
+   "peak_hz": 324.9,
+   "peak_t": 0.75,
+   "tail_hz": 115.0,
+   "drop_st": 17.97,
+   "tail_delta_st": -4.17
+  },
+  "clip_peak": 0.183
+ },
+ {
+  "file": "05-sea-level-en-raw.wav",
+  "word": "sea level",
+  "duration": 0.96,
+  "asr": "sea level.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.9
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.02
+   ],
+   [
+    0.14,
+    0.93
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.0,
+  "main_end": 0.9,
+  "pitch": {
+   "peak_hz": 593.8,
+   "peak_t": 0.8,
+   "tail_hz": 591.7,
+   "drop_st": 0.06,
+   "tail_delta_st": 30.4
+  },
+  "clip_peak": 0.098
+ },
+ {
+  "file": "06-double-en-raw.wav",
+  "word": "double",
+  "duration": 1.04,
+  "asr": "Double.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.02
+   ],
+   [
+    0.54,
+    0.99
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.04
+   ],
+   [
+    0.54,
+    1.0
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.02
+   ]
+  ],
+  "main_onset": 0.54,
+  "main_end": 0.99,
+  "pitch": {
+   "peak_hz": 224.6,
+   "peak_t": 0.68,
+   "tail_hz": 122.1,
+   "drop_st": 10.55,
+   "tail_delta_st": -11.21
+  },
+  "clip_peak": 0.194
+ },
+ {
+  "file": "07-ventilation-en-raw.wav",
+  "word": "ventilation",
+  "duration": 0.96,
+  "asr": "ventilation.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.07,
+    0.93
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.06,
+    0.93
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.07,
+  "main_end": 0.93,
+  "pitch": {
+   "peak_hz": 294.1,
+   "peak_t": 0.59,
+   "tail_hz": 119.8,
+   "drop_st": 15.54,
+   "tail_delta_st": -14.41
+  },
+  "clip_peak": 0.143
+ },
+ {
+  "file": "08-fear-en-raw.wav",
+  "word": "fear",
+  "duration": 0.8,
+  "asr": "fear.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.08,
+    0.65
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.07,
+    0.7
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.08,
+  "main_end": 0.65,
+  "pitch": {
+   "peak_hz": 290.5,
+   "peak_t": 0.24,
+   "tail_hz": 189.9,
+   "drop_st": 7.36,
+   "tail_delta_st": -1.9
+  },
+  "clip_peak": 0.195
+ },
+ {
+  "file": "09-invasion-en-raw.wav",
+  "word": "invasion",
+  "duration": 1.04,
+  "asr": "Invasion.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.34,
+    0.96
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.34,
+    1.0
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.34,
+  "main_end": 0.96,
+  "pitch": {
+   "peak_hz": 243.9,
+   "peak_t": 0.36,
+   "tail_hz": 161.4,
+   "drop_st": 7.15,
+   "tail_delta_st": -4.68
+  },
+  "clip_peak": 0.199
+ },
+ {
+  "file": "10-officially-en-raw.wav",
+  "word": "officially",
+  "duration": 1.04,
+  "asr": "officially.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.23,
+    1.03
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.23,
+    1.03
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.23,
+  "main_end": 1.03,
+  "pitch": {
+   "peak_hz": 389.1,
+   "peak_t": 0.54,
+   "tail_hz": 116.3,
+   "drop_st": 20.91,
+   "tail_delta_st": -8.52
+  },
+  "clip_peak": 0.182
+ },
+ {
+  "file": "11-connect-en-raw.wav",
+  "word": "connect",
+  "duration": 0.72,
+  "asr": "connect",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.14,
+    0.67
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.14,
+    0.68
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.14,
+  "main_end": 0.67,
+  "pitch": {
+   "peak_hz": 271.6,
+   "peak_t": 0.42,
+   "tail_hz": 213.0,
+   "drop_st": 4.2,
+   "tail_delta_st": -5.49
+  },
+  "clip_peak": 0.148
+ },
+ {
+  "file": "12-european-en-raw.wav",
+  "word": "European",
+  "duration": 0.96,
+  "asr": "European.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.3,
+    0.95
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.3,
+    0.95
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.3,
+  "main_end": 0.95,
+  "pitch": {
+   "peak_hz": 278.2,
+   "peak_t": 0.74,
+   "tail_hz": 175.6,
+   "drop_st": 7.96,
+   "tail_delta_st": -16.21
+  },
+  "clip_peak": 0.245
+ },
+ {
+  "file": "13-continent-en-raw.wav",
+  "word": "continent",
+  "duration": 1.04,
+  "asr": "continent.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.04
+   ],
+   [
+    0.3,
+    1.01
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.09
+   ],
+   [
+    0.3,
+    1.03
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.04
+   ]
+  ],
+  "main_onset": 0.3,
+  "main_end": 1.01,
+  "pitch": {
+   "peak_hz": 281.1,
+   "peak_t": 0.51,
+   "tail_hz": 106.5,
+   "drop_st": 16.81,
+   "tail_delta_st": -4.74
+  },
+  "clip_peak": 0.138
+ }
+]

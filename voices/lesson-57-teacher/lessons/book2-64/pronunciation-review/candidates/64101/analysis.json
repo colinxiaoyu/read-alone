@@ -1,0 +1,122 @@
+[
+ {
+  "file": "02-port-en-raw.wav",
+  "word": "port",
+  "duration": 0.8,
+  "asr": "port",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.27,
+    0.74
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.27,
+    0.76
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.27,
+  "main_end": 0.74,
+  "pitch": {
+   "peak_hz": 336.8,
+   "peak_t": 0.41,
+   "tail_hz": 213.3,
+   "drop_st": 7.91,
+   "tail_delta_st": -7.12
+  },
+  "clip_peak": 0.162
+ },
+ {
+  "file": "07-ventilation-en-raw.wav",
+  "word": "ventilation",
+  "duration": 0.96,
+  "asr": "ventilation.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.07,
+    0.93
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.06,
+    0.93
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.07,
+  "main_end": 0.93,
+  "pitch": {
+   "peak_hz": 294.1,
+   "peak_t": 0.59,
+   "tail_hz": 119.8,
+   "drop_st": 15.54,
+   "tail_delta_st": -14.41
+  },
+  "clip_peak": 0.143
+ },
+ {
+  "file": "10-officially-en-raw.wav",
+  "word": "officially",
+  "duration": 1.04,
+  "asr": "officially.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.23,
+    1.03
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.23,
+    1.03
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.23,
+  "main_end": 1.03,
+  "pitch": {
+   "peak_hz": 389.1,
+   "peak_t": 0.54,
+   "tail_hz": 116.3,
+   "drop_st": 20.91,
+   "tail_delta_st": -8.52
+  },
+  "clip_peak": 0.182
+ },
+ {
+  "file": "11-connect-en-raw.wav",
+  "word": "connect",
+  "duration": 0.56,
+  "asr": "Connect.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.07,
+    0.51
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.07,
+    0.51
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.07,
+  "main_end": 0.51,
+  "pitch": {
+   "peak_hz": 244.3,
+   "peak_t": 0.43,
+   "tail_hz": 239.7,
+   "drop_st": 0.33,
+   "tail_delta_st": -0.34
+  },
+  "clip_peak": 0.172
+ }
+]

@@ -1,0 +1,124 @@
+{
+  "book": 2,
+  "lesson": 65,
+  "title": "Jumbo versus the police",
+  "voices": {
+    "english": "lesson-57-teacher",
+    "chinese": "lesson-57-teacher"
+  },
+  "voice_labels": {
+    "english": "老师音色慢读",
+    "chinese": "老师音色普通话"
+  },
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "words": [
+    {
+      "id": "book2-65-01",
+      "word": "versus",
+      "phonetic": "[ 'və:səs ]",
+      "pos": "prep.",
+      "meaning": "对",
+      "audio": {
+        "slow": "audio/book2/lesson-65/01-versus-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/01-versus-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/01-versus-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-02",
+      "word": "Christmas",
+      "phonetic": "[ 'krisməs ]",
+      "pos": "n.",
+      "meaning": "圣诞节",
+      "audio": {
+        "slow": "audio/book2/lesson-65/02-christmas-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/02-christmas-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/02-christmas-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-03",
+      "word": "circus",
+      "phonetic": "[ 'sə:kəs ]",
+      "pos": "n.",
+      "meaning": "马戏团",
+      "audio": {
+        "slow": "audio/book2/lesson-65/03-circus-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/03-circus-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/03-circus-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-04",
+      "word": "present",
+      "phonetic": "[ pri'zent, 'prezənt ]",
+      "pos": "n.",
+      "meaning": "礼物",
+      "audio": {
+        "slow": "audio/book2/lesson-65/04-present-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/04-present-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/04-present-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-05",
+      "word": "accompany",
+      "phonetic": "[ ə'kʌmpəni ]",
+      "pos": "v.",
+      "meaning": "陪伴，随行",
+      "audio": {
+        "slow": "audio/book2/lesson-65/05-accompany-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/05-accompany-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/05-accompany-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-06",
+      "word": "approach",
+      "phonetic": "[ ə'prəutʃ ]",
+      "pos": "v.",
+      "meaning": "走近",
+      "audio": {
+        "slow": "audio/book2/lesson-65/06-approach-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/06-approach-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/06-approach-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-07",
+      "word": "ought",
+      "phonetic": "[ ɔ:t ]",
+      "pos": "modal v",
+      "meaning": "应该",
+      "audio": {
+        "slow": "audio/book2/lesson-65/07-ought-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/07-ought-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/07-ought-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-08",
+      "word": "weigh",
+      "phonetic": "[ wei ]",
+      "pos": "v.",
+      "meaning": "重",
+      "audio": {
+        "slow": "audio/book2/lesson-65/08-weigh-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/08-weigh-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/08-weigh-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-65-09",
+      "word": "fortunate",
+      "phonetic": "[ 'fɔ:tʃənət ]",
+      "pos": "adj.",
+      "meaning": "幸运的",
+      "audio": {
+        "slow": "audio/book2/lesson-65/09-fortunate-teacher-slow.wav",
+        "normal": "audio/book2/lesson-65/09-fortunate-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-65/09-fortunate-teacher-meaning.wav"
+      }
+    }
+  ]
+}

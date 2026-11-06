@@ -1,0 +1,19 @@
+{
+  "lesson": 64,
+  "words": 13,
+  "clips": 39,
+  "duration_seconds": 112.78504166666667,
+  "format": "24 kHz mono PCM16",
+  "hashes_and_playback_sequence": "verified",
+  "raw_archive": "voices/lesson-57-teacher/lessons/book2-64/raw",
+  "archived_raw_clips": 26,
+  "all_recording_sha256_identical": true,
+  "comparison": "Mac 暂存目录 stage-public/audio/book2/lesson-64/generation.json",
+  "seed_resynthesis_identical": [
+    "port",
+    "sea level",
+    "ventilation",
+    "officially",
+    "connect"
+  ]
+}

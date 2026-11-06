@@ -1,0 +1,10 @@
+{
+  "word": "spray",
+  "seed": 3105,
+  "candidate_sha256": "435995987d272c6fdf181cc9649401463e2d8829a671211b07cf0310fbf03176",
+  "reproduced_sha256": "435995987d272c6fdf181cc9649401463e2d8829a671211b07cf0310fbf03176",
+  "identical": true,
+  "generated_files": [
+    "10-spray-en-raw.wav"
+  ]
+}

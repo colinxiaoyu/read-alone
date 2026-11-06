@@ -1,0 +1,197 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-control-en-raw.wav",
+      "word": "control",
+      "language": "en",
+      "text": "control."
+    },
+    {
+      "file": "01-control-zh-raw.wav",
+      "word": "control",
+      "language": "zh",
+      "text": "名词，控制。"
+    },
+    {
+      "file": "02-smoke-en-raw.wav",
+      "word": "smoke",
+      "language": "en",
+      "text": "The noun: smoke."
+    },
+    {
+      "file": "02-smoke-zh-raw.wav",
+      "word": "smoke",
+      "language": "zh",
+      "text": "名词，烟。"
+    },
+    {
+      "file": "03-desolate-en-raw.wav",
+      "word": "desolate",
+      "language": "en",
+      "text": "The adjective: desolate."
+    },
+    {
+      "file": "03-desolate-zh-raw.wav",
+      "word": "desolate",
+      "language": "zh",
+      "text": "形容词，荒凉的。"
+    },
+    {
+      "file": "04-threaten-en-raw.wav",
+      "word": "threaten",
+      "language": "en",
+      "text": "threaten."
+    },
+    {
+      "file": "04-threaten-zh-raw.wav",
+      "word": "threaten",
+      "language": "zh",
+      "text": "动词，威胁。"
+    },
+    {
+      "file": "05-surrounding-en-raw.wav",
+      "word": "surrounding",
+      "language": "en",
+      "text": "surrounding."
+    },
+    {
+      "file": "05-surrounding-zh-raw.wav",
+      "word": "surrounding",
+      "language": "zh",
+      "text": "形容词，周围的。"
+    },
+    {
+      "file": "06-destruction-en-raw.wav",
+      "word": "destruction",
+      "language": "en",
+      "text": "destruction."
+    },
+    {
+      "file": "06-destruction-zh-raw.wav",
+      "word": "destruction",
+      "language": "zh",
+      "text": "名词，破坏，毁灭。"
+    },
+    {
+      "file": "07-flood-en-raw.wav",
+      "word": "flood",
+      "language": "en",
+      "text": "flood."
+    },
+    {
+      "file": "07-flood-zh-raw.wav",
+      "word": "flood",
+      "language": "zh",
+      "text": "名词，洪水，水灾。"
+    },
+    {
+      "file": "08-authority-en-raw.wav",
+      "word": "authority",
+      "language": "en",
+      "text": "authority."
+    },
+    {
+      "file": "08-authority-zh-raw.wav",
+      "word": "authority",
+      "language": "zh",
+      "text": "名词，(常用复数)当局。"
+    },
+    {
+      "file": "09-grass-seed-en-raw.wav",
+      "word": "grass-seed",
+      "language": "en",
+      "text": "grass seed."
+    },
+    {
+      "file": "09-grass-seed-zh-raw.wav",
+      "word": "grass-seed",
+      "language": "zh",
+      "text": "名词，草籽。"
+    },
+    {
+      "file": "10-spray-en-raw.wav",
+      "word": "spray",
+      "language": "en",
+      "text": "spray."
+    },
+    {
+      "file": "10-spray-zh-raw.wav",
+      "word": "spray",
+      "language": "zh",
+      "text": "动词，喷撒。"
+    },
+    {
+      "file": "11-quantity-en-raw.wav",
+      "word": "quantity",
+      "language": "en",
+      "text": "quantity."
+    },
+    {
+      "file": "11-quantity-zh-raw.wav",
+      "word": "quantity",
+      "language": "zh",
+      "text": "名词，量。"
+    },
+    {
+      "file": "12-root-en-raw.wav",
+      "word": "root",
+      "language": "en",
+      "text": "root."
+    },
+    {
+      "file": "12-root-zh-raw.wav",
+      "word": "root",
+      "language": "zh",
+      "text": "名词，根。"
+    },
+    {
+      "file": "13-century-en-raw.wav",
+      "word": "century",
+      "language": "en",
+      "text": "century."
+    },
+    {
+      "file": "13-century-zh-raw.wav",
+      "word": "century",
+      "language": "zh",
+      "text": "名词，世纪。"
+    },
+    {
+      "file": "14-patch-en-raw.wav",
+      "word": "patch",
+      "language": "en",
+      "text": "patch."
+    },
+    {
+      "file": "14-patch-zh-raw.wav",
+      "word": "patch",
+      "language": "zh",
+      "text": "名词，小片。"
+    },
+    {
+      "file": "15-blacken-en-raw.wav",
+      "word": "blacken",
+      "language": "en",
+      "text": "blacken."
+    },
+    {
+      "file": "15-blacken-zh-raw.wav",
+      "word": "blacken",
+      "language": "zh",
+      "text": "动词，变黑，发暗。"
+    }
+  ]
+}

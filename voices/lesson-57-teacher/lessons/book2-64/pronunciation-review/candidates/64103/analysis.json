@@ -1,0 +1,139 @@
+[
+ {
+  "file": "02-port-en-raw.wav",
+  "word": "port",
+  "duration": 0.64,
+  "asr": "the port.",
+  "asr_strict": false,
+  "segments_2.5pct": [
+   [
+    0.01,
+    0.58
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.03
+   ],
+   [
+    0.1,
+    0.59
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.01,
+  "main_end": 0.58,
+  "pitch": {
+   "peak_hz": 289.2,
+   "peak_t": 0.23,
+   "tail_hz": 223.9,
+   "drop_st": 4.42,
+   "tail_delta_st": -5.73
+  },
+  "clip_peak": 0.18
+ },
+ {
+  "file": "07-ventilation-en-raw.wav",
+  "word": "ventilation",
+  "duration": 1.04,
+  "asr": "ventilation.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.1,
+    0.99
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.1,
+    1.0
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.1,
+  "main_end": 0.99,
+  "pitch": {
+   "peak_hz": 328.5,
+   "peak_t": 0.69,
+   "tail_hz": 308.2,
+   "drop_st": 1.1,
+   "tail_delta_st": -1.23
+  },
+  "clip_peak": 0.221
+ },
+ {
+  "file": "10-officially-en-raw.wav",
+  "word": "officially",
+  "duration": 1.12,
+  "asr": "officially.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.29,
+    1.05
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.02
+   ],
+   [
+    0.29,
+    1.06
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.01
+   ]
+  ],
+  "main_onset": 0.29,
+  "main_end": 1.05,
+  "pitch": {
+   "peak_hz": 380.4,
+   "peak_t": 0.58,
+   "tail_hz": 192.5,
+   "drop_st": 11.79,
+   "tail_delta_st": -2.58
+  },
+  "clip_peak": 0.121
+ },
+ {
+  "file": "11-connect-en-raw.wav",
+  "word": "connect",
+  "duration": 0.96,
+  "asr": "Connect.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.4,
+    0.9
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.4,
+    0.9
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.4,
+  "main_end": 0.9,
+  "pitch": {
+   "peak_hz": 224.2,
+   "peak_t": 0.76,
+   "tail_hz": 218.0,
+   "drop_st": 0.49,
+   "tail_delta_st": 0.83
+  },
+  "clip_peak": 0.127
+ }
+]

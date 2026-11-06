@@ -1,0 +1,89 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-circle-en-raw.wav",
+      "word": "circle",
+      "language": "en",
+      "text": "The noun: circle."
+    },
+    {
+      "file": "01-circle-zh-raw.wav",
+      "word": "circle",
+      "language": "zh",
+      "text": "名词，圈子。"
+    },
+    {
+      "file": "02-admire-en-raw.wav",
+      "word": "admire",
+      "language": "en",
+      "text": "The verb: admire."
+    },
+    {
+      "file": "02-admire-zh-raw.wav",
+      "word": "admire",
+      "language": "zh",
+      "text": "动词，赞美，钦佩。"
+    },
+    {
+      "file": "03-close-en-raw.wav",
+      "word": "close",
+      "language": "en",
+      "text": "The adjective: close."
+    },
+    {
+      "file": "03-close-zh-raw.wav",
+      "word": "close",
+      "language": "zh",
+      "text": "形容词，亲密的。"
+    },
+    {
+      "file": "04-wedding-en-raw.wav",
+      "word": "wedding",
+      "language": "en",
+      "text": "The noun: wedding."
+    },
+    {
+      "file": "04-wedding-zh-raw.wav",
+      "word": "wedding",
+      "language": "zh",
+      "text": "名词，婚礼。"
+    },
+    {
+      "file": "05-reception-en-raw.wav",
+      "word": "reception",
+      "language": "en",
+      "text": "reception."
+    },
+    {
+      "file": "05-reception-zh-raw.wav",
+      "word": "reception",
+      "language": "zh",
+      "text": "名词，招待会。"
+    },
+    {
+      "file": "06-sort-en-raw.wav",
+      "word": "sort",
+      "language": "en",
+      "text": "The noun: sort."
+    },
+    {
+      "file": "06-sort-zh-raw.wav",
+      "word": "sort",
+      "language": "zh",
+      "text": "名词，种类。"
+    }
+  ]
+}

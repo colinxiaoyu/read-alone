@@ -1,0 +1,172 @@
+{
+  "book": 2,
+  "lesson": 64,
+  "title": "The Channel Tunnel",
+  "voices": {
+    "english": "lesson-57-teacher",
+    "chinese": "lesson-57-teacher"
+  },
+  "voice_labels": {
+    "english": "老师音色慢读",
+    "chinese": "老师音色普通话"
+  },
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "words": [
+    {
+      "id": "book2-64-01",
+      "word": "tunnel",
+      "phonetic": "[ 'tʌnl ]",
+      "pos": "n.",
+      "meaning": "隧道",
+      "audio": {
+        "slow": "audio/book2/lesson-64/01-tunnel-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/01-tunnel-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/01-tunnel-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-02",
+      "word": "port",
+      "phonetic": "[ pɔ:t ]",
+      "pos": "n.",
+      "meaning": "港口",
+      "audio": {
+        "slow": "audio/book2/lesson-64/02-port-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/02-port-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/02-port-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-03",
+      "word": "ventilate",
+      "phonetic": "[ 'ventileit ]",
+      "pos": "v.",
+      "meaning": "通风",
+      "audio": {
+        "slow": "audio/book2/lesson-64/03-ventilate-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/03-ventilate-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/03-ventilate-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-04",
+      "word": "chimney",
+      "phonetic": "[ 'tʃimni ]",
+      "pos": "n.",
+      "meaning": "烟囱",
+      "audio": {
+        "slow": "audio/book2/lesson-64/04-chimney-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/04-chimney-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/04-chimney-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-05",
+      "word": "sea level",
+      "phonetic": "",
+      "pos": "n.",
+      "meaning": "海平面",
+      "audio": {
+        "slow": "audio/book2/lesson-64/05-sea-level-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/05-sea-level-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/05-sea-level-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-06",
+      "word": "double",
+      "phonetic": "[ 'dʌbəl ]",
+      "pos": "adj.",
+      "meaning": "双的",
+      "audio": {
+        "slow": "audio/book2/lesson-64/06-double-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/06-double-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/06-double-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-07",
+      "word": "ventilation",
+      "phonetic": "[ ˌventi'leiʃən ]",
+      "pos": "n.",
+      "meaning": "通风",
+      "audio": {
+        "slow": "audio/book2/lesson-64/07-ventilation-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/07-ventilation-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/07-ventilation-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-08",
+      "word": "fear",
+      "phonetic": "[ fiə ]",
+      "pos": "v.",
+      "meaning": "害怕",
+      "audio": {
+        "slow": "audio/book2/lesson-64/08-fear-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/08-fear-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/08-fear-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-09",
+      "word": "invasion",
+      "phonetic": "[ in'veiʒən ]",
+      "pos": "n.",
+      "meaning": "入侵，侵略",
+      "audio": {
+        "slow": "audio/book2/lesson-64/09-invasion-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/09-invasion-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/09-invasion-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-10",
+      "word": "officially",
+      "phonetic": "[ ə'fiʃəli ]",
+      "pos": "adv.",
+      "meaning": "正式地",
+      "audio": {
+        "slow": "audio/book2/lesson-64/10-officially-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/10-officially-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/10-officially-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-11",
+      "word": "connect",
+      "phonetic": "[ kə'nekt ]",
+      "pos": "v.",
+      "meaning": "连接",
+      "audio": {
+        "slow": "audio/book2/lesson-64/11-connect-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/11-connect-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/11-connect-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-12",
+      "word": "European",
+      "phonetic": "[ juərə'pi:ən ]",
+      "pos": "adj.",
+      "meaning": "欧洲的",
+      "audio": {
+        "slow": "audio/book2/lesson-64/12-european-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/12-european-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/12-european-teacher-meaning.wav"
+      }
+    },
+    {
+      "id": "book2-64-13",
+      "word": "continent",
+      "phonetic": "[ 'kɔntinənt ]",
+      "pos": "n.",
+      "meaning": "大陆",
+      "audio": {
+        "slow": "audio/book2/lesson-64/13-continent-teacher-slow.wav",
+        "normal": "audio/book2/lesson-64/13-continent-teacher-normal.wav",
+        "meaning": "audio/book2/lesson-64/13-continent-teacher-meaning.wav"
+      }
+    }
+  ]
+}

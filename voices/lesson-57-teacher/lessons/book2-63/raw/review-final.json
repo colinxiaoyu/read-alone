@@ -1,0 +1,333 @@
+{
+  "lesson": 63,
+  "mode": "final",
+  "method": "faster-whisper-/Users/colin/.cache/huggingface/hub/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "audio/book2/lesson-63/01-circle-teacher-slow.wav",
+      "word": "circle",
+      "language": "en",
+      "expected": "circle",
+      "recognized": "Circle.",
+      "word_timestamps": [
+        {
+          "word": " Circle.",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.6153200268745422
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-63/01-circle-teacher-meaning.wav",
+      "word": "circle",
+      "language": "zh",
+      "expected": "名词，圈子。",
+      "recognized": "名詞 圈子",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.8408127427101135
+        },
+        {
+          "word": "詞",
+          "start": 0.3,
+          "end": 0.78,
+          "probability": 0.8748731017112732
+        },
+        {
+          "word": " 圈",
+          "start": 1.08,
+          "end": 1.38,
+          "probability": 0.964169830083847
+        },
+        {
+          "word": "子",
+          "start": 1.38,
+          "end": 1.64,
+          "probability": 0.9051634669303894
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-63/02-admire-teacher-slow.wav",
+      "word": "admire",
+      "language": "en",
+      "expected": "admire",
+      "recognized": "Admire",
+      "word_timestamps": [
+        {
+          "word": " Admire",
+          "start": 0.0,
+          "end": 1.3,
+          "probability": 0.544412742058436
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-63/02-admire-teacher-meaning.wav",
+      "word": "admire",
+      "language": "zh",
+      "expected": "动词，赞美，钦佩。",
+      "recognized": "動詞讚美欽佩",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.5779426097869873
+        },
+        {
+          "word": "詞",
+          "start": 0.28,
+          "end": 0.76,
+          "probability": 0.9968031346797943
+        },
+        {
+          "word": "讚",
+          "start": 0.76,
+          "end": 1.22,
+          "probability": 0.8325464129447937
+        },
+        {
+          "word": "美",
+          "start": 1.22,
+          "end": 1.52,
+          "probability": 0.9995352029800415
+        },
+        {
+          "word": "欽",
+          "start": 1.52,
+          "end": 2.14,
+          "probability": 0.6411161571741104
+        },
+        {
+          "word": "佩",
+          "start": 2.14,
+          "end": 2.38,
+          "probability": 0.9860396981239319
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-63/03-close-teacher-slow.wav",
+      "word": "close",
+      "language": "en",
+      "expected": "close",
+      "recognized": "Close.",
+      "word_timestamps": [
+        {
+          "word": " Close.",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.5719130039215088
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-63/03-close-teacher-meaning.wav",
+      "word": "close",
+      "language": "zh",
+      "expected": "形容词，亲密的。",
+      "recognized": "形容詞 親密的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.9907410144805908
+        },
+        {
+          "word": "容",
+          "start": 0.36,
+          "end": 0.56,
+          "probability": 0.9986382126808167
+        },
+        {
+          "word": "詞",
+          "start": 0.56,
+          "end": 0.94,
+          "probability": 0.9246501326560974
+        },
+        {
+          "word": " 親",
+          "start": 1.32,
+          "end": 1.56,
+          "probability": 0.9270281195640564
+        },
+        {
+          "word": "密",
+          "start": 1.56,
+          "end": 1.9,
+          "probability": 0.9858856201171875
+        },
+        {
+          "word": "的",
+          "start": 1.9,
+          "end": 2.04,
+          "probability": 0.9251598715782166
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-63/04-wedding-teacher-slow.wav",
+      "word": "wedding",
+      "language": "en",
+      "expected": "wedding",
+      "recognized": "Wedding.",
+      "word_timestamps": [
+        {
+          "word": " Wedding.",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.7387982904911041
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-63/04-wedding-teacher-meaning.wav",
+      "word": "wedding",
+      "language": "zh",
+      "expected": "名词，婚礼。",
+      "recognized": "名詞婚禮",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.7307450771331787
+        },
+        {
+          "word": "詞",
+          "start": 0.34,
+          "end": 0.78,
+          "probability": 0.9420479536056519
+        },
+        {
+          "word": "婚",
+          "start": 0.78,
+          "end": 1.22,
+          "probability": 0.6196809560060501
+        },
+        {
+          "word": "禮",
+          "start": 1.22,
+          "end": 1.5,
+          "probability": 0.9716939628124237
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-63/05-reception-teacher-slow.wav",
+      "word": "reception",
+      "language": "en",
+      "expected": "reception",
+      "recognized": "Reception",
+      "word_timestamps": [
+        {
+          "word": " Reception",
+          "start": 0.0,
+          "end": 0.96,
+          "probability": 0.7917326092720032
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-63/05-reception-teacher-meaning.wav",
+      "word": "reception",
+      "language": "zh",
+      "expected": "名词，招待会。",
+      "recognized": "名詞招待會",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.6449859142303467
+        },
+        {
+          "word": "詞",
+          "start": 0.36,
+          "end": 0.8,
+          "probability": 0.9510862231254578
+        },
+        {
+          "word": "招",
+          "start": 0.8,
+          "end": 1.2,
+          "probability": 0.6620747745037079
+        },
+        {
+          "word": "待",
+          "start": 1.2,
+          "end": 1.36,
+          "probability": 0.9994564652442932
+        },
+        {
+          "word": "會",
+          "start": 1.36,
+          "end": 1.56,
+          "probability": 0.9941006302833557
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-63/06-sort-teacher-slow.wav",
+      "word": "sort",
+      "language": "en",
+      "expected": "sort",
+      "recognized": "Sort.",
+      "word_timestamps": [
+        {
+          "word": " Sort.",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.3562508225440979
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-63/06-sort-teacher-meaning.wav",
+      "word": "sort",
+      "language": "zh",
+      "expected": "名词，种类。",
+      "recognized": "名詞種類",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.8270589709281921
+        },
+        {
+          "word": "詞",
+          "start": 0.32,
+          "end": 0.82,
+          "probability": 0.9020911157131195
+        },
+        {
+          "word": "種",
+          "start": 0.82,
+          "end": 1.32,
+          "probability": 0.42232000827789307
+        },
+        {
+          "word": "類",
+          "start": 1.32,
+          "end": 1.64,
+          "probability": 0.9989305138587952
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {}
+}

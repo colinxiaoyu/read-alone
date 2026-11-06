@@ -1,0 +1,749 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-tunnel-en-raw.wav",
+      "word": "tunnel",
+      "language": "en",
+      "text": "tunnel."
+    },
+    {
+      "file": "01-tunnel-zh-raw.wav",
+      "word": "tunnel",
+      "language": "zh",
+      "text": "名词，隧道。"
+    },
+    {
+      "file": "02-port-en-raw.wav",
+      "word": "port",
+      "language": "en",
+      "text": "port.",
+      "seed": 64101
+    },
+    {
+      "file": "02-port-zh-raw.wav",
+      "word": "port",
+      "language": "zh",
+      "text": "名词，港口。"
+    },
+    {
+      "file": "03-ventilate-en-raw.wav",
+      "word": "ventilate",
+      "language": "en",
+      "text": "ventilate."
+    },
+    {
+      "file": "03-ventilate-zh-raw.wav",
+      "word": "ventilate",
+      "language": "zh",
+      "text": "动词，通风。"
+    },
+    {
+      "file": "04-chimney-en-raw.wav",
+      "word": "chimney",
+      "language": "en",
+      "text": "chimney."
+    },
+    {
+      "file": "04-chimney-zh-raw.wav",
+      "word": "chimney",
+      "language": "zh",
+      "text": "名词，烟囱。"
+    },
+    {
+      "file": "05-sea-level-en-raw.wav",
+      "word": "sea level",
+      "language": "en",
+      "text": "sea level.",
+      "seed": 64102
+    },
+    {
+      "file": "05-sea-level-zh-raw.wav",
+      "word": "sea level",
+      "language": "zh",
+      "text": "名词，海平面。"
+    },
+    {
+      "file": "06-double-en-raw.wav",
+      "word": "double",
+      "language": "en",
+      "text": "double."
+    },
+    {
+      "file": "06-double-zh-raw.wav",
+      "word": "double",
+      "language": "zh",
+      "text": "形容词，双的。"
+    },
+    {
+      "file": "07-ventilation-en-raw.wav",
+      "word": "ventilation",
+      "language": "en",
+      "text": "ventilation.",
+      "seed": 64101
+    },
+    {
+      "file": "07-ventilation-zh-raw.wav",
+      "word": "ventilation",
+      "language": "zh",
+      "text": "名词，通风。"
+    },
+    {
+      "file": "08-fear-en-raw.wav",
+      "word": "fear",
+      "language": "en",
+      "text": "fear."
+    },
+    {
+      "file": "08-fear-zh-raw.wav",
+      "word": "fear",
+      "language": "zh",
+      "text": "动词，害怕。"
+    },
+    {
+      "file": "09-invasion-en-raw.wav",
+      "word": "invasion",
+      "language": "en",
+      "text": "invasion."
+    },
+    {
+      "file": "09-invasion-zh-raw.wav",
+      "word": "invasion",
+      "language": "zh",
+      "text": "名词，入侵，侵略。"
+    },
+    {
+      "file": "10-officially-en-raw.wav",
+      "word": "officially",
+      "language": "en",
+      "text": "officially.",
+      "seed": 64101
+    },
+    {
+      "file": "10-officially-zh-raw.wav",
+      "word": "officially",
+      "language": "zh",
+      "text": "副词，正式地。"
+    },
+    {
+      "file": "11-connect-en-raw.wav",
+      "word": "connect",
+      "language": "en",
+      "text": "connect.",
+      "seed": 64102
+    },
+    {
+      "file": "11-connect-zh-raw.wav",
+      "word": "connect",
+      "language": "zh",
+      "text": "动词，连接。"
+    },
+    {
+      "file": "12-european-en-raw.wav",
+      "word": "European",
+      "language": "en",
+      "text": "European."
+    },
+    {
+      "file": "12-european-zh-raw.wav",
+      "word": "European",
+      "language": "zh",
+      "text": "形容词，欧洲的。"
+    },
+    {
+      "file": "13-continent-en-raw.wav",
+      "word": "continent",
+      "language": "en",
+      "text": "continent."
+    },
+    {
+      "file": "13-continent-zh-raw.wav",
+      "word": "continent",
+      "language": "zh",
+      "text": "名词，大陆。"
+    }
+  ],
+  "license": "Apache-2.0 (model); MIT (MLX Audio)",
+  "runtime": "mlx-audio==0.6.3",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "synthesis": {
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "max_tokens": 192,
+    "seed_rule": "lesson_number * 100 + request_index; English then Chinese per word",
+    "seed_base": 6400
+  },
+  "processing": {
+    "english_speeds": [
+      0.72,
+      0.86
+    ],
+    "preserve_pitch": true,
+    "gap_seconds": 2.2,
+    "edge_fade_seconds": 0.004
+  },
+  "clips": [
+    {
+      "file": "audio/book2/lesson-64/01-tunnel-teacher-slow.wav",
+      "text": "tunnel",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.103,
+      "sha256": "daa7a742985a82328d6fd4e7453d1fa03a8f30822d98baddba71bbb427a3b00c",
+      "synthesis_text": "tunnel.",
+      "raw_sha256": "340a8a5d130e055c279b2b4714ad825862d251d881aeefb0244d766df3ec9348",
+      "word_interval": [
+        0.25,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/01-tunnel-teacher-normal.wav",
+      "text": "tunnel",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.927,
+      "sha256": "2926ac4b7fdd8a34461d45a3c10155009d4167f831c038cfcfff04db6d9d21f5",
+      "synthesis_text": "tunnel.",
+      "raw_sha256": "340a8a5d130e055c279b2b4714ad825862d251d881aeefb0244d766df3ec9348",
+      "word_interval": [
+        0.25,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/01-tunnel-teacher-meaning.wav",
+      "text": "名词，隧道。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.759,
+      "sha256": "a8d89ecea07d950c2c2052319a9140bdbe4c33c65c1b9c33b3ee303198aa5a34",
+      "synthesis_text": "名词，隧道。",
+      "raw_sha256": "c96692112f46265f353d78874d3790af6b19b3a5f2143b025ea6447f9dbf66e5",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/02-port-teacher-slow.wav",
+      "text": "port",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.103,
+      "sha256": "814601707023f9164a6e9836fc8dca06046ebdf44e69390a3cc8989ac7765b48",
+      "synthesis_text": "port.",
+      "raw_sha256": "6ef45aa552babc0547dc687a2e8dae56d22dde80e42bf17e930d24f7b5af32f3",
+      "word_interval": [
+        0.17,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/02-port-teacher-normal.wav",
+      "text": "port",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.927,
+      "sha256": "5dd30394e73334bbfcb53cda86d72f27dcc16ac397962dedbec4313efd4c1eb7",
+      "synthesis_text": "port.",
+      "raw_sha256": "6ef45aa552babc0547dc687a2e8dae56d22dde80e42bf17e930d24f7b5af32f3",
+      "word_interval": [
+        0.17,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/02-port-teacher-meaning.wav",
+      "text": "名词，港口。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.859,
+      "sha256": "c0abf617be44dd49c07e0d7789d7acc17e4c1c10bb78dda0aeaa2ca67f1952eb",
+      "synthesis_text": "名词，港口。",
+      "raw_sha256": "fe2533ded17cb97db81c75be6289fb3deca86097bff8dcfd35b4c9f7115fabd7",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/03-ventilate-teacher-slow.wav",
+      "text": "ventilate",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.649,
+      "sha256": "1ae657bae3ef879b612ac1a809009855198ac9a13fdce3adf5281cf0b95aff3b",
+      "synthesis_text": "ventilate.",
+      "raw_sha256": "2f3756848817269698644de15c87467f99eac8b54af3f49bbc0249ef9ae87f1c",
+      "word_interval": [
+        0.03,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/03-ventilate-teacher-normal.wav",
+      "text": "ventilate",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.38,
+      "sha256": "7dc4a2026ff393ee35d528ce2cc0d508b883522df156a6244de3e05a9d51e810",
+      "synthesis_text": "ventilate.",
+      "raw_sha256": "2f3756848817269698644de15c87467f99eac8b54af3f49bbc0249ef9ae87f1c",
+      "word_interval": [
+        0.03,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/03-ventilate-teacher-meaning.wav",
+      "text": "动词，通风。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.459,
+      "sha256": "e87c038b760bc4718aa4abf6d6b167cd2105cc3a96b6ea9b630ceccbd5d43150",
+      "synthesis_text": "动词，通风。",
+      "raw_sha256": "5030db3bf7524c32ae7ba5399768bafb19de3b2ac98dc596c8028edd344a613a",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/04-chimney-teacher-slow.wav",
+      "text": "chimney",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.229,
+      "sha256": "b4276c0e83b114d6988d57dc305efb8f80ade147d60b6fe6b8a51e9690ff3895",
+      "synthesis_text": "chimney.",
+      "raw_sha256": "d2fc59594fb0a60159f3c32c2d85a5df70b44349b1bf87fb2df7b882a2ecdaee",
+      "word_interval": [
+        0.4,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/04-chimney-teacher-normal.wav",
+      "text": "chimney",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.032,
+      "sha256": "1e1e6a0932f72c1ace548e322e18ed18f7953bc6fe77d58c8d03f7e5091456d2",
+      "synthesis_text": "chimney.",
+      "raw_sha256": "d2fc59594fb0a60159f3c32c2d85a5df70b44349b1bf87fb2df7b882a2ecdaee",
+      "word_interval": [
+        0.4,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/04-chimney-teacher-meaning.wav",
+      "text": "名词，烟囱。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.619,
+      "sha256": "4d115d67e0c284e8729ab5bcc3764c256ffe53752d5edabcd1e8470ab9e1bf36",
+      "synthesis_text": "名词，烟囱。",
+      "raw_sha256": "5de180a8bbe2ce87fb61da020234e7638733afd1ef7f9bcd2648721cbbe9a4c2",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/05-sea-level-teacher-slow.wav",
+      "text": "sea level",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.481,
+      "sha256": "ebe00baa1fc688cc40f10934d9e45c84ec8a05409f238f1dc19457160cc1f052",
+      "synthesis_text": "sea level.",
+      "raw_sha256": "0fd94598f3ea11767b88fe708892b3d53ccc328f5bdc3231f27c7ceea45b702c",
+      "word_interval": [
+        0.07,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/05-sea-level-teacher-normal.wav",
+      "text": "sea level",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.242,
+      "sha256": "66cf64b6dd3fcf3d45e64608a3f2cac992d3d01769b8470961d13b12c98246f8",
+      "synthesis_text": "sea level.",
+      "raw_sha256": "0fd94598f3ea11767b88fe708892b3d53ccc328f5bdc3231f27c7ceea45b702c",
+      "word_interval": [
+        0.07,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/05-sea-level-teacher-meaning.wav",
+      "text": "名词，海平面。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.919,
+      "sha256": "2a3f4ca6a882ddff8d8076d000fedd2298c6963c3b442f418e96e01dff322c7c",
+      "synthesis_text": "名词，海平面。",
+      "raw_sha256": "604416089eabdc3925c5b961f29ff2d5a6c50e1d431274b7dcb1906fa4d1757c",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/06-double-teacher-slow.wav",
+      "text": "double",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.061,
+      "sha256": "941b5d3288b0ec4873c465c9067cc5a2ee8879067c12ebed773673fca6c7b2ef",
+      "synthesis_text": "double.",
+      "raw_sha256": "50b54de6d8d513c7e72aa56eb049cf22eb580dfc1f4c0038ae64e205f22b675a",
+      "word_interval": [
+        0.44,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/06-double-teacher-normal.wav",
+      "text": "double",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.891,
+      "sha256": "cce26d417622fd07a3a69468182fc34e4112c534beecb178e222925e75f4515d",
+      "synthesis_text": "double.",
+      "raw_sha256": "50b54de6d8d513c7e72aa56eb049cf22eb580dfc1f4c0038ae64e205f22b675a",
+      "word_interval": [
+        0.44,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/06-double-teacher-meaning.wav",
+      "text": "形容词，双的。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.079,
+      "sha256": "cb02d3855eeb47cf72646b281fcb1599d20817fb224d13bea228fc24be7c8b00",
+      "synthesis_text": "形容词，双的。",
+      "raw_sha256": "941f166323a694df2368a5a43a0a915d0fd0de2483445b8f5c2f0ea54d93a8c7",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/07-ventilation-teacher-slow.wav",
+      "text": "ventilation",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.533,
+      "sha256": "e9af90a2b5d12ab85fbce73870a019859b655aefe29a7c5618e356a97fc91237",
+      "synthesis_text": "ventilation.",
+      "raw_sha256": "0e134ef12e707daefae46b950713c7889b9f93ace61a837d48d1f72d4f8c796f",
+      "word_interval": [
+        0.03,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/07-ventilation-teacher-normal.wav",
+      "text": "ventilation",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.288,
+      "sha256": "f3e1ff98e45cc09022861f04aad05050bec34c05f3a0d77fda99c5315870af01",
+      "synthesis_text": "ventilation.",
+      "raw_sha256": "0e134ef12e707daefae46b950713c7889b9f93ace61a837d48d1f72d4f8c796f",
+      "word_interval": [
+        0.03,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/07-ventilation-teacher-meaning.wav",
+      "text": "名词，通风。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.689,
+      "sha256": "074d63202b0b7687824461f5b4f1d0c78d26d881cfc59a9266750ce6f2431920",
+      "synthesis_text": "名词，通风。",
+      "raw_sha256": "53764630ef030f4cce3573a57d38bede98214e28b12f6c9aa351a70d031e384c",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/08-fear-teacher-slow.wav",
+      "text": "fear",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.255,
+      "sha256": "156227c1cc47d9bc3ced3cee687bddaa4f946aae9ce10d4257dc994cfc95a9f8",
+      "synthesis_text": "fear.",
+      "raw_sha256": "aaeaae05a7e49207394db82af8c28d29fcf8bd5ef93d2e53326a8233d57bc735",
+      "word_interval": [
+        0.04,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/08-fear-teacher-normal.wav",
+      "text": "fear",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.055,
+      "sha256": "316f0b3b5766cff928e017d4eb2fe25f0e9f6fecccc690b8c25f9fcf7d5a71b2",
+      "synthesis_text": "fear.",
+      "raw_sha256": "aaeaae05a7e49207394db82af8c28d29fcf8bd5ef93d2e53326a8233d57bc735",
+      "word_interval": [
+        0.04,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/08-fear-teacher-meaning.wav",
+      "text": "动词，害怕。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.619,
+      "sha256": "046ae988bb15e3a658973c38206856e7ffbc8d8545284f8d3c1f6bab4009381d",
+      "synthesis_text": "动词，害怕。",
+      "raw_sha256": "bbee36ff48317d3fe70db3d16f07af74d90e10b4d0380a1fe066721f1415d5e8",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/09-invasion-teacher-slow.wav",
+      "text": "invasion",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.339,
+      "sha256": "4e988ce75153b8ea4402cc2077ebc8ad2f7f8226300ee10caf0df9943549b964",
+      "synthesis_text": "invasion.",
+      "raw_sha256": "a28ae717bc58ca085b033c8ddfae36eb035983515bf60b9676caa496108c829d",
+      "word_interval": [
+        0.24,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/09-invasion-teacher-normal.wav",
+      "text": "invasion",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.124,
+      "sha256": "75c8cff8f4a78b82ef430cd6019a0ecfd53fb5ebde426d1c57e4c5ed9062fb4a",
+      "synthesis_text": "invasion.",
+      "raw_sha256": "a28ae717bc58ca085b033c8ddfae36eb035983515bf60b9676caa496108c829d",
+      "word_interval": [
+        0.24,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/09-invasion-teacher-meaning.wav",
+      "text": "名词，入侵，侵略。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.739,
+      "sha256": "a34269e1a4aab9295c75a85c49ad624068c964054428d593bbe021511afa8603",
+      "synthesis_text": "名词，入侵，侵略。",
+      "raw_sha256": "69c9a34394e6ffba47ec1e0f65d1a522c406bb1a9e0a3733aa99f035d9132145",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/10-officially-teacher-slow.wav",
+      "text": "officially",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.491,
+      "sha256": "7b7cc3df3e63c190f81a35be970d445b1ef828ff5e19e13256540bd8a138f8d7",
+      "synthesis_text": "officially.",
+      "raw_sha256": "84ca4e1e8f4955c750d82336bb28371515471a88d927bf4f75b86a3e1e0af708",
+      "word_interval": [
+        0.13,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/10-officially-teacher-normal.wav",
+      "text": "officially",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.252,
+      "sha256": "13db0ca77f8d7a67bc975e8f463cdffc89201e55dc2f9586ce9b43fa8a3a5f41",
+      "synthesis_text": "officially.",
+      "raw_sha256": "84ca4e1e8f4955c750d82336bb28371515471a88d927bf4f75b86a3e1e0af708",
+      "word_interval": [
+        0.13,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/10-officially-teacher-meaning.wav",
+      "text": "副词，正式地。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.099,
+      "sha256": "69aeae341ab7fd7bbc30379edd2c10069181c582b11cff8bc0c4735eb0b85fa4",
+      "synthesis_text": "副词，正式地。",
+      "raw_sha256": "c235fbfc2ec720a58dd01bb2eccdcb9bd3ef9a212af8492cfba4eb0b1e513e0c",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/11-connect-teacher-slow.wav",
+      "text": "connect",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.145,
+      "sha256": "864e73ce6cee17a8c7f57ad030c8831292a091cbc8733cbb7dfe07f2eecc71af",
+      "synthesis_text": "connect.",
+      "raw_sha256": "8d44f048728b6783a8d2574fff25a8acc7886ba96715c6163116cc861982fb57",
+      "word_interval": [
+        0.07,
+        0.72
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/11-connect-teacher-normal.wav",
+      "text": "connect",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.963,
+      "sha256": "86b7d56ca37d83036789b363587b29e8d45bdce41c0d9d30e2e9887f2dd5327c",
+      "synthesis_text": "connect.",
+      "raw_sha256": "8d44f048728b6783a8d2574fff25a8acc7886ba96715c6163116cc861982fb57",
+      "word_interval": [
+        0.07,
+        0.72
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/11-connect-teacher-meaning.wav",
+      "text": "动词，连接。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.619,
+      "sha256": "f3262ad8dceeee94ab0d1bd2792c88b356a2003869c000cf0787f99f3ab286fd",
+      "synthesis_text": "动词，连接。",
+      "raw_sha256": "0eb9a59dcf627799fa81e368f42d8146df9b71a0aab7cc6290d8d785c7159fc6",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/12-european-teacher-slow.wav",
+      "text": "European",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.287,
+      "sha256": "12b0c50fdef60f501bea14279514432f83f3748a2b4fdac99e7f312eec4ef5c0",
+      "synthesis_text": "European.",
+      "raw_sha256": "e6fbd9baee662174e398f5a9c2dd2b54435abf7f662c6bba8f597328bac6fb5e",
+      "word_interval": [
+        0.2,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/12-european-teacher-normal.wav",
+      "text": "European",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.078,
+      "sha256": "a1564c3a8170cd097a1531cc339226d2262b9e070b05bd9046fc39d6e0d6114e",
+      "synthesis_text": "European.",
+      "raw_sha256": "e6fbd9baee662174e398f5a9c2dd2b54435abf7f662c6bba8f597328bac6fb5e",
+      "word_interval": [
+        0.2,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/12-european-teacher-meaning.wav",
+      "text": "形容词，欧洲的。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.989,
+      "sha256": "1299291ba0ba8c39333cf00f334baa18b71e2d737556bb053dd5d2498494c311",
+      "synthesis_text": "形容词，欧洲的。",
+      "raw_sha256": "5fb110b58bb1240dc5b4690cb5523861f87f3ffeb372a82fdebbc25f3d22d5ea",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-64/13-continent-teacher-slow.wav",
+      "text": "continent",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.397,
+      "sha256": "8c1e923e7a1143a764e223202cd083256c4c4c656cac88f58434a4aa3145440d",
+      "synthesis_text": "continent.",
+      "raw_sha256": "0228e6eafbf4fc084a001aee4278db8628a2b936a1411707d2e6bd2c613105f4",
+      "word_interval": [
+        0.2,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/13-continent-teacher-normal.wav",
+      "text": "continent",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.17,
+      "sha256": "d8bd217675923975d539d072ff0f454beeb30815f7a61c0ae6104d43078f1884",
+      "synthesis_text": "continent.",
+      "raw_sha256": "0228e6eafbf4fc084a001aee4278db8628a2b936a1411707d2e6bd2c613105f4",
+      "word_interval": [
+        0.2,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/13-continent-teacher-meaning.wav",
+      "text": "名词，大陆。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.739,
+      "sha256": "e460b55c7a49a5c713bccfc4d5f0ff336ce7dc0f9c34173305d7b47257749c07",
+      "synthesis_text": "名词，大陆。",
+      "raw_sha256": "16cc09985aad7a87a5d47640b70837e329b2feaaa8ca820302510fc7615c37bd",
+      "word_interval": null
+    }
+  ],
+  "full_audio": {
+    "file": "audio/book2/lesson-64/lesson-64-full.wav",
+    "sha256": "3c730bb218455d0b57f94c62bebfde258e1ce7eb18afc3f15077a67e96207046"
+  }
+}

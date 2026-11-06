@@ -1,0 +1,852 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-control-en-raw.wav",
+      "word": "control",
+      "language": "en",
+      "text": "control."
+    },
+    {
+      "file": "01-control-zh-raw.wav",
+      "word": "control",
+      "language": "zh",
+      "text": "名词，控制。"
+    },
+    {
+      "file": "02-smoke-en-raw.wav",
+      "word": "smoke",
+      "language": "en",
+      "text": "The noun: smoke."
+    },
+    {
+      "file": "02-smoke-zh-raw.wav",
+      "word": "smoke",
+      "language": "zh",
+      "text": "名词，烟。"
+    },
+    {
+      "file": "03-desolate-en-raw.wav",
+      "word": "desolate",
+      "language": "en",
+      "text": "The adjective: desolate."
+    },
+    {
+      "file": "03-desolate-zh-raw.wav",
+      "word": "desolate",
+      "language": "zh",
+      "text": "形容词，荒凉的。"
+    },
+    {
+      "file": "04-threaten-en-raw.wav",
+      "word": "threaten",
+      "language": "en",
+      "text": "threaten."
+    },
+    {
+      "file": "04-threaten-zh-raw.wav",
+      "word": "threaten",
+      "language": "zh",
+      "text": "动词，威胁。"
+    },
+    {
+      "file": "05-surrounding-en-raw.wav",
+      "word": "surrounding",
+      "language": "en",
+      "text": "surrounding."
+    },
+    {
+      "file": "05-surrounding-zh-raw.wav",
+      "word": "surrounding",
+      "language": "zh",
+      "text": "形容词，周围的。"
+    },
+    {
+      "file": "06-destruction-en-raw.wav",
+      "word": "destruction",
+      "language": "en",
+      "text": "destruction."
+    },
+    {
+      "file": "06-destruction-zh-raw.wav",
+      "word": "destruction",
+      "language": "zh",
+      "text": "名词，破坏，毁灭。"
+    },
+    {
+      "file": "07-flood-en-raw.wav",
+      "word": "flood",
+      "language": "en",
+      "text": "flood."
+    },
+    {
+      "file": "07-flood-zh-raw.wav",
+      "word": "flood",
+      "language": "zh",
+      "text": "名词，洪水，水灾。"
+    },
+    {
+      "file": "08-authority-en-raw.wav",
+      "word": "authority",
+      "language": "en",
+      "text": "authority."
+    },
+    {
+      "file": "08-authority-zh-raw.wav",
+      "word": "authority",
+      "language": "zh",
+      "text": "名词，(常用复数)当局。"
+    },
+    {
+      "file": "09-grass-seed-en-raw.wav",
+      "word": "grass-seed",
+      "language": "en",
+      "text": "grass seed."
+    },
+    {
+      "file": "09-grass-seed-zh-raw.wav",
+      "word": "grass-seed",
+      "language": "zh",
+      "text": "名词，草籽。"
+    },
+    {
+      "file": "10-spray-en-raw.wav",
+      "word": "spray",
+      "language": "en",
+      "text": "spray."
+    },
+    {
+      "file": "10-spray-zh-raw.wav",
+      "word": "spray",
+      "language": "zh",
+      "text": "动词，喷撒。"
+    },
+    {
+      "file": "11-quantity-en-raw.wav",
+      "word": "quantity",
+      "language": "en",
+      "text": "quantity."
+    },
+    {
+      "file": "11-quantity-zh-raw.wav",
+      "word": "quantity",
+      "language": "zh",
+      "text": "名词，量。"
+    },
+    {
+      "file": "12-root-en-raw.wav",
+      "word": "root",
+      "language": "en",
+      "text": "root."
+    },
+    {
+      "file": "12-root-zh-raw.wav",
+      "word": "root",
+      "language": "zh",
+      "text": "名词，根。"
+    },
+    {
+      "file": "13-century-en-raw.wav",
+      "word": "century",
+      "language": "en",
+      "text": "century."
+    },
+    {
+      "file": "13-century-zh-raw.wav",
+      "word": "century",
+      "language": "zh",
+      "text": "名词，世纪。"
+    },
+    {
+      "file": "14-patch-en-raw.wav",
+      "word": "patch",
+      "language": "en",
+      "text": "patch."
+    },
+    {
+      "file": "14-patch-zh-raw.wav",
+      "word": "patch",
+      "language": "zh",
+      "text": "名词，小片。"
+    },
+    {
+      "file": "15-blacken-en-raw.wav",
+      "word": "blacken",
+      "language": "en",
+      "text": "blacken."
+    },
+    {
+      "file": "15-blacken-zh-raw.wav",
+      "word": "blacken",
+      "language": "zh",
+      "text": "动词，变黑，发暗。"
+    }
+  ],
+  "license": "Apache-2.0 (model); MIT (MLX Audio)",
+  "runtime": "mlx-audio==0.6.3",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "synthesis": {
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "max_tokens": 192,
+    "seed_rule": "lesson_number * 100 + request_index; English then Chinese per word",
+    "seed_base": 6200
+  },
+  "processing": {
+    "english_speeds": [
+      0.72,
+      0.86
+    ],
+    "preserve_pitch": true,
+    "gap_seconds": 2.2,
+    "edge_fade_seconds": 0.004
+  },
+  "clips": [
+    {
+      "file": "audio/book2/lesson-62/01-control-teacher-slow.wav",
+      "text": "control",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.255,
+      "sha256": "5eae2864b91d0e0c0b2f3a410395b792d1e782fcdc822dcd15e168d7e0c5618c",
+      "synthesis_text": "control.",
+      "raw_sha256": "63cb0076ae094c98f1aed56014dd42c31135a7190b50b3346b827b54a8f345ec",
+      "word_interval": [
+        0,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/01-control-teacher-normal.wav",
+      "text": "control",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.055,
+      "sha256": "5d8d267b4d62168603a6d9f4b83634b8cda287643662d9bfc8e9b78445527a5e",
+      "synthesis_text": "control.",
+      "raw_sha256": "63cb0076ae094c98f1aed56014dd42c31135a7190b50b3346b827b54a8f345ec",
+      "word_interval": [
+        0,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/01-control-teacher-meaning.wav",
+      "text": "名词，控制。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.929,
+      "sha256": "6682aa70f8c8070f9e08c6b3c685ba52b7ab8f0340c49be3cf0b97173eb973a7",
+      "synthesis_text": "名词，控制。",
+      "raw_sha256": "0b1b2c75910621cc675b0af81e69b53eb71c0b1365f79f33c9f72f91a8b510de",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/02-smoke-teacher-slow.wav",
+      "text": "smoke",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.161,
+      "sha256": "9dea7eb9bf8b797b83c4977d405e956c61edbb81b135d9314b06f3bcada6029b",
+      "synthesis_text": "The noun: smoke.",
+      "raw_sha256": "b118fd5f5b0fe4950dcdeaa490b574f22fe225907af80d54ca99f3b418a8a021",
+      "word_interval": [
+        0.94,
+        1.6
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/02-smoke-teacher-normal.wav",
+      "text": "smoke",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.973,
+      "sha256": "856420ff7db32354db1ccdba1f7f13fe2af92a74313d5e9a4222b343cf8f7a4d",
+      "synthesis_text": "The noun: smoke.",
+      "raw_sha256": "b118fd5f5b0fe4950dcdeaa490b574f22fe225907af80d54ca99f3b418a8a021",
+      "word_interval": [
+        0.94,
+        1.6
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/02-smoke-teacher-meaning.wav",
+      "text": "名词，烟。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.769,
+      "sha256": "e9f14d7145778b8de9fd8849675a977cce54c45d6c98b4f4a44297c78e0d2a1a",
+      "synthesis_text": "名词，烟。",
+      "raw_sha256": "f94be9731d656d3e26897b8e32831da203ad28403ad66230991f5a27f16cd95b",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/03-desolate-teacher-slow.wav",
+      "text": "desolate",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.617,
+      "sha256": "6e4b9073dbf45d8f5cfc7f14a668eefa2b05c9ef9c74db3d060a4f1c9050ca30",
+      "synthesis_text": "The adjective: desolate.",
+      "raw_sha256": "71525eb1c410ace8bec308a7ced15efeb7c2029d9c5f092e571e0176d052aea4",
+      "word_interval": [
+        1.44,
+        2.56
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/03-desolate-teacher-normal.wav",
+      "text": "desolate",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.357,
+      "sha256": "508e31afe8937eeeafb5eb980776d664125b3c7903be3a7f2b8fa6667faaf8c5",
+      "synthesis_text": "The adjective: desolate.",
+      "raw_sha256": "71525eb1c410ace8bec308a7ced15efeb7c2029d9c5f092e571e0176d052aea4",
+      "word_interval": [
+        1.44,
+        2.56
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/03-desolate-teacher-meaning.wav",
+      "text": "形容词，荒凉的。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.179,
+      "sha256": "b959ff65e6197e276912b2bed5e1dec6c432f00136c5712135421f5b537adf34",
+      "synthesis_text": "形容词，荒凉的。",
+      "raw_sha256": "020a27800797dbd1dafb4c5927b3bc5c3a2fa49f6e9274b46ac6eb80cb1fc069",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/04-threaten-teacher-slow.wav",
+      "text": "threaten",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.685,
+      "sha256": "7da787a90d1f7d39e927c676a30c712186a29f2c87376a4c6bd3e7796583329e",
+      "synthesis_text": "threaten.",
+      "raw_sha256": "de0f76609a5433fa0be7f1d60ddaaeb9e2ba10b497399ad89de8c5f455fbe431",
+      "word_interval": [
+        0,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/04-threaten-teacher-normal.wav",
+      "text": "threaten",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.416,
+      "sha256": "c4b039f06b2f731bf2ce097be2c95cae67ad33b4c1477ce2fcf9ce388fbad293",
+      "synthesis_text": "threaten.",
+      "raw_sha256": "de0f76609a5433fa0be7f1d60ddaaeb9e2ba10b497399ad89de8c5f455fbe431",
+      "word_interval": [
+        0,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/04-threaten-teacher-meaning.wav",
+      "text": "动词，威胁。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.939,
+      "sha256": "e258a2dcca62ccc75d77db654ee5afc285b2bdda6ddd3ec81d695645a8e7a266",
+      "synthesis_text": "动词，威胁。",
+      "raw_sha256": "8050a0ffd2c085d9e0e6217dc7296184e81482913adfd05a0d481243bc8f5bb8",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/05-surrounding-teacher-slow.wav",
+      "text": "surrounding",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.8,
+      "sha256": "ae0a97799626d271d22a5b4b56ccefbb972b23788d35b174d1e2b239a3bdf00f",
+      "synthesis_text": "surrounding.",
+      "raw_sha256": "6a3fa9fa3e58aaf9ac251e86a73dd9d5f6bef1cc7e2d4d8997cf8ba14aef03c2",
+      "word_interval": [
+        0,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/05-surrounding-teacher-normal.wav",
+      "text": "surrounding",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.508,
+      "sha256": "99ddbf4a5f5e2627ea6f6b5f009aec460e90efcc015888afbc31265dce410c4c",
+      "synthesis_text": "surrounding.",
+      "raw_sha256": "6a3fa9fa3e58aaf9ac251e86a73dd9d5f6bef1cc7e2d4d8997cf8ba14aef03c2",
+      "word_interval": [
+        0,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/05-surrounding-teacher-meaning.wav",
+      "text": "形容词，周围的。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.099,
+      "sha256": "32b7244c8378fe1d95765fd9c743b100ae3222a8239d4f5a60ba358cd9a4cb7b",
+      "synthesis_text": "形容词，周围的。",
+      "raw_sha256": "1d449b178db5e863954d2d1862825e25b7df19e3b484bf95139e82189c70d6f2",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/06-destruction-teacher-slow.wav",
+      "text": "destruction",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.481,
+      "sha256": "54e620a662edbc2ac1b38ad7ba52a845a16bceffb1c03c462a84e525d93e2d12",
+      "synthesis_text": "destruction.",
+      "raw_sha256": "f59b164b9638d3cde9eecd8df907bb1242d2be7fb9fc6e558c6351e538bde91f",
+      "word_interval": [
+        0,
+        1.2
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/06-destruction-teacher-normal.wav",
+      "text": "destruction",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.242,
+      "sha256": "6b40d2cf299760f57dd3ad4323283ea7012e965150f6056d21cdf0cdf97cfa98",
+      "synthesis_text": "destruction.",
+      "raw_sha256": "f59b164b9638d3cde9eecd8df907bb1242d2be7fb9fc6e558c6351e538bde91f",
+      "word_interval": [
+        0,
+        1.2
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/06-destruction-teacher-meaning.wav",
+      "text": "名词，破坏，毁灭。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.659,
+      "sha256": "05058215f3a1ccd212fd3b64b8ccf4beeab2ad5162037952bd553badd13b7296",
+      "synthesis_text": "名词，破坏，毁灭。",
+      "raw_sha256": "b8a3bae9f4be8dbc80cd0c0535eb579f110d63f431dabc27858fc19881d8bf52",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/07-flood-teacher-slow.wav",
+      "text": "flood",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.229,
+      "sha256": "ef86a235d1e6ae95d5a1d10a10876fbd270b242b83b6f5fb48d61aaa4aab158d",
+      "synthesis_text": "flood.",
+      "raw_sha256": "55ff3c8daf6e640f4212bd30bddb517cdde455e60f4aa193aa541c0815916104",
+      "word_interval": [
+        0,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/07-flood-teacher-normal.wav",
+      "text": "flood",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.032,
+      "sha256": "70aecc67edf6f20e1e3bff56e211c30c06a58ce627f926907856a3f82b965b02",
+      "synthesis_text": "flood.",
+      "raw_sha256": "55ff3c8daf6e640f4212bd30bddb517cdde455e60f4aa193aa541c0815916104",
+      "word_interval": [
+        0,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/07-flood-teacher-meaning.wav",
+      "text": "名词，洪水，水灾。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.899,
+      "sha256": "da6249b52d45dd26a1075ba73ee21554ff986cec4bd714ff805702905be725a8",
+      "synthesis_text": "名词，洪水，水灾。",
+      "raw_sha256": "1a719b0865c70df69c580201b399eafa63eb80fcff777e0f563ef087fc616d39",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/08-authority-teacher-slow.wav",
+      "text": "authority",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.491,
+      "sha256": "27372b9d68af92b78b1ba210d9faae9de9c5ad70e3170bb646463c121283a983",
+      "synthesis_text": "authority.",
+      "raw_sha256": "408cc44cb26f477e0f73f2ec23b800f64193f26b6141f1f18c28fd31b40059b5",
+      "word_interval": [
+        0,
+        1.28
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/08-authority-teacher-normal.wav",
+      "text": "authority",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.252,
+      "sha256": "28a4112c366bc06a3d3652cc0782892bb8ded87e70b0ffca5ea54d19ac3b0d92",
+      "synthesis_text": "authority.",
+      "raw_sha256": "408cc44cb26f477e0f73f2ec23b800f64193f26b6141f1f18c28fd31b40059b5",
+      "word_interval": [
+        0,
+        1.28
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/08-authority-teacher-meaning.wav",
+      "text": "名词，(常用复数)当局。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.899,
+      "sha256": "28995d07ce1c3535ada6a0b24c077308d51fbf652bc881e4d29533564cb065c6",
+      "synthesis_text": "名词，(常用复数)当局。",
+      "raw_sha256": "63084fe634099c6ad23ab7f5014d5a4e41538be04b8f221ad7ac182cac157559",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/09-grass-seed-teacher-slow.wav",
+      "text": "grass-seed",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 2.13,
+      "sha256": "cb3e6134f7453c3d8ffb85ca2f8e5d85023504682878a0b84e95c575d4b5830e",
+      "synthesis_text": "grass seed.",
+      "raw_sha256": "11a3d7e8fe608e2eed49ac655e77e67216a4a6f8d48e33dd38233b0753a725a5",
+      "word_interval": [
+        0,
+        1.36
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/09-grass-seed-teacher-normal.wav",
+      "text": "grass-seed",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.787,
+      "sha256": "d9cb74251e1a62cd00e0dc0aa5cc7e9aaea63285ff05feb7458731c87a563929",
+      "synthesis_text": "grass seed.",
+      "raw_sha256": "11a3d7e8fe608e2eed49ac655e77e67216a4a6f8d48e33dd38233b0753a725a5",
+      "word_interval": [
+        0,
+        1.36
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/09-grass-seed-teacher-meaning.wav",
+      "text": "名词，草籽。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.779,
+      "sha256": "0bac6630cf91f731ac9f23ad58df5e3fe7175e43c9b74021cbdff623090e4e5f",
+      "synthesis_text": "名词，草籽。",
+      "raw_sha256": "da79abc988756937ae1b15456b0653fb39e8416cd981421208b73097795195b3",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/10-spray-teacher-slow.wav",
+      "text": "spray",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.8,
+      "sha256": "67a9efdad3f587d115cdb8e2a20410f55789e001b21ef251bba516647b1963fa",
+      "synthesis_text": "spray.",
+      "raw_sha256": "1740fce3b0c2ea51d48a7f5d5674542f4aa3f46a30576c9fd369358229ef1c62",
+      "word_interval": [
+        0,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/10-spray-teacher-normal.wav",
+      "text": "spray",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.508,
+      "sha256": "52233efe136d1d2d4038cae931ed8eb8632963092830a7c8fd65f0f274fbfa02",
+      "synthesis_text": "spray.",
+      "raw_sha256": "1740fce3b0c2ea51d48a7f5d5674542f4aa3f46a30576c9fd369358229ef1c62",
+      "word_interval": [
+        0,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/10-spray-teacher-meaning.wav",
+      "text": "动词，喷撒。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.359,
+      "sha256": "eb43cbc26e884f9270bf3f20c846da2f622b7c4a9b086b0bc4da1247bc42c914",
+      "synthesis_text": "动词，喷撒。",
+      "raw_sha256": "0674b2eba5ea640c49e6917f131f21aa70b03a6efe59d79d8d8b88eb82b88420",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/11-quantity-teacher-slow.wav",
+      "text": "quantity",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.355,
+      "sha256": "059eed0ca483853efbdc78457c6ba297fe89f4182cdcec0a9c6f2deb0712e9d3",
+      "synthesis_text": "quantity.",
+      "raw_sha256": "a0e027f40cb850526f9d22647609c023355116e11712a40503c17324cfd27ab3",
+      "word_interval": [
+        0,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/11-quantity-teacher-normal.wav",
+      "text": "quantity",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.137,
+      "sha256": "23143a08141ba057b8de8918cb4a4f8ae1f96d75dc7e03b95cefafe8676d6a8a",
+      "synthesis_text": "quantity.",
+      "raw_sha256": "a0e027f40cb850526f9d22647609c023355116e11712a40503c17324cfd27ab3",
+      "word_interval": [
+        0,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/11-quantity-teacher-meaning.wav",
+      "text": "名词，量。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.819,
+      "sha256": "a428a1c33dd25e9975c12396f1ab1a6dfb35f3815da0492901defffddd38eeca",
+      "synthesis_text": "名词，量。",
+      "raw_sha256": "9da8b2d928b0a98df11928becbff6bcc05f32c012a1391fdd5bf3ce0ff4a230a",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/12-root-teacher-slow.wav",
+      "text": "root",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 0.884,
+      "sha256": "33816247d24be2a857bc54d600824c38090bce5ffd8cb507c0428903024a184e",
+      "synthesis_text": "root.",
+      "raw_sha256": "7c96f345d080ae29612631e70d9776d56426d2ef218cdbfed12a30e8d1c0a5ab",
+      "word_interval": [
+        0,
+        0.64
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/12-root-teacher-normal.wav",
+      "text": "root",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.74,
+      "sha256": "3b13caff7c81bc1089d0bcb05102a35df6db5a48bbfd44377ae0e2f0d42f87af",
+      "synthesis_text": "root.",
+      "raw_sha256": "7c96f345d080ae29612631e70d9776d56426d2ef218cdbfed12a30e8d1c0a5ab",
+      "word_interval": [
+        0,
+        0.64
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/12-root-teacher-meaning.wav",
+      "text": "名词，根。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.619,
+      "sha256": "45cd27eab250f6828a6f0699b2277bb1c43e8808aab810b23e97e6f20c399016",
+      "synthesis_text": "名词，根。",
+      "raw_sha256": "c35272e5c2ca23c11a6d31127710d0af98c4bb7f84071faa0a93a8f0d7850526",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/13-century-teacher-slow.wav",
+      "text": "century",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.575,
+      "sha256": "a0bce7c258912397aea47258f269f9dfeb36a0148e6b9d898214529a63c70e7c",
+      "synthesis_text": "century.",
+      "raw_sha256": "e2b5a20387910834981cfba2abe41717f90ab958cec13e5707050a40b5b903cd",
+      "word_interval": [
+        0,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/13-century-teacher-normal.wav",
+      "text": "century",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.321,
+      "sha256": "86b6f0af463b1d80016ca8f846202a01ac39be70d60c203c80192b3d4e9e43cc",
+      "synthesis_text": "century.",
+      "raw_sha256": "e2b5a20387910834981cfba2abe41717f90ab958cec13e5707050a40b5b903cd",
+      "word_interval": [
+        0,
+        0.96
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/13-century-teacher-meaning.wav",
+      "text": "名词，世纪。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.859,
+      "sha256": "31f16186bb332b5431efd7143946e78f8354a90b9977871d2e193c60e5e42186",
+      "synthesis_text": "名词，世纪。",
+      "raw_sha256": "3e908e7e2703d3b68df9ebaab2e34899a98990cbbbe44a8a51418e0b7204190f",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/14-patch-teacher-slow.wav",
+      "text": "patch",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.245,
+      "sha256": "43d52536d333adf53cef325c3d99ba5925c5d0354ffa6ce13a2f324117f60af9",
+      "synthesis_text": "patch.",
+      "raw_sha256": "88069e5cb32900e7402907a2aff3ee8f2cba3efdcdde854a807794076884e54f",
+      "word_interval": [
+        0,
+        0.72
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/14-patch-teacher-normal.wav",
+      "text": "patch",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.042,
+      "sha256": "51a8874552ee38db116524910e55a0b7a313c065e74758e0a16e61568ff87d6c",
+      "synthesis_text": "patch.",
+      "raw_sha256": "88069e5cb32900e7402907a2aff3ee8f2cba3efdcdde854a807794076884e54f",
+      "word_interval": [
+        0,
+        0.72
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/14-patch-teacher-meaning.wav",
+      "text": "名词，小片。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.859,
+      "sha256": "d519a73c4d48754bb8394909e4e03710823c2fa5dc9e2460180eaa2a154409bf",
+      "synthesis_text": "名词，小片。",
+      "raw_sha256": "57767fe43c1d93695ac5dd36bd09ced4d145fcc2125c40ac7f62ceb85e9aa19e",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-62/15-blacken-teacher-slow.wav",
+      "text": "blacken",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.465,
+      "sha256": "4364a1003ce67f276f35fe6f18e962bb20c4d2b1cf1d6d732364724b136dc44d",
+      "synthesis_text": "blacken.",
+      "raw_sha256": "df035be41a5707960dc979d8fd623be58e8f51164a8f6ec50a4c38da2946553a",
+      "word_interval": [
+        0,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/15-blacken-teacher-normal.wav",
+      "text": "blacken",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.229,
+      "sha256": "fc785de8ed810abf8eee7092d009576c271acbbe7dbd8dee5ecbcbdc6e6da809",
+      "synthesis_text": "blacken.",
+      "raw_sha256": "df035be41a5707960dc979d8fd623be58e8f51164a8f6ec50a4c38da2946553a",
+      "word_interval": [
+        0,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-62/15-blacken-teacher-meaning.wav",
+      "text": "动词，变黑，发暗。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.539,
+      "sha256": "a5f9be984a5b480ba38dea1b13ca02def36630c221d6d63a0d7ed0161be60dc4",
+      "synthesis_text": "动词，变黑，发暗。",
+      "raw_sha256": "382b0b678f3d06249510f12e69e0058ead8a88edd9a40feee98dab6b0e3a49a6",
+      "word_interval": null
+    }
+  ],
+  "full_audio": {
+    "file": "audio/book2/lesson-62/lesson-62-full.wav",
+    "sha256": "66fc40780db0d3eee2647a075213307f1384d803d897bf39cda2b611ea757f3d"
+  }
+}

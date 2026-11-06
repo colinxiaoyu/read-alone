@@ -36,6 +36,8 @@ def main():
     parser.add_argument('--model', default=MODEL)
     parser.add_argument('--raw-dir', type=Path)
     parser.add_argument('--trim-json', type=Path, help='English word time ranges in raw recordings')
+    parser.add_argument('--only', nargs='+', help='Synthesize only these vocabulary items')
+    parser.add_argument('--language', choices=['en', 'zh', 'all'], default='all', help='Languages to synthesize')
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument('--synthesize-only', action='store_true')
     mode.add_argument('--finalize-only', action='store_true')
@@ -61,6 +63,13 @@ def main():
                if w['book'] == 2 and w['lesson_seq'] == args.lesson]
     if not entries:
         raise SystemExit('No words for this lesson')
+    if args.only and (not args.synthesize_only or set(args.only) - {w['word'] for w in entries}):
+        raise SystemExit('--only requires --synthesize-only and exact lesson words')
+    if args.language != 'all' and not args.synthesize_only:
+        raise SystemExit('--language requires --synthesize-only')
+    english_seeds = recipe.get('english_seeds', {})
+    if set(english_seeds) - {w['word'] for w in entries} or any(type(s) is not int or s < 0 for s in english_seeds.values()):
+        raise SystemExit('english_seeds must map lesson words to nonnegative integers')
     references = {lang: {k: ref[k] for k in ['file', 'text']} for lang, ref in profile['references'].items()}
     for lang, ref in references.items():
         ref['sha256'] = sha(PUBLIC / ref['file'])
@@ -76,8 +85,15 @@ def main():
                 'num.': 'numeral', 'modal v': 'modal verb'}.get(word['pos'], 'word')
         english = recipe.get('english_text', {}).get(word['word'], f"The {part}: {word['word']}.")
         for lang, text in [('en', english), ('zh', f"{PARTS.get(word['pos'], word['pos'])}，{word['meaning']}。")]:
-            requests.append({'file': f'{prefix}-{lang}-raw.wav', 'word': word['word'], 'language': lang, 'text': text})
-    job = {'model': model_id, 'references': references, 'requests': requests}
+            request = {'file': f'{prefix}-{lang}-raw.wav', 'word': word['word'], 'language': lang, 'text': text}
+            if lang == 'en' and word['word'] in english_seeds:
+                request['seed'] = english_seeds[word['word']]
+            requests.append(request)
+    synthesis_requests = [(i, r) for i, r in enumerate(requests)
+                          if (not args.only or r['word'] in args.only)
+                          and (args.language == 'all' or r['language'] == args.language)]
+    job = {'model': model_id, 'references': references,
+           'requests': [r for _, r in synthesis_requests] if args.synthesize_only else requests}
     job_path = raw_dir / 'raw-generation.json'
     previous = json.loads(job_path.read_text()) if job_path.exists() else None
     if previous and previous != job:
@@ -88,13 +104,13 @@ def main():
         write_json(job_path, job)
         print('Loading voice clone model', args.model, flush=True)
         model = load_model(args.model)
-        for number, request in enumerate(requests):
+        for number, request in synthesis_requests:
             target = raw_dir / request['file']
             if target.exists():
                 print('Reusing', target.name, flush=True)
                 continue
             ref = references[request['language']]
-            mx.random.seed(seed_base + number)
+            mx.random.seed(request.get('seed', seed_base + number))
             results = list(model.generate(
                 text=request['text'], lang_code='English' if request['language'] == 'en' else 'Chinese',
                 ref_audio=str(PUBLIC / ref['file']), ref_text=ref['text'],

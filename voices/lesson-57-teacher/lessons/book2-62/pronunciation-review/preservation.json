@@ -1,0 +1,23 @@
+{
+  "chinese_raw_identical": true,
+  "chinese_meaning_identical": true,
+  "other_english_raw_identical": true,
+  "changed_raw_files": [
+    "10-spray-en-raw.wav"
+  ],
+  "changed_final_clips": [
+    "10-spray-teacher-normal.wav",
+    "10-spray-teacher-slow.wav",
+    "13-century-teacher-normal.wav",
+    "13-century-teacher-slow.wav",
+    "14-patch-teacher-normal.wav",
+    "14-patch-teacher-slow.wav"
+  ],
+  "final_review_exit_code": 1,
+  "final_asr_mismatches": [
+    "smoke"
+  ],
+  "final_asr_questions": [
+    "blacken"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "book": 2,
+  "lesson": 62,
+  "title": "After the fire",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "seed_base": 6200,
+  "english_text": {
+    "control": "control.",
+    "smoke": "smoke.",
+    "desolate": "desolate.",
+    "threaten": "threaten.",
+    "surrounding": "surrounding.",
+    "destruction": "destruction.",
+    "flood": "flood.",
+    "authority": "authority.",
+    "grass-seed": "grass seed.",
+    "spray": "spray.",
+    "quantity": "quantity.",
+    "root": "root.",
+    "century": "century.",
+    "patch": "patch.",
+    "blacken": "blacken."
+  },
+  "trim_file": "scripts/lesson-62-trims.json",
+  "raw_archive": "voices/lesson-57-teacher/lessons/book2-62/raw",
+  "approved_manifest": "public/audio/book2/lesson-62/generation.json",
+  "review_report": "voices/lesson-57-teacher/lessons/book2-62/raw/review-final.json",
+  "english_seeds": {
+    "smoke": 2105,
+    "desolate": 2105,
+    "threaten": 2105,
+    "surrounding": 2105,
+    "destruction": 2105,
+    "flood": 2105,
+    "authority": 2105,
+    "grass-seed": 2105,
+    "spray": 2105,
+    "quantity": 2105,
+    "root": 2105,
+    "blacken": 2105
+  }
+}

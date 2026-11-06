@@ -1,0 +1,13 @@
+{
+  "decoded": {
+    "62": 45,
+    "63": 18
+  },
+  "sequence": [
+    "01-control-teacher-slow.wav",
+    "01-control-teacher-meaning.wav",
+    "01-control-teacher-normal.wav"
+  ],
+  "switching_stops_old_audio": true,
+  "lesson_selection_persisted": true
+}

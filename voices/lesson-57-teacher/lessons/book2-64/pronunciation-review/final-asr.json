@@ -1,0 +1,385 @@
+[
+ {
+  "word": "tunnel",
+  "kind": "slow",
+  "asr": "tunnel",
+  "duration": 1.103,
+  "first_active_s": 0.22,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "tunnel",
+  "kind": "normal",
+  "asr": "tunnel",
+  "duration": 0.927,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "tunnel",
+  "kind": "meaning",
+  "asr": "名詞 隧道",
+  "duration": 1.759,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": []
+ },
+ {
+  "word": "port",
+  "kind": "slow",
+  "asr": "port",
+  "duration": 1.103,
+  "first_active_s": 0.22,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "port",
+  "kind": "normal",
+  "asr": "port",
+  "duration": 0.927,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "port",
+  "kind": "meaning",
+  "asr": "名詞 港口",
+  "duration": 1.859,
+  "first_active_s": 0.14,
+  "internal_gaps_ge150ms": [
+   [
+    0.86,
+    1.06
+   ]
+  ]
+ },
+ {
+  "word": "ventilate",
+  "kind": "slow",
+  "asr": "Ventilate.",
+  "duration": 1.649,
+  "first_active_s": 0.14,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "ventilate",
+  "kind": "normal",
+  "asr": "Ventilate.",
+  "duration": 1.38,
+  "first_active_s": 0.12,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "ventilate",
+  "kind": "meaning",
+  "asr": "凍死通風",
+  "duration": 1.459,
+  "first_active_s": 0.06,
+  "internal_gaps_ge150ms": []
+ },
+ {
+  "word": "chimney",
+  "kind": "slow",
+  "asr": "Chimney",
+  "duration": 1.229,
+  "first_active_s": 0.23,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "chimney",
+  "kind": "normal",
+  "asr": "Chimney",
+  "duration": 1.032,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "chimney",
+  "kind": "meaning",
+  "asr": "名词,烟葱",
+  "duration": 1.619,
+  "first_active_s": 0.08,
+  "internal_gaps_ge150ms": []
+ },
+ {
+  "word": "sea level",
+  "kind": "slow",
+  "asr": "sea level",
+  "duration": 1.481,
+  "first_active_s": 0.21,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "sea level",
+  "kind": "normal",
+  "asr": "sea level",
+  "duration": 1.242,
+  "first_active_s": 0.17,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "sea level",
+  "kind": "meaning",
+  "asr": "名詞 海平面",
+  "duration": 1.919,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": [
+   [
+    0.92,
+    1.08
+   ]
+  ]
+ },
+ {
+  "word": "double",
+  "kind": "slow",
+  "asr": "Double",
+  "duration": 1.061,
+  "first_active_s": 0.22,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "double",
+  "kind": "normal",
+  "asr": "Double",
+  "duration": 0.891,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "double",
+  "kind": "meaning",
+  "asr": "形容詞,雙的",
+  "duration": 2.079,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": [
+   [
+    0.99,
+    1.15
+   ]
+  ]
+ },
+ {
+  "word": "ventilation",
+  "kind": "slow",
+  "asr": "Ventilation",
+  "duration": 1.533,
+  "first_active_s": 0.14,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "ventilation",
+  "kind": "normal",
+  "asr": "Ventilation",
+  "duration": 1.288,
+  "first_active_s": 0.12,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "ventilation",
+  "kind": "meaning",
+  "asr": "名詞通風",
+  "duration": 1.689,
+  "first_active_s": 0.07,
+  "internal_gaps_ge150ms": [
+   [
+    0.69,
+    0.85
+   ]
+  ]
+ },
+ {
+  "word": "fear",
+  "kind": "slow",
+  "asr": "Fear",
+  "duration": 1.255,
+  "first_active_s": 0.14,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "fear",
+  "kind": "normal",
+  "asr": "Fear",
+  "duration": 1.055,
+  "first_active_s": 0.13,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "fear",
+  "kind": "meaning",
+  "asr": "動詞害怕",
+  "duration": 1.619,
+  "first_active_s": 0.1,
+  "internal_gaps_ge150ms": [
+   [
+    0.64,
+    0.9
+   ]
+  ]
+ },
+ {
+  "word": "invasion",
+  "kind": "slow",
+  "asr": "Invasion",
+  "duration": 1.339,
+  "first_active_s": 0.21,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "invasion",
+  "kind": "normal",
+  "asr": "Invasion.",
+  "duration": 1.124,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "invasion",
+  "kind": "meaning",
+  "asr": "名詞入侵侵略",
+  "duration": 2.739,
+  "first_active_s": 0.12,
+  "internal_gaps_ge150ms": [
+   [
+    0.85,
+    1.06
+   ]
+  ]
+ },
+ {
+  "word": "officially",
+  "kind": "slow",
+  "asr": "Officially.",
+  "duration": 1.491,
+  "first_active_s": 0.22,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "officially",
+  "kind": "normal",
+  "asr": "Officially.",
+  "duration": 1.252,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "officially",
+  "kind": "meaning",
+  "asr": "復辞正式地",
+  "duration": 2.099,
+  "first_active_s": 0.15,
+  "internal_gaps_ge150ms": [
+   [
+    0.76,
+    1.01
+   ]
+  ]
+ },
+ {
+  "word": "connect",
+  "kind": "slow",
+  "asr": "Connect",
+  "duration": 1.145,
+  "first_active_s": 0.19,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "connect",
+  "kind": "normal",
+  "asr": "Connect",
+  "duration": 0.963,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "connect",
+  "kind": "meaning",
+  "asr": "凍死連接",
+  "duration": 1.619,
+  "first_active_s": 0.1,
+  "internal_gaps_ge150ms": []
+ },
+ {
+  "word": "European",
+  "kind": "slow",
+  "asr": "European",
+  "duration": 1.287,
+  "first_active_s": 0.22,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "European",
+  "kind": "normal",
+  "asr": "European",
+  "duration": 1.078,
+  "first_active_s": 0.19,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "European",
+  "kind": "meaning",
+  "asr": "形容词 欧洲的",
+  "duration": 1.989,
+  "first_active_s": 0.17,
+  "internal_gaps_ge150ms": [
+   [
+    0.85,
+    1.2
+   ]
+  ]
+ },
+ {
+  "word": "continent",
+  "kind": "slow",
+  "asr": "Continent",
+  "duration": 1.397,
+  "first_active_s": 0.22,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "continent",
+  "kind": "normal",
+  "asr": "Continent.",
+  "duration": 1.17,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": true
+ },
+ {
+  "word": "continent",
+  "kind": "meaning",
+  "asr": "名詞大陸",
+  "duration": 1.739,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": [
+   [
+    0.85,
+    1.05
+   ]
+  ]
+ }
+]

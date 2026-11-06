@@ -1,0 +1,33 @@
+[
+ {
+  "word": "sea level",
+  "kind": "slow",
+  "asr": "Celeb",
+  "duration": 1.161,
+  "first_active_s": 0.21,
+  "internal_gaps_ge150ms": [],
+  "strict": false
+ },
+ {
+  "word": "sea level",
+  "kind": "normal",
+  "asr": "See you later.",
+  "duration": 0.973,
+  "first_active_s": 0.17,
+  "internal_gaps_ge150ms": [],
+  "strict": false
+ },
+ {
+  "word": "sea level",
+  "kind": "meaning",
+  "asr": "名詞 海平面",
+  "duration": 1.919,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": [
+   [
+    0.92,
+    1.08
+   ]
+  ]
+ }
+]

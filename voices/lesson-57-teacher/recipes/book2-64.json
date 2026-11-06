@@ -1,0 +1,34 @@
+{
+  "book": 2,
+  "lesson": 64,
+  "title": "The Channel Tunnel",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "seed_base": 6400,
+  "english_seeds": {
+    "port": 64101,
+    "sea level": 64102,
+    "ventilation": 64101,
+    "officially": 64101,
+    "connect": 64102
+  },
+  "english_text": {
+    "tunnel": "tunnel.",
+    "port": "port.",
+    "ventilate": "ventilate.",
+    "chimney": "chimney.",
+    "sea level": "sea level.",
+    "double": "double.",
+    "ventilation": "ventilation.",
+    "fear": "fear.",
+    "invasion": "invasion.",
+    "officially": "officially.",
+    "connect": "connect.",
+    "European": "European.",
+    "continent": "continent."
+  },
+  "trim_file": "scripts/lesson-64-trims.json",
+  "raw_archive": "voices/lesson-57-teacher/lessons/book2-64/raw",
+  "approved_manifest": "public/audio/book2/lesson-64/generation.json",
+  "review_report": "voices/lesson-57-teacher/lessons/book2-64/raw/review-final.json",
+  "pronunciation_review": "voices/lesson-57-teacher/lessons/book2-64/pronunciation-review/summary.json"
+}

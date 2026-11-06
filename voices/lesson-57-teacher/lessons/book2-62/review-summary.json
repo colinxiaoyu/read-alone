@@ -1,0 +1,35 @@
+{
+  "lesson": 62,
+  "status": "partial_update_pending_colin",
+  "english_target_words_verified": false,
+  "strict_english_asr_verified": false,
+  "pronunciation_verified": false,
+  "unresolved_words": [
+    "authority",
+    "blacken",
+    "desolate",
+    "destruction",
+    "flood",
+    "grass-seed",
+    "quantity",
+    "root",
+    "smoke",
+    "surrounding",
+    "threaten"
+  ],
+  "asr_mismatches": [
+    "smoke"
+  ],
+  "asr_questions": [
+    "blacken"
+  ],
+  "current_manifest": "public/audio/book2/lesson-62/generation.json",
+  "review_report": "voices/lesson-57-teacher/lessons/book2-62/raw/review-final.json",
+  "pronunciation_review": "voices/lesson-57-teacher/lessons/book2-62/pronunciation-review/summary.json",
+  "browser_decoded_clips": 45,
+  "npm_test": {
+    "passed": 8,
+    "failed": 0
+  },
+  "npm_build": "passed"
+}

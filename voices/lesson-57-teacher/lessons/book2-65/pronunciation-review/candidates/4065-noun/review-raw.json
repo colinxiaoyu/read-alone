@@ -1,0 +1,41 @@
+{
+  "lesson": 65,
+  "mode": "raw",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "04-present-en-raw.wav",
+      "word": "present",
+      "language": "en",
+      "expected": "The noun: present.",
+      "recognized": "the now present.",
+      "word_timestamps": [
+        {
+          "word": " the",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.5752890706062317
+        },
+        {
+          "word": " now",
+          "start": 0.36,
+          "end": 0.82,
+          "probability": 0.7034470438957214
+        },
+        {
+          "word": " present.",
+          "start": 0.82,
+          "end": 1.62,
+          "probability": 0.8086384534835815
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "present": [
+      1.16,
+      2.0
+    ]
+  }
+}

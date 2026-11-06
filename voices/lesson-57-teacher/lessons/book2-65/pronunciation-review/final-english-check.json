@@ -1,0 +1,282 @@
+[
+ {
+  "file": "01-versus-teacher-normal.wav",
+  "asr": "versus",
+  "dur": 1.042,
+  "segments": [
+   [
+    0.18,
+    0.87,
+    0.4058
+   ]
+  ],
+  "fall_st": 11.6,
+  "tail8_st": -11.42,
+  "peak": 0.787
+ },
+ {
+  "file": "01-versus-teacher-slow.wav",
+  "asr": "versus",
+  "dur": 1.245,
+  "segments": [
+   [
+    0.22,
+    1.05,
+    0.4065
+   ]
+  ],
+  "fall_st": 18.34,
+  "tail8_st": -7.56,
+  "peak": 0.82
+ },
+ {
+  "file": "02-christmas-teacher-normal.wav",
+  "asr": "Christmas!",
+  "dur": 0.904,
+  "segments": [
+   [
+    0.19,
+    0.7,
+    0.2721
+   ]
+  ],
+  "fall_st": 19.05,
+  "tail8_st": -8.98,
+  "peak": 0.54
+ },
+ {
+  "file": "02-christmas-teacher-slow.wav",
+  "asr": "Christmas!",
+  "dur": 1.077,
+  "segments": [
+   [
+    0.22,
+    0.84,
+    0.2739
+   ]
+  ],
+  "fall_st": 19.07,
+  "tail8_st": -7.14,
+  "peak": 0.538
+ },
+ {
+  "file": "03-circus-teacher-normal.wav",
+  "asr": "Circus",
+  "dur": 1.416,
+  "segments": [
+   [
+    0.19,
+    1.16,
+    0.2101
+   ]
+  ],
+  "fall_st": 14.34,
+  "tail8_st": 0.52,
+  "peak": 0.474
+ },
+ {
+  "file": "03-circus-teacher-slow.wav",
+  "asr": "Circus",
+  "dur": 1.685,
+  "segments": [
+   [
+    0.22,
+    1.38,
+    0.2163
+   ]
+  ],
+  "fall_st": 7.5,
+  "tail8_st": 1.2,
+  "peak": 0.474
+ },
+ {
+  "file": "04-present-teacher-normal.wav",
+  "asr": "present",
+  "dur": 1.091,
+  "segments": [
+   [
+    0.19,
+    0.89,
+    0.3885
+   ]
+  ],
+  "fall_st": 14.81,
+  "tail8_st": -4.91,
+  "peak": 0.81
+ },
+ {
+  "file": "04-present-teacher-slow.wav",
+  "asr": "present",
+  "dur": 1.297,
+  "segments": [
+   [
+    0.22,
+    1.07,
+    0.3813
+   ]
+  ],
+  "fall_st": 11.04,
+  "tail8_st": -7.36,
+  "peak": 0.783
+ },
+ {
+  "file": "05-accompany-teacher-normal.wav",
+  "asr": "Accompany",
+  "dur": 1.16,
+  "segments": [
+   [
+    0.18,
+    1.0,
+    0.3108
+   ]
+  ],
+  "fall_st": 19.07,
+  "tail8_st": -4.11,
+  "peak": 0.694
+ },
+ {
+  "file": "05-accompany-teacher-slow.wav",
+  "asr": "Accompany",
+  "dur": 1.381,
+  "segments": [
+   [
+    0.22,
+    1.2,
+    0.3041
+   ]
+  ],
+  "fall_st": 19.46,
+  "tail8_st": -3.33,
+  "peak": 0.652
+ },
+ {
+  "file": "06-approach-teacher-normal.wav",
+  "asr": "Approach",
+  "dur": 1.091,
+  "segments": [
+   [
+    0.18,
+    0.94,
+    0.2785
+   ]
+  ],
+  "fall_st": 18.55,
+  "tail8_st": -8.4,
+  "peak": 0.554
+ },
+ {
+  "file": "06-approach-teacher-slow.wav",
+  "asr": "Approach.",
+  "dur": 1.297,
+  "segments": [
+   [
+    0.22,
+    1.14,
+    0.2735
+   ]
+  ],
+  "fall_st": 18.56,
+  "tail8_st": -7.94,
+  "peak": 0.553
+ },
+ {
+  "file": "07-ought-teacher-normal.wav",
+  "asr": "art",
+  "dur": 0.914,
+  "segments": [
+   [
+    0.18,
+    0.53,
+    0.3519
+   ],
+   [
+    0.64,
+    0.71,
+    0.0765
+   ]
+  ],
+  "fall_st": 11.62,
+  "tail8_st": -11.36,
+  "peak": 0.812
+ },
+ {
+  "file": "07-ought-teacher-slow.wav",
+  "asr": "art",
+  "dur": 1.087,
+  "segments": [
+   [
+    0.22,
+    0.67,
+    0.3515
+   ],
+   [
+    0.76,
+    0.84,
+    0.0752
+   ]
+  ],
+  "fall_st": 3.62,
+  "tail8_st": -9.29,
+  "peak": 0.793
+ },
+ {
+  "file": "08-weigh-teacher-normal.wav",
+  "asr": "way",
+  "dur": 1.078,
+  "segments": [
+   [
+    0.19,
+    0.83,
+    0.3793
+   ]
+  ],
+  "fall_st": 13.74,
+  "tail8_st": -4.35,
+  "peak": 0.776
+ },
+ {
+  "file": "08-weigh-teacher-slow.wav",
+  "asr": "way",
+  "dur": 1.287,
+  "segments": [
+   [
+    0.22,
+    1.0,
+    0.3819
+   ]
+  ],
+  "fall_st": 14.11,
+  "tail8_st": -3.8,
+  "peak": 0.812
+ },
+ {
+  "file": "09-fortunate-teacher-normal.wav",
+  "asr": "Fortunate.",
+  "dur": 1.101,
+  "segments": [
+   [
+    0.18,
+    0.84,
+    0.4179
+   ]
+  ],
+  "fall_st": 17.19,
+  "tail8_st": -3.19,
+  "peak": 0.82
+ },
+ {
+  "file": "09-fortunate-teacher-slow.wav",
+  "asr": "Fortunate.",
+  "dur": 1.313,
+  "segments": [
+   [
+    0.22,
+    1.0,
+    0.4136
+   ]
+  ],
+  "fall_st": 17.14,
+  "tail8_st": -2.96,
+  "peak": 0.815
+ }
+]

@@ -1,0 +1,45 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "02-port-en-raw.wav",
+      "word": "port",
+      "language": "en",
+      "text": "port.",
+      "seed": 64105
+    },
+    {
+      "file": "07-ventilation-en-raw.wav",
+      "word": "ventilation",
+      "language": "en",
+      "text": "ventilation.",
+      "seed": 64105
+    },
+    {
+      "file": "10-officially-en-raw.wav",
+      "word": "officially",
+      "language": "en",
+      "text": "officially.",
+      "seed": 64105
+    },
+    {
+      "file": "11-connect-en-raw.wav",
+      "word": "connect",
+      "language": "en",
+      "text": "connect.",
+      "seed": 64105
+    }
+  ]
+}

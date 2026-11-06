@@ -35,10 +35,11 @@ REVIEW_PY=/home/colin/.cache/read-alone/tools/review-venv/bin/python
 | `voices/lesson-57-teacher/speaker-embeddings.npz` | 中英文参考对应的模型专用声音特征向量 |
 | `voices/lesson-57-teacher/features.json` | 向量形状、模型版本、输入和输出校验值 |
 | `public/audio/reference/lesson-57/` | 15 段独立保存的采样 WAV 及来源、时间点清单 |
-| `voices/lesson-57-teacher/recipes/book2-63.json` | 已确认的第 63 课输入文字与参数入口 |
+| `voices/lesson-57-teacher/recipes/book2-63.json` | 第 63 课当前输入文字与参数入口 |
 | `voices/lesson-57-teacher/lessons/book2-63/raw/` | 第 63 课实际使用的 12 段原始合成 WAV 与输入记录 |
 | `scripts/lesson-63-trims.json` | 第 63 课实际使用的英文截取区间 |
-| `public/audio/book2/lesson-63/generation.json` | 已确认成品的音频与整课校验值 |
+| `public/audio/book2/lesson-63/generation.json` | 当前成品的音频与整课校验值 |
+| `voices/lesson-57-teacher/lessons/book2-63/pronunciation-review/summary.json` | 发音候选、选定 seed 与待确认词 |
 
 参考 WAV 和转写是生成输入；声音特征向量按 profile 中记录的模型版本使用。`scripts/export_voice_features.py` 可从参考 WAV 和已校验的模型重新提取向量。
 

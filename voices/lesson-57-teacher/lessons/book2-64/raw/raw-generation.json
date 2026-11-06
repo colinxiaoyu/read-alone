@@ -1,0 +1,178 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-tunnel-en-raw.wav",
+      "word": "tunnel",
+      "language": "en",
+      "text": "tunnel."
+    },
+    {
+      "file": "01-tunnel-zh-raw.wav",
+      "word": "tunnel",
+      "language": "zh",
+      "text": "名词，隧道。"
+    },
+    {
+      "file": "02-port-en-raw.wav",
+      "word": "port",
+      "language": "en",
+      "text": "port.",
+      "seed": 64101
+    },
+    {
+      "file": "02-port-zh-raw.wav",
+      "word": "port",
+      "language": "zh",
+      "text": "名词，港口。"
+    },
+    {
+      "file": "03-ventilate-en-raw.wav",
+      "word": "ventilate",
+      "language": "en",
+      "text": "ventilate."
+    },
+    {
+      "file": "03-ventilate-zh-raw.wav",
+      "word": "ventilate",
+      "language": "zh",
+      "text": "动词，通风。"
+    },
+    {
+      "file": "04-chimney-en-raw.wav",
+      "word": "chimney",
+      "language": "en",
+      "text": "chimney."
+    },
+    {
+      "file": "04-chimney-zh-raw.wav",
+      "word": "chimney",
+      "language": "zh",
+      "text": "名词，烟囱。"
+    },
+    {
+      "file": "05-sea-level-en-raw.wav",
+      "word": "sea level",
+      "language": "en",
+      "text": "sea level.",
+      "seed": 64102
+    },
+    {
+      "file": "05-sea-level-zh-raw.wav",
+      "word": "sea level",
+      "language": "zh",
+      "text": "名词，海平面。"
+    },
+    {
+      "file": "06-double-en-raw.wav",
+      "word": "double",
+      "language": "en",
+      "text": "double."
+    },
+    {
+      "file": "06-double-zh-raw.wav",
+      "word": "double",
+      "language": "zh",
+      "text": "形容词，双的。"
+    },
+    {
+      "file": "07-ventilation-en-raw.wav",
+      "word": "ventilation",
+      "language": "en",
+      "text": "ventilation.",
+      "seed": 64101
+    },
+    {
+      "file": "07-ventilation-zh-raw.wav",
+      "word": "ventilation",
+      "language": "zh",
+      "text": "名词，通风。"
+    },
+    {
+      "file": "08-fear-en-raw.wav",
+      "word": "fear",
+      "language": "en",
+      "text": "fear."
+    },
+    {
+      "file": "08-fear-zh-raw.wav",
+      "word": "fear",
+      "language": "zh",
+      "text": "动词，害怕。"
+    },
+    {
+      "file": "09-invasion-en-raw.wav",
+      "word": "invasion",
+      "language": "en",
+      "text": "invasion."
+    },
+    {
+      "file": "09-invasion-zh-raw.wav",
+      "word": "invasion",
+      "language": "zh",
+      "text": "名词，入侵，侵略。"
+    },
+    {
+      "file": "10-officially-en-raw.wav",
+      "word": "officially",
+      "language": "en",
+      "text": "officially.",
+      "seed": 64101
+    },
+    {
+      "file": "10-officially-zh-raw.wav",
+      "word": "officially",
+      "language": "zh",
+      "text": "副词，正式地。"
+    },
+    {
+      "file": "11-connect-en-raw.wav",
+      "word": "connect",
+      "language": "en",
+      "text": "connect.",
+      "seed": 64102
+    },
+    {
+      "file": "11-connect-zh-raw.wav",
+      "word": "connect",
+      "language": "zh",
+      "text": "动词，连接。"
+    },
+    {
+      "file": "12-european-en-raw.wav",
+      "word": "European",
+      "language": "en",
+      "text": "European."
+    },
+    {
+      "file": "12-european-zh-raw.wav",
+      "word": "European",
+      "language": "zh",
+      "text": "形容词，欧洲的。"
+    },
+    {
+      "file": "13-continent-en-raw.wav",
+      "word": "continent",
+      "language": "en",
+      "text": "continent."
+    },
+    {
+      "file": "13-continent-zh-raw.wav",
+      "word": "continent",
+      "language": "zh",
+      "text": "名词，大陆。"
+    }
+  ]
+}

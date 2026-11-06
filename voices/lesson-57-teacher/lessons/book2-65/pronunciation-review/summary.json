@@ -1,0 +1,1236 @@
+{
+  "lesson": 65,
+  "criteria": "faster-whisper small exact token match without ?; falling f0 at word end; no onset noise inside trim",
+  "selected": {
+    "versus": {
+      "text": "versus.",
+      "seed": 6500,
+      "raw_sha256": "b39d016b595260516e89b8d4db6dd131c732fed71600b3e68f978be5fb58a880"
+    },
+    "Christmas": {
+      "text": "Christmas.",
+      "seed": 6502,
+      "raw_sha256": "c82282092ee34165a7da6225683877a8b049a7b8aea704fbcb0791e5f89034c0"
+    },
+    "circus": {
+      "text": "circus.",
+      "seed": 2065,
+      "raw_sha256": "6418722e19c54bd2cad86dfb6ac7ede2769479e1bf6c37f89213e0e193f7596f"
+    },
+    "present": {
+      "text": "The noun: present.",
+      "seed": 3065,
+      "raw_sha256": "56b89095c475f9e38fa40d2a684faf7ce0ec79533f2af0fbfae4974a85d264a9"
+    },
+    "accompany": {
+      "text": "accompany.",
+      "seed": 6508,
+      "raw_sha256": "7af9821d7f6c98f88726a91d88db44d52fe7f147ec859e1180cf97fea4b9f31b"
+    },
+    "approach": {
+      "text": "approach.",
+      "seed": 4065,
+      "raw_sha256": "7c39bb9a0f4ca325a8f6de7c257191e44bc08bea2c8f8d92b41488d465128e56"
+    },
+    "ought": {
+      "text": "ought.",
+      "seed": 6512,
+      "raw_sha256": "a220ce9b52c77fd2e214c58803084554986a3cb25f478c641ae4d218eb28206d"
+    },
+    "weigh": {
+      "text": "weigh.",
+      "seed": 1065,
+      "raw_sha256": "91db6db0f968a5072573c3226f97d9aad544d9093542ddec1f5efca55043e715"
+    },
+    "fortunate": {
+      "text": "fortunate.",
+      "seed": 6516,
+      "raw_sha256": "9ab3b52875a2e0352bb048672dcb2a23c787f730c6a820ac0ed0ac414e38dbd5"
+    }
+  },
+  "candidates": {
+    "circus": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/1065-a/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 1065,
+        "sha256": "0b58f24e9b1265328ecb228e928e80d96760164004758d968ad91d9a7618bb27",
+        "asr": "Circus.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0098
+          ],
+          [
+            0.32,
+            1.1,
+            0.0465
+          ]
+        ],
+        "f0_peak": [
+          360.5,
+          0.61
+        ],
+        "f0_tail": 146.6,
+        "fall_st": 15.58,
+        "tail8_st": -15.94
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/2065-a/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 2065,
+        "sha256": "6418722e19c54bd2cad86dfb6ac7ede2769479e1bf6c37f89213e0e193f7596f",
+        "asr": "Circus.",
+        "segments": [
+          [
+            0.17,
+            1.01,
+            0.0463
+          ]
+        ],
+        "f0_peak": [
+          268.1,
+          0.5
+        ],
+        "f0_tail": 113.8,
+        "fall_st": 14.83,
+        "tail8_st": -15.4
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/3065-a/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 3065,
+        "sha256": "3bd19628a0839c69413e206f2de589b5a3baaed46554b45775af9eb801c2fb9d",
+        "asr": "Circus!",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0146
+          ],
+          [
+            0.41,
+            1.22,
+            0.108
+          ]
+        ],
+        "f0_peak": [
+          362.9,
+          0.735
+        ],
+        "f0_tail": 156.6,
+        "fall_st": 14.55,
+        "tail8_st": -16.47
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/4065-a/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 4065,
+        "sha256": "cfdfc54b275d2b91e50be06309e3459b2a81530be94ba939ed5ef14ced417173",
+        "asr": "Circus.",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.0085
+          ],
+          [
+            0.29,
+            1.03,
+            0.056
+          ]
+        ],
+        "f0_peak": [
+          265.3,
+          0.62
+        ],
+        "f0_tail": 148.5,
+        "fall_st": 10.05,
+        "tail8_st": -11.22
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/5065-a/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 5065,
+        "sha256": "f0c274dfe9b8ac8fe40508edfb4803f4905972865f10ced9720423c212a1c46e",
+        "asr": "Circus.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0071
+          ],
+          [
+            0.17,
+            0.86,
+            0.0791
+          ]
+        ],
+        "f0_peak": [
+          342.8,
+          0.435
+        ],
+        "f0_tail": 109.1,
+        "fall_st": 19.82,
+        "tail8_st": -19.56
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6065-a/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 6065,
+        "sha256": "38bc7d1eb03c5f61b1c88e22b2067502ac7ec4bc9b95b642a6b73aa6020e6eda",
+        "asr": "Circus.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0086
+          ],
+          [
+            0.41,
+            1.17,
+            0.0686
+          ]
+        ],
+        "f0_peak": [
+          304.2,
+          0.7
+        ],
+        "f0_tail": 140.2,
+        "fall_st": 13.41,
+        "tail8_st": -13.17
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/03-circus-en-raw.wav",
+        "text": "circus.",
+        "seed": 6504,
+        "sha256": "9d63324b984f30f8598167b3da5ad7f0db2b20fefb2435869c49a246934e8a35",
+        "asr": "Circus.",
+        "segments": [
+          [
+            0.2,
+            1.01,
+            0.0597
+          ]
+        ],
+        "f0_peak": [
+          320.3,
+          0.515
+        ],
+        "f0_tail": 308.1,
+        "fall_st": 0.67,
+        "tail8_st": 0.88
+      }
+    ],
+    "present": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/1065-a/04-present-en-raw.wav",
+        "text": "a present.",
+        "seed": 1065,
+        "sha256": "b75f022942b85aa32d37b58fcfde6eb824ca8da326af62750d398a772342aed7",
+        "asr": "A present.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0059
+          ],
+          [
+            0.54,
+            1.17,
+            0.0775
+          ]
+        ],
+        "f0_peak": [
+          255.9,
+          0.94
+        ],
+        "f0_tail": 174.8,
+        "fall_st": 6.61,
+        "tail8_st": -13.96
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/1065-noun/04-present-en-raw.wav",
+        "text": "The noun: present.",
+        "seed": 1065,
+        "sha256": "b2738685655a0f8f038c495b4a5220f40c5af2741f30b18b5c1cf527d62b0dd5",
+        "asr": "the noun present.",
+        "segments": [
+          [
+            0.22,
+            0.92,
+            0.0801
+          ],
+          [
+            1.03,
+            1.51,
+            0.0586
+          ]
+        ],
+        "f0_peak": [
+          289.2,
+          0.55
+        ],
+        "f0_tail": 148.7,
+        "fall_st": 11.51,
+        "tail8_st": -2.98
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/2065-a/04-present-en-raw.wav",
+        "text": "a present.",
+        "seed": 2065,
+        "sha256": "40f52e987184e80c0fce75f5c194fc0306f03495f667ab4fcbf3a1e70757b03b",
+        "asr": "a present.",
+        "segments": [
+          [
+            0.0,
+            0.02,
+            0.0034
+          ],
+          [
+            0.51,
+            1.23,
+            0.0576
+          ]
+        ],
+        "f0_peak": [
+          206.4,
+          0.735
+        ],
+        "f0_tail": 132.9,
+        "fall_st": 7.62,
+        "tail8_st": -3.23
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/2065-noun/04-present-en-raw.wav",
+        "text": "The noun: present.",
+        "seed": 2065,
+        "sha256": "6f7cfb94ccdb05a9faf046aaa0d0072e7cf9bc5449be8b062d7b7bd0a4681d79",
+        "asr": "The noun, present.",
+        "segments": [
+          [
+            0.0,
+            0.02,
+            0.0058
+          ],
+          [
+            0.56,
+            1.18,
+            0.0426
+          ],
+          [
+            1.52,
+            2.07,
+            0.0581
+          ]
+        ],
+        "f0_peak": [
+          240.7,
+          0.855
+        ],
+        "f0_tail": 136.2,
+        "fall_st": 9.86,
+        "tail8_st": -10.65
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/3065-a/04-present-en-raw.wav",
+        "text": "a present.",
+        "seed": 3065,
+        "sha256": "cf7afa5ed226e6f7e1b7b355aaf5a8bed2070fc76b008018514664e5f6c0bf05",
+        "asr": "a present.",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.0028
+          ],
+          [
+            0.42,
+            1.01,
+            0.0635
+          ]
+        ],
+        "f0_peak": [
+          305.6,
+          0.75
+        ],
+        "f0_tail": 105.1,
+        "fall_st": 18.49,
+        "tail8_st": -18.3
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/3065-noun/04-present-en-raw.wav",
+        "text": "The noun: present.",
+        "seed": 3065,
+        "sha256": "56b89095c475f9e38fa40d2a684faf7ce0ec79533f2af0fbfae4974a85d264a9",
+        "asr": "The noun present",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0115
+          ],
+          [
+            0.45,
+            0.47,
+            0.0032
+          ],
+          [
+            0.56,
+            0.57,
+            0.0024
+          ],
+          [
+            0.73,
+            1.37,
+            0.0839
+          ],
+          [
+            1.81,
+            2.42,
+            0.0934
+          ]
+        ],
+        "f0_peak": [
+          273.1,
+          1.915
+        ],
+        "f0_tail": 145.5,
+        "fall_st": 10.9,
+        "tail8_st": -9.56
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/4065-a/04-present-en-raw.wav",
+        "text": "a present.",
+        "seed": 4065,
+        "sha256": "86b5cb99ecb9f36c7419c56e15dc8190dc83f4d7e7ddb5acd22805d17ed2eb9a",
+        "asr": "a present.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.006
+          ],
+          [
+            0.3,
+            1.1,
+            0.0312
+          ]
+        ],
+        "f0_peak": [
+          187.7,
+          0.58
+        ],
+        "f0_tail": 142.0,
+        "fall_st": 4.83,
+        "tail8_st": -1.82
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/4065-noun/04-present-en-raw.wav",
+        "text": "The noun: present.",
+        "seed": 4065,
+        "sha256": "b879b87bf3587d0c19054202ac8d1d7318401c42becf08980584b276bde9abae",
+        "asr": "the now present.",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.002
+          ],
+          [
+            0.28,
+            0.99,
+            0.0649
+          ],
+          [
+            1.3,
+            1.91,
+            0.0657
+          ]
+        ],
+        "f0_peak": [
+          280.9,
+          0.635
+        ],
+        "f0_tail": 142.7,
+        "fall_st": 11.73,
+        "tail8_st": -3.13
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/5065-a/04-present-en-raw.wav",
+        "text": "a present.",
+        "seed": 5065,
+        "sha256": "23f8915478825a83636cd57f5df1621be9fc32b3ce3baa8436a5558cf7777f0e",
+        "asr": "a present.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0136
+          ],
+          [
+            0.37,
+            1.11,
+            0.035
+          ]
+        ],
+        "f0_peak": [
+          303.9,
+          0.71
+        ],
+        "f0_tail": 299.5,
+        "fall_st": 0.25,
+        "tail8_st": 0.6
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/5065-noun/04-present-en-raw.wav",
+        "text": "The noun: present.",
+        "seed": 5065,
+        "sha256": "58274b41411ddf641cf96517ed66037a96ada227e3e10159b147c906c4f43653",
+        "asr": "the now present.",
+        "segments": [
+          [
+            0.0,
+            0.02,
+            0.0048
+          ],
+          [
+            0.39,
+            1.16,
+            0.0514
+          ],
+          [
+            1.24,
+            1.87,
+            0.0371
+          ]
+        ],
+        "f0_peak": [
+          232.1,
+          1.005
+        ],
+        "f0_tail": 114.8,
+        "fall_st": 12.18,
+        "tail8_st": 4.9
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6065-a/04-present-en-raw.wav",
+        "text": "a present.",
+        "seed": 6065,
+        "sha256": "436771d0fa2a4c232f63a7044859739d7d29d041ce6a53de016eb9a427d25509",
+        "asr": "a present.",
+        "segments": [
+          [
+            0.0,
+            0.05,
+            0.0165
+          ],
+          [
+            0.14,
+            0.83,
+            0.0567
+          ]
+        ],
+        "f0_peak": [
+          304.1,
+          0.475
+        ],
+        "f0_tail": 240.0,
+        "fall_st": 4.1,
+        "tail8_st": -4.68
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6065-noun/04-present-en-raw.wav",
+        "text": "The noun: present.",
+        "seed": 6065,
+        "sha256": "b62dac6a2e2bd3c692d4c9957eb5313d8df5c2a0e13dcbf110c6ded5f3cbdeb8",
+        "asr": "the now present.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0077
+          ],
+          [
+            0.43,
+            1.11,
+            0.06
+          ],
+          [
+            1.28,
+            1.72,
+            0.0655
+          ]
+        ],
+        "f0_peak": [
+          272.0,
+          1.375
+        ],
+        "f0_tail": 196.7,
+        "fall_st": 5.62,
+        "tail8_st": -4.72
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/04-present-en-raw.wav",
+        "text": "a birthday present.",
+        "seed": 6506,
+        "sha256": "263a9378c4f560f2cd3cbe5532582663e6b5dcc758139b8704ebc62e9e1758ef",
+        "asr": "a birthday present.",
+        "segments": [
+          [
+            0.37,
+            1.61,
+            0.0706
+          ]
+        ],
+        "f0_peak": [
+          463.9,
+          0.725
+        ],
+        "f0_tail": 174.8,
+        "fall_st": 16.9,
+        "tail8_st": 9.41
+      }
+    ],
+    "approach": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/1065-a/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 1065,
+        "sha256": "16352fc5377f691ba5a911acd22a5d3d32e86f4af8b58ef75e449bc947c0ec34",
+        "asr": "Approach.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0048
+          ],
+          [
+            0.54,
+            1.25,
+            0.044
+          ]
+        ],
+        "f0_peak": [
+          249.6,
+          0.875
+        ],
+        "f0_tail": 195.2,
+        "fall_st": 4.26,
+        "tail8_st": -0.46
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/2065-a/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 2065,
+        "sha256": "b0b8070e7275ed625e567375921c9badb302f931e886e4f5c8966cfaf08ae160",
+        "asr": "approach.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.006
+          ],
+          [
+            0.44,
+            1.14,
+            0.0724
+          ]
+        ],
+        "f0_peak": [
+          311.6,
+          0.69
+        ],
+        "f0_tail": 239.3,
+        "fall_st": 4.57,
+        "tail8_st": -6.52
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/3065-a/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 3065,
+        "sha256": "4b14d47d35c28883220683e7c9619f61520ffe44d10b4f00bda6df4663db6002",
+        "asr": "approach.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0087
+          ],
+          [
+            0.55,
+            1.33,
+            0.0843
+          ]
+        ],
+        "f0_peak": [
+          238.4,
+          0.835
+        ],
+        "f0_tail": 194.6,
+        "fall_st": 3.51,
+        "tail8_st": -4.82
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/4065-a/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 4065,
+        "sha256": "7c39bb9a0f4ca325a8f6de7c257191e44bc08bea2c8f8d92b41488d465128e56",
+        "asr": "approach.",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.0035
+          ],
+          [
+            0.21,
+            0.87,
+            0.0527
+          ]
+        ],
+        "f0_peak": [
+          321.9,
+          0.505
+        ],
+        "f0_tail": 185.8,
+        "fall_st": 9.51,
+        "tail8_st": -10.51
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/5065-a/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 5065,
+        "sha256": "5fa79c015bdb94ab6ef872c26ca8a681e1e542a47ba627c01cd68e0a04dd2482",
+        "asr": "approach.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0106
+          ],
+          [
+            0.33,
+            0.96,
+            0.0724
+          ]
+        ],
+        "f0_peak": [
+          596.7,
+          0.68
+        ],
+        "f0_tail": 534.0,
+        "fall_st": 1.92,
+        "tail8_st": 7.48
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6065-a/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 6065,
+        "sha256": "29d8bdb45698401592e25ab96932b2496970746a211217cc53fabe86452edf3c",
+        "asr": "approach.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.012
+          ],
+          [
+            0.36,
+            1.09,
+            0.0895
+          ]
+        ],
+        "f0_peak": [
+          342.3,
+          0.67
+        ],
+        "f0_tail": 294.8,
+        "fall_st": 2.58,
+        "tail8_st": -3.09
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/06-approach-en-raw.wav",
+        "text": "approach.",
+        "seed": 6510,
+        "sha256": "5bdf23963215218e6e34e4c5b18b5ef2caf300e2e53930f82173b152b3d71782",
+        "asr": "approach.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0079
+          ],
+          [
+            0.37,
+            1.1,
+            0.06
+          ]
+        ],
+        "f0_peak": [
+          278.6,
+          0.695
+        ],
+        "f0_tail": 228.3,
+        "fall_st": 3.45,
+        "tail8_st": -4.67
+      }
+    ],
+    "ought": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/1065-a/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 1065,
+        "sha256": "fa6ba5834f96373257ddbc3e153ded1406d22858fdc9b26c7326196e35507ad8",
+        "asr": "8. Art 3.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0107
+          ],
+          [
+            0.43,
+            0.76,
+            0.1444
+          ]
+        ],
+        "f0_peak": [
+          300.6,
+          0.625
+        ],
+        "f0_tail": 284.4,
+        "fall_st": 0.96,
+        "tail8_st": -0.5
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/2065-a/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 2065,
+        "sha256": "e3e1f09495ccb1a7112e6be34b4cf8a40965481619c657b411ee923112bd3046",
+        "asr": "Aught.",
+        "segments": [
+          [
+            0.2,
+            0.57,
+            0.0687
+          ]
+        ],
+        "f0_peak": [
+          253.9,
+          0.375
+        ],
+        "f0_tail": 239.6,
+        "fall_st": 1.0,
+        "tail8_st": -1.0
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/3065-a/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 3065,
+        "sha256": "fe3d60567c2ee67e8cf6368c534f678fa1eced696c0adc3fb86231e75bb81b62",
+        "asr": "www.mooji.org",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0125
+          ],
+          [
+            0.45,
+            0.82,
+            0.0701
+          ]
+        ],
+        "f0_peak": [
+          212.2,
+          0.685
+        ],
+        "f0_tail": 205.6,
+        "fall_st": 0.55,
+        "tail8_st": -0.32
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/4065-a/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 4065,
+        "sha256": "0806ff6af337efe8bfe2f0b7df9bb15895e7327be333bf4dd1fdf8ebdcd0a555",
+        "asr": "I",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.0049
+          ],
+          [
+            0.37,
+            0.78,
+            0.1174
+          ]
+        ],
+        "f0_peak": [
+          318.8,
+          0.61
+        ],
+        "f0_tail": 314.1,
+        "fall_st": 0.26,
+        "tail8_st": -0.23
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/5065-a/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 5065,
+        "sha256": "421c8861b9e447626de769840688d2cb268e42465f1371925d627a929d623de7",
+        "asr": "I",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0114
+          ],
+          [
+            0.39,
+            0.69,
+            0.0861
+          ]
+        ],
+        "f0_peak": [
+          258.0,
+          0.605
+        ],
+        "f0_tail": 251.3,
+        "fall_st": 0.46,
+        "tail8_st": 0.39
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6065-a/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 6065,
+        "sha256": "83aa6e8151f796aacaf902cf6d32d11ad51aba7df14235024b0bfda7caa722c2",
+        "asr": "on.",
+        "segments": [
+          [
+            0.0,
+            0.05,
+            0.0111
+          ],
+          [
+            0.31,
+            0.59,
+            0.0688
+          ]
+        ],
+        "f0_peak": [
+          231.8,
+          0.385
+        ],
+        "f0_tail": 147.1,
+        "fall_st": 7.87,
+        "tail8_st": -7.5
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/07-ought-en-raw.wav",
+        "text": "ought.",
+        "seed": 6512,
+        "sha256": "a220ce9b52c77fd2e214c58803084554986a3cb25f478c641ae4d218eb28206d",
+        "asr": "art.",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.0037
+          ],
+          [
+            0.28,
+            0.73,
+            0.0762
+          ]
+        ],
+        "f0_peak": [
+          222.3,
+          0.34
+        ],
+        "f0_tail": 126.9,
+        "fall_st": 9.71,
+        "tail8_st": -11.6
+      }
+    ],
+    "weigh": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/1065-a/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 1065,
+        "sha256": "91db6db0f968a5072573c3226f97d9aad544d9093542ddec1f5efca55043e715",
+        "asr": "Way",
+        "segments": [
+          [
+            0.22,
+            0.78,
+            0.156
+          ]
+        ],
+        "f0_peak": [
+          286.7,
+          0.465
+        ],
+        "f0_tail": 128.7,
+        "fall_st": 13.87,
+        "tail8_st": -7.75
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/2065-a/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 2065,
+        "sha256": "cb5e64a6bfb82b5e9a437a77472c9c1f30cff034a9994f7e4926306ba8df0aec",
+        "asr": "way.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0163
+          ],
+          [
+            0.47,
+            0.95,
+            0.1103
+          ]
+        ],
+        "f0_peak": [
+          321.6,
+          0.67
+        ],
+        "f0_tail": 164.5,
+        "fall_st": 11.6,
+        "tail8_st": -9.84
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/3065-a/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 3065,
+        "sha256": "35753c55bce7bf9ab2237b25e74b294e5e37968c1f648e6b82cf79fd976d2c61",
+        "asr": "way.",
+        "segments": [
+          [
+            0.0,
+            0.03,
+            0.0141
+          ],
+          [
+            0.43,
+            0.98,
+            0.1393
+          ]
+        ],
+        "f0_peak": [
+          262.2,
+          0.635
+        ],
+        "f0_tail": 115.2,
+        "fall_st": 14.24,
+        "tail8_st": -9.06
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/4065-a/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 4065,
+        "sha256": "54748e2f095bcccd40a760b23f472b4703450b6a47faef40af069458eea3340b",
+        "asr": "way.",
+        "segments": [
+          [
+            0.0,
+            0.01,
+            0.0035
+          ],
+          [
+            0.15,
+            0.6,
+            0.0765
+          ]
+        ],
+        "f0_peak": [
+          208.8,
+          0.275
+        ],
+        "f0_tail": 110.0,
+        "fall_st": 11.1,
+        "tail8_st": -7.98
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/5065-a/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 5065,
+        "sha256": "1b247500603b86ca0f94d1fac94bc34131e6770bf9cc22c282589387bae2aed4",
+        "asr": "Wait.",
+        "segments": [
+          [
+            0.0,
+            0.04,
+            0.0096
+          ],
+          [
+            0.36,
+            0.74,
+            0.084
+          ]
+        ],
+        "f0_peak": [
+          195.0,
+          0.45
+        ],
+        "f0_tail": 106.9,
+        "fall_st": 10.42,
+        "tail8_st": 0.04
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6065-a/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 6065,
+        "sha256": "6d9132e1c49cd52fcd1e4892eb1e4d5600d7a8458efc05f28d91a71d29ce2c1f",
+        "asr": "Way.",
+        "segments": [
+          [
+            0.0,
+            0.08,
+            0.011
+          ],
+          [
+            0.64,
+            1.07,
+            0.063
+          ]
+        ],
+        "f0_peak": [
+          170.2,
+          0.76
+        ],
+        "f0_tail": 154.4,
+        "fall_st": 1.69,
+        "tail8_st": 0.19
+      },
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/08-weigh-en-raw.wav",
+        "text": "weigh.",
+        "seed": 6514,
+        "sha256": "851091e9a3e8cf7260b58b9340d10e393d0548173b9eb341eb62a85f4a32d193",
+        "asr": "way",
+        "segments": [
+          [
+            0.49,
+            1.01,
+            0.123
+          ]
+        ],
+        "f0_peak": [
+          230.2,
+          0.645
+        ],
+        "f0_tail": 220.5,
+        "fall_st": 0.75,
+        "tail8_st": 0.15
+      }
+    ],
+    "versus": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/01-versus-en-raw.wav",
+        "text": "versus.",
+        "seed": 6500,
+        "sha256": "b39d016b595260516e89b8d4db6dd131c732fed71600b3e68f978be5fb58a880",
+        "asr": "versus",
+        "segments": [
+          [
+            0.25,
+            0.85,
+            0.1025
+          ]
+        ],
+        "f0_peak": [
+          327.3,
+          0.435
+        ],
+        "f0_tail": 164.0,
+        "fall_st": 11.96,
+        "tail8_st": -14.23
+      }
+    ],
+    "Christmas": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/02-christmas-en-raw.wav",
+        "text": "Christmas.",
+        "seed": 6502,
+        "sha256": "c82282092ee34165a7da6225683877a8b049a7b8aea704fbcb0791e5f89034c0",
+        "asr": "Christmas.",
+        "segments": [
+          [
+            0.0,
+            0.02,
+            0.0026
+          ],
+          [
+            0.53,
+            0.97,
+            0.0532
+          ]
+        ],
+        "f0_peak": [
+          350.8,
+          0.655
+        ],
+        "f0_tail": 116.9,
+        "fall_st": 19.02,
+        "tail8_st": -11.1
+      }
+    ],
+    "accompany": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/05-accompany-en-raw.wav",
+        "text": "accompany.",
+        "seed": 6508,
+        "sha256": "7af9821d7f6c98f88726a91d88db44d52fe7f147ec859e1180cf97fea4b9f31b",
+        "asr": "Accompany",
+        "segments": [
+          [
+            0.31,
+            1.01,
+            0.0614
+          ]
+        ],
+        "f0_peak": [
+          325.6,
+          0.625
+        ],
+        "f0_tail": 108.2,
+        "fall_st": 19.07,
+        "tail8_st": -4.75
+      }
+    ],
+    "fortunate": [
+      {
+        "candidate": "voices/lesson-57-teacher/lessons/book2-65/pronunciation-review/candidates/6500-default/09-fortunate-en-raw.wav",
+        "text": "fortunate.",
+        "seed": 6516,
+        "sha256": "9ab3b52875a2e0352bb048672dcb2a23c787f730c6a820ac0ed0ac414e38dbd5",
+        "asr": "Fortunate.",
+        "segments": [
+          [
+            0.42,
+            0.98,
+            0.1203
+          ]
+        ],
+        "f0_peak": [
+          279.9,
+          0.65
+        ],
+        "f0_tail": 103.4,
+        "fall_st": 17.24,
+        "tail8_st": -3.92
+      }
+    ]
+  },
+  "unresolved": {
+    "ought": "no candidate passes: 7 seeds give art/8. Art 3./Aught./www.mooji.org/I/I/on.; only Aught. (2065) is the /ɔːt/ homophone but rises 172->250 Hz; kept default seed 6512 (art., falls 220->114 Hz)",
+    "weigh": "ASR returns way for all 7 seeds (homophone /weɪ/); selected 1065 for falling f0 286->126 Hz and no onset noise"
+  },
+  "present_stress": "first vowel 160 ms / rms 0.093 / f0 260 Hz vs second vowel 30 ms / rms 0.034 / f0 153 Hz in the selected raw (stress.py)"
+}

@@ -1,0 +1,36 @@
+[
+ {
+  "file": "05-sea-level-en-raw.wav",
+  "word": "sea level",
+  "duration": 0.96,
+  "asr": "sea level.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.9
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.02
+   ],
+   [
+    0.14,
+    0.93
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.0,
+  "main_end": 0.9,
+  "pitch": {
+   "peak_hz": 593.8,
+   "peak_t": 0.8,
+   "tail_hz": 591.7,
+   "drop_st": 0.06,
+   "tail_delta_st": 30.4
+  },
+  "clip_peak": 0.098
+ }
+]

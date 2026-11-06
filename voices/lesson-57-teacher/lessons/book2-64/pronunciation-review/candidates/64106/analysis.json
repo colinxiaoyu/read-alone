@@ -1,0 +1,176 @@
+[
+ {
+  "file": "02-port-en-raw.wav",
+  "word": "port",
+  "duration": 1.44,
+  "asr": "port",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.04
+   ],
+   [
+    0.41,
+    0.42
+   ],
+   [
+    0.65,
+    1.21
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.06
+   ],
+   [
+    0.41,
+    0.43
+   ],
+   [
+    0.65,
+    1.27
+   ],
+   [
+    1.33,
+    1.37
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.04
+   ],
+   [
+    0.41,
+    0.42
+   ]
+  ],
+  "main_onset": 0.65,
+  "main_end": 1.21,
+  "pitch": {
+   "peak_hz": 180.9,
+   "peak_t": 0.79,
+   "tail_hz": 114.6,
+   "drop_st": 7.9,
+   "tail_delta_st": -3.76
+  },
+  "clip_peak": 0.15
+ },
+ {
+  "file": "07-ventilation-en-raw.wav",
+  "word": "ventilation",
+  "duration": 1.12,
+  "asr": "Ventilation.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.21,
+    1.08
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.08,
+    0.09
+   ],
+   [
+    0.21,
+    1.08
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.21,
+  "main_end": 1.08,
+  "pitch": {
+   "peak_hz": 282.9,
+   "peak_t": 1.06,
+   "tail_hz": 280.3,
+   "drop_st": 0.16,
+   "tail_delta_st": 0.5
+  },
+  "clip_peak": 0.238
+ },
+ {
+  "file": "10-officially-en-raw.wav",
+  "word": "officially",
+  "duration": 1.2,
+  "asr": "officially.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.03
+   ],
+   [
+    0.35,
+    1.11
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.06
+   ],
+   [
+    0.35,
+    1.15
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.03
+   ]
+  ],
+  "main_onset": 0.35,
+  "main_end": 1.11,
+  "pitch": {
+   "peak_hz": 221.9,
+   "peak_t": 0.67,
+   "tail_hz": 106.9,
+   "drop_st": 12.65,
+   "tail_delta_st": -3.92
+  },
+  "clip_peak": 0.185
+ },
+ {
+  "file": "11-connect-en-raw.wav",
+  "word": "connect",
+  "duration": 0.96,
+  "asr": "Connect.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.28,
+    0.87
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.03,
+    0.04
+   ],
+   [
+    0.05,
+    0.08
+   ],
+   [
+    0.28,
+    0.9
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.28,
+  "main_end": 0.87,
+  "pitch": {
+   "peak_hz": 284.7,
+   "peak_t": 0.59,
+   "tail_hz": 275.4,
+   "drop_st": 0.57,
+   "tail_delta_st": -0.36
+  },
+  "clip_peak": 0.195
+ }
+]

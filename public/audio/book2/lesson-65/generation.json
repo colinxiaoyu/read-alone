@@ -1,0 +1,532 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-versus-en-raw.wav",
+      "word": "versus",
+      "language": "en",
+      "text": "versus."
+    },
+    {
+      "file": "01-versus-zh-raw.wav",
+      "word": "versus",
+      "language": "zh",
+      "text": "介词，对。"
+    },
+    {
+      "file": "02-christmas-en-raw.wav",
+      "word": "Christmas",
+      "language": "en",
+      "text": "Christmas."
+    },
+    {
+      "file": "02-christmas-zh-raw.wav",
+      "word": "Christmas",
+      "language": "zh",
+      "text": "名词，圣诞节。"
+    },
+    {
+      "file": "03-circus-en-raw.wav",
+      "word": "circus",
+      "language": "en",
+      "text": "circus.",
+      "seed": 2065
+    },
+    {
+      "file": "03-circus-zh-raw.wav",
+      "word": "circus",
+      "language": "zh",
+      "text": "名词，马戏团。"
+    },
+    {
+      "file": "04-present-en-raw.wav",
+      "word": "present",
+      "language": "en",
+      "text": "The noun: present.",
+      "seed": 3065
+    },
+    {
+      "file": "04-present-zh-raw.wav",
+      "word": "present",
+      "language": "zh",
+      "text": "名词，礼物。"
+    },
+    {
+      "file": "05-accompany-en-raw.wav",
+      "word": "accompany",
+      "language": "en",
+      "text": "accompany."
+    },
+    {
+      "file": "05-accompany-zh-raw.wav",
+      "word": "accompany",
+      "language": "zh",
+      "text": "动词，陪伴，随行。"
+    },
+    {
+      "file": "06-approach-en-raw.wav",
+      "word": "approach",
+      "language": "en",
+      "text": "approach.",
+      "seed": 4065
+    },
+    {
+      "file": "06-approach-zh-raw.wav",
+      "word": "approach",
+      "language": "zh",
+      "text": "动词，走近。"
+    },
+    {
+      "file": "07-ought-en-raw.wav",
+      "word": "ought",
+      "language": "en",
+      "text": "ought."
+    },
+    {
+      "file": "07-ought-zh-raw.wav",
+      "word": "ought",
+      "language": "zh",
+      "text": "情态动词，应该。"
+    },
+    {
+      "file": "08-weigh-en-raw.wav",
+      "word": "weigh",
+      "language": "en",
+      "text": "weigh.",
+      "seed": 1065
+    },
+    {
+      "file": "08-weigh-zh-raw.wav",
+      "word": "weigh",
+      "language": "zh",
+      "text": "动词，重。"
+    },
+    {
+      "file": "09-fortunate-en-raw.wav",
+      "word": "fortunate",
+      "language": "en",
+      "text": "fortunate."
+    },
+    {
+      "file": "09-fortunate-zh-raw.wav",
+      "word": "fortunate",
+      "language": "zh",
+      "text": "形容词，幸运的。"
+    }
+  ],
+  "license": "Apache-2.0 (model); MIT (MLX Audio)",
+  "runtime": "mlx-audio==0.6.3",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "synthesis": {
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "max_tokens": 192,
+    "seed_rule": "lesson_number * 100 + request_index; English then Chinese per word",
+    "seed_base": 6500
+  },
+  "processing": {
+    "english_speeds": [
+      0.72,
+      0.86
+    ],
+    "preserve_pitch": true,
+    "gap_seconds": 2.2,
+    "edge_fade_seconds": 0.004
+  },
+  "clips": [
+    {
+      "file": "audio/book2/lesson-65/01-versus-teacher-slow.wav",
+      "text": "versus",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.245,
+      "sha256": "d4e4ed6dd9455f36dad834b7757303162c02bffa0febb5a7131abe3268ef5cdb",
+      "synthesis_text": "versus.",
+      "raw_sha256": "b39d016b595260516e89b8d4db6dd131c732fed71600b3e68f978be5fb58a880",
+      "word_interval": [
+        0.15,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/01-versus-teacher-normal.wav",
+      "text": "versus",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.042,
+      "sha256": "d0491f48956abf40742c63773f07c233c1d55328596f787e44f7623e6f18bcda",
+      "synthesis_text": "versus.",
+      "raw_sha256": "b39d016b595260516e89b8d4db6dd131c732fed71600b3e68f978be5fb58a880",
+      "word_interval": [
+        0.15,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/01-versus-teacher-meaning.wav",
+      "text": "介词，对。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.749,
+      "sha256": "3be0caeabc4c59628603db3e8494608c9f2fd6d1414c0cc2b6d9e61ce0491b3f",
+      "synthesis_text": "介词，对。",
+      "raw_sha256": "4304eadc2b44a63d73ce91e87731f751a8b155eebbeff46912e4d07ea86aae79",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/02-christmas-teacher-slow.wav",
+      "text": "Christmas",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.077,
+      "sha256": "6b33ef7713637773048247e4d800c715c3974fef247e9200e16722fffb40d792",
+      "synthesis_text": "Christmas.",
+      "raw_sha256": "c82282092ee34165a7da6225683877a8b049a7b8aea704fbcb0791e5f89034c0",
+      "word_interval": [
+        0.43,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/02-christmas-teacher-normal.wav",
+      "text": "Christmas",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.904,
+      "sha256": "7c07354fb0b5d9431a65f1e610ce1e1790bf7e165c10d45fcffeb26b25811e5e",
+      "synthesis_text": "Christmas.",
+      "raw_sha256": "c82282092ee34165a7da6225683877a8b049a7b8aea704fbcb0791e5f89034c0",
+      "word_interval": [
+        0.43,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/02-christmas-teacher-meaning.wav",
+      "text": "名词，圣诞节。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.849,
+      "sha256": "ff71fb062da09b9d2774006350f1a7dface47cd71d3395ebf71c9c416df42888",
+      "synthesis_text": "名词，圣诞节。",
+      "raw_sha256": "bf3bf74a8f2e90cb2bfdd6afbb10f378bd4b5360951232f359d6bce382df7c36",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/03-circus-teacher-slow.wav",
+      "text": "circus",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.685,
+      "sha256": "8fca2e624b05c3727ff797cc52c8af6c8721ce3ea0686eee45784f31af04cf0a",
+      "synthesis_text": "circus.",
+      "raw_sha256": "6418722e19c54bd2cad86dfb6ac7ede2769479e1bf6c37f89213e0e193f7596f",
+      "word_interval": [
+        0.07,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/03-circus-teacher-normal.wav",
+      "text": "circus",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.416,
+      "sha256": "aa7e154c7254aae79a74a44f8e83178b1b7fc3e3f93856b2a3a1d47267da1627",
+      "synthesis_text": "circus.",
+      "raw_sha256": "6418722e19c54bd2cad86dfb6ac7ede2769479e1bf6c37f89213e0e193f7596f",
+      "word_interval": [
+        0.07,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/03-circus-teacher-meaning.wav",
+      "text": "名词，马戏团。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.849,
+      "sha256": "666c31200b44f31acb6b8c4a43ace721ac4206179d5bdf0f07c2151c995bc616",
+      "synthesis_text": "名词，马戏团。",
+      "raw_sha256": "e765096fcce760a1c967f8958e8184da654773103c0dd4d7d2093e480d119506",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/04-present-teacher-slow.wav",
+      "text": "present",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.297,
+      "sha256": "bf74be7f4034ba0f7615eec807a9707f4f54fdb473c555d67cf02aef72863814",
+      "synthesis_text": "The noun: present.",
+      "raw_sha256": "56b89095c475f9e38fa40d2a684faf7ce0ec79533f2af0fbfae4974a85d264a9",
+      "word_interval": [
+        1.7,
+        2.48
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/04-present-teacher-normal.wav",
+      "text": "present",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.091,
+      "sha256": "d06675d3b1f39ee7bfbe8777698a36438115be272b05b80f051932130c787fb7",
+      "synthesis_text": "The noun: present.",
+      "raw_sha256": "56b89095c475f9e38fa40d2a684faf7ce0ec79533f2af0fbfae4974a85d264a9",
+      "word_interval": [
+        1.7,
+        2.48
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/04-present-teacher-meaning.wav",
+      "text": "名词，礼物。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.699,
+      "sha256": "fc6cfb3544ed5c7806ea8017408387a956570a5d8a8853dccb6672013698f673",
+      "synthesis_text": "名词，礼物。",
+      "raw_sha256": "e413b35495e27bcb15f9b40d82c95735fce3fd165d5bce2c9991483faeb8c89e",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/05-accompany-teacher-slow.wav",
+      "text": "accompany",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.381,
+      "sha256": "43f2def5025b10f374d212e44f7176640dd8c9b6dbee2c0e6563df8d5ba544d2",
+      "synthesis_text": "accompany.",
+      "raw_sha256": "7af9821d7f6c98f88726a91d88db44d52fe7f147ec859e1180cf97fea4b9f31b",
+      "word_interval": [
+        0.21,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/05-accompany-teacher-normal.wav",
+      "text": "accompany",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.16,
+      "sha256": "ae042e179ef02bf0d64ffea1bfceb5f694c82466dad3099baed82085a81ffa2d",
+      "synthesis_text": "accompany.",
+      "raw_sha256": "7af9821d7f6c98f88726a91d88db44d52fe7f147ec859e1180cf97fea4b9f31b",
+      "word_interval": [
+        0.21,
+        1.04
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/05-accompany-teacher-meaning.wav",
+      "text": "动词，陪伴，随行。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.319,
+      "sha256": "ee78b9dc463d990f7ccf898db3fac605cbdc0784a8e5b72bd4f73c5cea2d94dd",
+      "synthesis_text": "动词，陪伴，随行。",
+      "raw_sha256": "1ce33d8cf617266706bed47d69b87322708f9910bdd7e006872021109fdb08a7",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/06-approach-teacher-slow.wav",
+      "text": "approach",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.297,
+      "sha256": "b197103bf0ec216fbdd815dbc49a63a5d91e5ba15c7bc1eb6e71708fb4e9fb6d",
+      "synthesis_text": "approach.",
+      "raw_sha256": "7c39bb9a0f4ca325a8f6de7c257191e44bc08bea2c8f8d92b41488d465128e56",
+      "word_interval": [
+        0.11,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/06-approach-teacher-normal.wav",
+      "text": "approach",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.091,
+      "sha256": "12e96fed0889f6292f57e840c645fea4976cfd9018ea76520ede91fe0ff51659",
+      "synthesis_text": "approach.",
+      "raw_sha256": "7c39bb9a0f4ca325a8f6de7c257191e44bc08bea2c8f8d92b41488d465128e56",
+      "word_interval": [
+        0.11,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/06-approach-teacher-meaning.wav",
+      "text": "动词，走近。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.619,
+      "sha256": "86d874556951ca3a504ac98622bcdd60b32c9fbbc3533a8b28e7be1886eebc83",
+      "synthesis_text": "动词，走近。",
+      "raw_sha256": "50c16e4ce3523fdbeef89242cc77a2ed3c672a27c9cc63259ca331537e57b488",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/07-ought-teacher-slow.wav",
+      "text": "ought",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.087,
+      "sha256": "af036ad10aef1d9b71294dc3709c0a23a66c2319467ec6975f6bb001c7970c51",
+      "synthesis_text": "ought.",
+      "raw_sha256": "a220ce9b52c77fd2e214c58803084554986a3cb25f478c641ae4d218eb28206d",
+      "word_interval": [
+        0.18,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/07-ought-teacher-normal.wav",
+      "text": "ought",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 0.914,
+      "sha256": "17ae153389d878a4d1f5f88988fce2e3fe572824b0c31151f3a8f9f14f91c00b",
+      "synthesis_text": "ought.",
+      "raw_sha256": "a220ce9b52c77fd2e214c58803084554986a3cb25f478c641ae4d218eb28206d",
+      "word_interval": [
+        0.18,
+        0.8
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/07-ought-teacher-meaning.wav",
+      "text": "情态动词，应该。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.049,
+      "sha256": "78032bb14f4db918ccdd838b39ba12b00c9d98fb71d613b1eed74907afb0cae9",
+      "synthesis_text": "情态动词，应该。",
+      "raw_sha256": "fc4a92bfe803bd5a7d5b8654ec1d1bec5c01b8df5369fbff252e859f47de83de",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/08-weigh-teacher-slow.wav",
+      "text": "weigh",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.287,
+      "sha256": "10c541ef1edf51b3cebe43e522e95018182605905000e4106a3bccbbfc011d9d",
+      "synthesis_text": "weigh.",
+      "raw_sha256": "91db6db0f968a5072573c3226f97d9aad544d9093542ddec1f5efca55043e715",
+      "word_interval": [
+        0.12,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/08-weigh-teacher-normal.wav",
+      "text": "weigh",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.078,
+      "sha256": "884a2015f4b5d5500d612bb6b70c94f5c0afa00fb3a55b176c1a62b69e4aeaa5",
+      "synthesis_text": "weigh.",
+      "raw_sha256": "91db6db0f968a5072573c3226f97d9aad544d9093542ddec1f5efca55043e715",
+      "word_interval": [
+        0.12,
+        0.88
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/08-weigh-teacher-meaning.wav",
+      "text": "动词，重。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 1.599,
+      "sha256": "214770abb036189fd8452a573417dfbdd97c7bd04a2328f4ae53303d034ce5a7",
+      "synthesis_text": "动词，重。",
+      "raw_sha256": "4e89873c8f3692a21d5dcfa7db376acf53de890c5dfb5ee3e47b9b5071addea8",
+      "word_interval": null
+    },
+    {
+      "file": "audio/book2/lesson-65/09-fortunate-teacher-slow.wav",
+      "text": "fortunate",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.72,
+      "duration": 1.313,
+      "sha256": "3cf70753d1b7bfd5385b98f65732dbc2085cbf7bd9dee2c0b20a4035a3528f15",
+      "synthesis_text": "fortunate.",
+      "raw_sha256": "9ab3b52875a2e0352bb048672dcb2a23c787f730c6a820ac0ed0ac414e38dbd5",
+      "word_interval": [
+        0.32,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/09-fortunate-teacher-normal.wav",
+      "text": "fortunate",
+      "voice": "lesson-57-teacher",
+      "language": "en",
+      "speed": 0.86,
+      "duration": 1.101,
+      "sha256": "6967788c9b5c2a0b56775c00d63023a3da326126f722f7185b1eef57bd003f72",
+      "synthesis_text": "fortunate.",
+      "raw_sha256": "9ab3b52875a2e0352bb048672dcb2a23c787f730c6a820ac0ed0ac414e38dbd5",
+      "word_interval": [
+        0.32,
+        1.12
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/09-fortunate-teacher-meaning.wav",
+      "text": "形容词，幸运的。",
+      "voice": "lesson-57-teacher",
+      "language": "zh",
+      "speed": 1.0,
+      "duration": 2.049,
+      "sha256": "3ca0b93b4a149b9a8f6606cc11f44f4a6de214074bb8c5b84fb29d1e788aa69b",
+      "synthesis_text": "形容词，幸运的。",
+      "raw_sha256": "6f6f4bc7797860c9dd323a37c32d8fffca8a3f620398b6554663ef9e3742ce7a",
+      "word_interval": null
+    }
+  ],
+  "full_audio": {
+    "file": "audio/book2/lesson-65/lesson-65-full.wav",
+    "sha256": "d9ae36303dc5c6fee18375aa3e69e62a73182c001de201f6b93e461c613af6c7"
+  }
+}

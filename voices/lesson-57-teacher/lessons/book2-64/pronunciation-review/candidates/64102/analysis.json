@@ -1,0 +1,143 @@
+[
+ {
+  "file": "02-port-en-raw.wav",
+  "word": "port",
+  "duration": 1.12,
+  "asr": "Port.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.54,
+    1.02
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.03
+   ],
+   [
+    0.54,
+    1.05
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.01
+   ]
+  ],
+  "main_onset": 0.54,
+  "main_end": 1.02,
+  "pitch": {
+   "peak_hz": 299.7,
+   "peak_t": 0.85,
+   "tail_hz": 280.4,
+   "drop_st": 1.15,
+   "tail_delta_st": -0.3
+  },
+  "clip_peak": 0.214
+ },
+ {
+  "file": "07-ventilation-en-raw.wav",
+  "word": "ventilation",
+  "duration": 1.2,
+  "asr": "ventilation.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.17,
+    1.13
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.17,
+    1.16
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.17,
+  "main_end": 1.13,
+  "pitch": {
+   "peak_hz": 232.8,
+   "peak_t": 0.49,
+   "tail_hz": 217.7,
+   "drop_st": 1.16,
+   "tail_delta_st": -0.02
+  },
+  "clip_peak": 0.242
+ },
+ {
+  "file": "10-officially-en-raw.wav",
+  "word": "officially",
+  "duration": 0.96,
+  "asr": "officially.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.89
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.02
+   ],
+   [
+    0.11,
+    0.91
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.0,
+  "main_end": 0.89,
+  "pitch": {
+   "peak_hz": 289.7,
+   "peak_t": 0.4,
+   "tail_hz": 139.3,
+   "drop_st": 12.67,
+   "tail_delta_st": -6.42
+  },
+  "clip_peak": 0.112
+ },
+ {
+  "file": "11-connect-en-raw.wav",
+  "word": "connect",
+  "duration": 0.72,
+  "asr": "connect",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.14,
+    0.67
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.14,
+    0.68
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.14,
+  "main_end": 0.67,
+  "pitch": {
+   "peak_hz": 271.6,
+   "peak_t": 0.42,
+   "tail_hz": 213.0,
+   "drop_st": 4.2,
+   "tail_delta_st": -5.49
+  },
+  "clip_peak": 0.148
+ }
+]

@@ -1,16 +1,20 @@
 {
   "lesson": 62,
+  "words": 15,
+  "clips": 45,
+  "duration_seconds": 136.08083333333335,
+  "format": "24 kHz mono PCM16",
+  "hashes_and_playback_sequence": "verified",
+  "status": "byte_reproduction_verified_pronunciation_pending",
   "raw_archive": "voices/lesson-57-teacher/lessons/book2-62/raw",
   "manifest": "public/audio/book2/lesson-62/generation.json",
   "archived_raw_clips": 30,
   "word_clips": 45,
-  "full_audio_files": 1,
-  "duration_seconds": 137.96991666666668,
   "all_recording_sha256_identical": true,
+  "pronunciation_verified": false,
+  "pronunciation_review": "voices/lesson-57-teacher/lessons/book2-62/pronunciation-review/summary.json",
+  "current_audio_identical": true,
+  "comparison": "current generation.json",
   "browser_decoded_clips": 45,
-  "playback_order_verified": true,
-  "switching_stops_old_audio": true,
-  "old_lesson_62_recordings_deleted": true,
-  "lesson_63_preserved": true,
-  "original_video_required": false
+  "switching_stops_old_audio": true
 }

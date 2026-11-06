@@ -1,0 +1,526 @@
+{
+  "lesson": 65,
+  "mode": "raw",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "01-versus-en-raw.wav",
+      "word": "versus",
+      "language": "en",
+      "expected": "versus.",
+      "recognized": "versus",
+      "word_timestamps": [
+        {
+          "word": " versus",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.635227382183075
+        }
+      ]
+    },
+    {
+      "file": "01-versus-zh-raw.wav",
+      "word": "versus",
+      "language": "zh",
+      "expected": "介词，对。",
+      "recognized": "戒詞隊",
+      "word_timestamps": [
+        {
+          "word": "戒",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.779703676700592
+        },
+        {
+          "word": "詞",
+          "start": 0.66,
+          "end": 1.14,
+          "probability": 0.5797991007566452
+        },
+        {
+          "word": "隊",
+          "start": 1.14,
+          "end": 1.54,
+          "probability": 0.27740478515625
+        }
+      ]
+    },
+    {
+      "file": "02-christmas-en-raw.wav",
+      "word": "Christmas",
+      "language": "en",
+      "expected": "Christmas.",
+      "recognized": "Christmas.",
+      "word_timestamps": [
+        {
+          "word": " Christmas.",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.7402773499488831
+        }
+      ]
+    },
+    {
+      "file": "02-christmas-zh-raw.wav",
+      "word": "Christmas",
+      "language": "zh",
+      "expected": "名词，圣诞节。",
+      "recognized": "名詞聖誕節",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9131699204444885
+        },
+        {
+          "word": "詞",
+          "start": 0.42,
+          "end": 0.82,
+          "probability": 0.9482075870037079
+        },
+        {
+          "word": "聖",
+          "start": 0.82,
+          "end": 1.22,
+          "probability": 0.6022059768438339
+        },
+        {
+          "word": "誕",
+          "start": 1.22,
+          "end": 1.38,
+          "probability": 0.9940721392631531
+        },
+        {
+          "word": "節",
+          "start": 1.38,
+          "end": 1.64,
+          "probability": 0.9931235909461975
+        }
+      ]
+    },
+    {
+      "file": "03-circus-en-raw.wav",
+      "word": "circus",
+      "language": "en",
+      "expected": "circus.",
+      "recognized": "Circus.",
+      "word_timestamps": [
+        {
+          "word": " Circus.",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.7647211849689484
+        }
+      ]
+    },
+    {
+      "file": "03-circus-zh-raw.wav",
+      "word": "circus",
+      "language": "zh",
+      "expected": "名词，马戏团。",
+      "recognized": "名詞馬戲團",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.9104340076446533
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.6,
+          "probability": 0.9911938905715942
+        },
+        {
+          "word": "馬",
+          "start": 0.6,
+          "end": 0.96,
+          "probability": 0.5312753319740295
+        },
+        {
+          "word": "戲",
+          "start": 0.96,
+          "end": 1.2,
+          "probability": 0.9494436383247375
+        },
+        {
+          "word": "團",
+          "start": 1.2,
+          "end": 1.42,
+          "probability": 0.9919598698616028
+        }
+      ]
+    },
+    {
+      "file": "04-present-en-raw.wav",
+      "word": "present",
+      "language": "en",
+      "expected": "a birthday present.",
+      "recognized": "a birthday present.",
+      "word_timestamps": [
+        {
+          "word": " a",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.39122137427330017
+        },
+        {
+          "word": " birthday",
+          "start": 0.46,
+          "end": 0.84,
+          "probability": 0.9102104902267456
+        },
+        {
+          "word": " present.",
+          "start": 0.84,
+          "end": 1.4,
+          "probability": 0.9992347955703735
+        }
+      ]
+    },
+    {
+      "file": "04-present-zh-raw.wav",
+      "word": "present",
+      "language": "zh",
+      "expected": "名词，礼物。",
+      "recognized": "名詞禮物",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.8862472772598267
+        },
+        {
+          "word": "詞",
+          "start": 0.26,
+          "end": 0.72,
+          "probability": 0.8980410397052765
+        },
+        {
+          "word": "禮",
+          "start": 0.72,
+          "end": 1.22,
+          "probability": 0.7861332893371582
+        },
+        {
+          "word": "物",
+          "start": 1.22,
+          "end": 1.38,
+          "probability": 0.9981603026390076
+        }
+      ]
+    },
+    {
+      "file": "05-accompany-en-raw.wav",
+      "word": "accompany",
+      "language": "en",
+      "expected": "accompany.",
+      "recognized": "Accompany",
+      "word_timestamps": [
+        {
+          "word": " Accompany",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.6819732983907064
+        }
+      ]
+    },
+    {
+      "file": "05-accompany-zh-raw.wav",
+      "word": "accompany",
+      "language": "zh",
+      "expected": "动词，陪伴，随行。",
+      "recognized": "動詞 陪伴 隨行",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.460245281457901
+        },
+        {
+          "word": "詞",
+          "start": 0.48,
+          "end": 0.86,
+          "probability": 0.9937856197357178
+        },
+        {
+          "word": " 陪",
+          "start": 1.12,
+          "end": 1.34,
+          "probability": 0.9939083755016327
+        },
+        {
+          "word": "伴",
+          "start": 1.34,
+          "end": 1.56,
+          "probability": 0.9996650516986847
+        },
+        {
+          "word": " 隨",
+          "start": 1.82,
+          "end": 1.96,
+          "probability": 0.9835190176963806
+        },
+        {
+          "word": "行",
+          "start": 1.96,
+          "end": 2.18,
+          "probability": 0.7539748549461365
+        }
+      ]
+    },
+    {
+      "file": "06-approach-en-raw.wav",
+      "word": "approach",
+      "language": "en",
+      "expected": "approach.",
+      "recognized": "approach.",
+      "word_timestamps": [
+        {
+          "word": " approach.",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.7474308013916016
+        }
+      ]
+    },
+    {
+      "file": "06-approach-zh-raw.wav",
+      "word": "approach",
+      "language": "zh",
+      "expected": "动词，走近。",
+      "recognized": "動詞走近",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.5968993306159973
+        },
+        {
+          "word": "詞",
+          "start": 0.14,
+          "end": 0.66,
+          "probability": 0.9852219820022583
+        },
+        {
+          "word": "走",
+          "start": 0.66,
+          "end": 0.98,
+          "probability": 0.915271520614624
+        },
+        {
+          "word": "近",
+          "start": 0.98,
+          "end": 1.26,
+          "probability": 0.5223444104194641
+        }
+      ]
+    },
+    {
+      "file": "07-ought-en-raw.wav",
+      "word": "ought",
+      "language": "en",
+      "expected": "ought.",
+      "recognized": "art.",
+      "word_timestamps": [
+        {
+          "word": " art.",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.2846510112285614
+        }
+      ]
+    },
+    {
+      "file": "07-ought-zh-raw.wav",
+      "word": "ought",
+      "language": "zh",
+      "expected": "情态动词，应该。",
+      "recognized": "情态动词应该",
+      "word_timestamps": [
+        {
+          "word": "情",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.6723300218582153
+        },
+        {
+          "word": "态",
+          "start": 0.42,
+          "end": 0.7,
+          "probability": 0.7364159524440765
+        },
+        {
+          "word": "动",
+          "start": 0.7,
+          "end": 0.84,
+          "probability": 0.6949470639228821
+        },
+        {
+          "word": "词",
+          "start": 0.84,
+          "end": 1.26,
+          "probability": 0.8395989537239075
+        },
+        {
+          "word": "应",
+          "start": 1.26,
+          "end": 1.64,
+          "probability": 0.6997486352920532
+        },
+        {
+          "word": "该",
+          "start": 1.64,
+          "end": 1.86,
+          "probability": 0.999377429485321
+        }
+      ]
+    },
+    {
+      "file": "08-weigh-en-raw.wav",
+      "word": "weigh",
+      "language": "en",
+      "expected": "weigh.",
+      "recognized": "way",
+      "word_timestamps": [
+        {
+          "word": " way",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.26065972447395325
+        }
+      ]
+    },
+    {
+      "file": "08-weigh-zh-raw.wav",
+      "word": "weigh",
+      "language": "zh",
+      "expected": "动词，重。",
+      "recognized": "動詞 重",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.41670122742652893
+        },
+        {
+          "word": "詞",
+          "start": 0.32,
+          "end": 0.8,
+          "probability": 0.9961537420749664
+        },
+        {
+          "word": " 重",
+          "start": 1.04,
+          "end": 1.36,
+          "probability": 0.31192150712013245
+        }
+      ]
+    },
+    {
+      "file": "09-fortunate-en-raw.wav",
+      "word": "fortunate",
+      "language": "en",
+      "expected": "fortunate.",
+      "recognized": "Fortunate.",
+      "word_timestamps": [
+        {
+          "word": " Fortunate.",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.6138642877340317
+        }
+      ]
+    },
+    {
+      "file": "09-fortunate-zh-raw.wav",
+      "word": "fortunate",
+      "language": "zh",
+      "expected": "形容词，幸运的。",
+      "recognized": "形容詞 幸運的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.9392684102058411
+        },
+        {
+          "word": "容",
+          "start": 0.5,
+          "end": 0.66,
+          "probability": 0.9979286193847656
+        },
+        {
+          "word": "詞",
+          "start": 0.66,
+          "end": 1.02,
+          "probability": 0.9917369186878204
+        },
+        {
+          "word": " 幸",
+          "start": 1.48,
+          "end": 1.6,
+          "probability": 0.9528766870498657
+        },
+        {
+          "word": "運",
+          "start": 1.6,
+          "end": 1.82,
+          "probability": 0.9935330152511597
+        },
+        {
+          "word": "的",
+          "start": 1.82,
+          "end": 1.96,
+          "probability": 0.8887049555778503
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "versus": [
+      0,
+      0.88
+    ],
+    "Christmas": [
+      0,
+      1.04
+    ],
+    "circus": [
+      0,
+      1.04
+    ],
+    "present": [
+      0.84,
+      1.68
+    ],
+    "accompany": [
+      0,
+      1.04
+    ],
+    "approach": [
+      0,
+      1.28
+    ],
+    "ought": [
+      0,
+      0.8
+    ],
+    "weigh": [
+      0,
+      1.04
+    ],
+    "fortunate": [
+      0,
+      1.12
+    ]
+  }
+}

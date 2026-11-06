@@ -1,0 +1,33 @@
+[
+ {
+  "word": "sea level",
+  "kind": "slow",
+  "asr": "C-Level",
+  "duration": 1.607,
+  "first_active_s": 0.18,
+  "internal_gaps_ge150ms": [],
+  "strict": false
+ },
+ {
+  "word": "sea level",
+  "kind": "normal",
+  "asr": "C-Level",
+  "duration": 1.344,
+  "first_active_s": 0.14,
+  "internal_gaps_ge150ms": [],
+  "strict": false
+ },
+ {
+  "word": "sea level",
+  "kind": "meaning",
+  "asr": "名詞 海平面",
+  "duration": 1.919,
+  "first_active_s": 0.16,
+  "internal_gaps_ge150ms": [
+   [
+    0.92,
+    1.08
+   ]
+  ]
+ }
+]

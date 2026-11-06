@@ -4,6 +4,8 @@
 
 从词表取本课完整词条并核对发音、词性和中文释义。标题使用本课标题。保存 `voices/lesson-57-teacher/recipes/book2-N.json`，包括 `book`、`lesson`、`title`、`seed_base`、`english_text`、`trim_file`、`raw_archive`；`seed_base` 默认课号乘 100。
 
+配方的 `english_seeds` 可按完整单词覆盖英文 seed，覆盖值写入原始合成清单。未覆盖的请求使用 `seed_base + request_index`，筛选词和语言不改变原始请求索引。仅重生成英文时使用 `--synthesize-only --only 单词 --language en`，输入变化仍使用新的 raw 目录。
+
 英文默认输入 `The <词性>: <单词>.`；本课需要的独立单词或其他明确语义上下文写入 `english_text`。上下文用于确定发音，最终只保留目标词。中文按词性加释义生成。参考第 63 课配方的 JSON 结构。
 
 ## 合成与截取
@@ -68,4 +70,4 @@ python3 scripts/validate_lesson_audio.py --lesson 63 --public-dir "$STAGE_PUBLIC
   --compare-approved public/audio/book2/lesson-63/generation.json
 ```
 
-在已保存的 Mac 环境中执行，18 段音频和整课 WAV 必须与已确认成品的 SHA-256 完全相同。当前已确认整课时长为 55.286125 秒。
+在已保存的 Mac 环境中执行，18 段音频和整课 WAV 必须与当前成品的 SHA-256 完全相同。当前整课时长和字节复现结果见 `voices/lesson-57-teacher/lessons/book2-63/reproduction-check.json`；发音验收状态见配方的 `pronunciation_review`。

@@ -1,0 +1,412 @@
+{
+  "lesson": 63,
+  "mode": "raw",
+  "method": "faster-whisper-/Users/colin/.cache/huggingface/hub/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "01-circle-en-raw.wav",
+      "word": "circle",
+      "language": "en",
+      "expected": "The noun: circle.",
+      "recognized": "The Now Circle.",
+      "word_timestamps": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.4947567582130432
+        },
+        {
+          "word": " Now",
+          "start": 0.58,
+          "end": 1.02,
+          "probability": 0.32922476530075073
+        },
+        {
+          "word": " Circle.",
+          "start": 1.02,
+          "end": 1.78,
+          "probability": 0.8116339445114136
+        }
+      ]
+    },
+    {
+      "file": "01-circle-zh-raw.wav",
+      "word": "circle",
+      "language": "zh",
+      "expected": "名词，圈子。",
+      "recognized": "名詞圈子",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.6774966716766357
+        },
+        {
+          "word": "詞",
+          "start": 0.22,
+          "end": 0.7,
+          "probability": 0.886094868183136
+        },
+        {
+          "word": "圈",
+          "start": 0.7,
+          "end": 1.3,
+          "probability": 0.8004545569419861
+        },
+        {
+          "word": "子",
+          "start": 1.3,
+          "end": 1.56,
+          "probability": 0.8719495534896851
+        }
+      ]
+    },
+    {
+      "file": "02-admire-en-raw.wav",
+      "word": "admire",
+      "language": "en",
+      "expected": "The verb: admire.",
+      "recognized": "The verb admire.",
+      "word_timestamps": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.58559650182724
+        },
+        {
+          "word": " verb",
+          "start": 0.32,
+          "end": 0.66,
+          "probability": 0.8574431538581848
+        },
+        {
+          "word": " admire.",
+          "start": 0.66,
+          "end": 1.26,
+          "probability": 0.1721438616514206
+        }
+      ]
+    },
+    {
+      "file": "02-admire-zh-raw.wav",
+      "word": "admire",
+      "language": "zh",
+      "expected": "动词，赞美，钦佩。",
+      "recognized": "動詞讚美欽佩",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.5928451418876648
+        },
+        {
+          "word": "詞",
+          "start": 0.54,
+          "end": 0.96,
+          "probability": 0.996183305978775
+        },
+        {
+          "word": "讚",
+          "start": 0.96,
+          "end": 1.48,
+          "probability": 0.8268272280693054
+        },
+        {
+          "word": "美",
+          "start": 1.48,
+          "end": 1.8,
+          "probability": 0.9994361996650696
+        },
+        {
+          "word": "欽",
+          "start": 1.8,
+          "end": 2.38,
+          "probability": 0.6446012854576111
+        },
+        {
+          "word": "佩",
+          "start": 2.38,
+          "end": 2.62,
+          "probability": 0.9795140624046326
+        }
+      ]
+    },
+    {
+      "file": "03-close-en-raw.wav",
+      "word": "close",
+      "language": "en",
+      "expected": "The adjective: close.",
+      "recognized": "The adjective, close.",
+      "word_timestamps": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.8075814843177795
+        },
+        {
+          "word": " adjective,",
+          "start": 0.74,
+          "end": 1.26,
+          "probability": 0.8747303485870361
+        },
+        {
+          "word": " close.",
+          "start": 1.88,
+          "end": 2.3,
+          "probability": 0.676668643951416
+        }
+      ]
+    },
+    {
+      "file": "03-close-zh-raw.wav",
+      "word": "close",
+      "language": "zh",
+      "expected": "形容词，亲密的。",
+      "recognized": "形容詞 親密的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.9795356392860413
+        },
+        {
+          "word": "容",
+          "start": 0.44,
+          "end": 0.64,
+          "probability": 0.998264729976654
+        },
+        {
+          "word": "詞",
+          "start": 0.64,
+          "end": 1.02,
+          "probability": 0.9662988781929016
+        },
+        {
+          "word": " 親",
+          "start": 1.4,
+          "end": 1.64,
+          "probability": 0.9287030696868896
+        },
+        {
+          "word": "密",
+          "start": 1.64,
+          "end": 2.0,
+          "probability": 0.9875401258468628
+        },
+        {
+          "word": "的",
+          "start": 2.0,
+          "end": 2.14,
+          "probability": 0.9027361273765564
+        }
+      ]
+    },
+    {
+      "file": "04-wedding-en-raw.wav",
+      "word": "wedding",
+      "language": "en",
+      "expected": "The noun: wedding.",
+      "recognized": "The Now. Wedding.",
+      "word_timestamps": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.6220155358314514
+        },
+        {
+          "word": " Now.",
+          "start": 0.34,
+          "end": 0.7,
+          "probability": 0.3338625133037567
+        },
+        {
+          "word": " Wedding.",
+          "start": 1.14,
+          "end": 1.66,
+          "probability": 0.9864449799060822
+        }
+      ]
+    },
+    {
+      "file": "04-wedding-zh-raw.wav",
+      "word": "wedding",
+      "language": "zh",
+      "expected": "名词，婚礼。",
+      "recognized": "名詞婚禮",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.693696916103363
+        },
+        {
+          "word": "詞",
+          "start": 0.46,
+          "end": 0.9,
+          "probability": 0.9363658726215363
+        },
+        {
+          "word": "婚",
+          "start": 0.9,
+          "end": 1.36,
+          "probability": 0.6254493147134781
+        },
+        {
+          "word": "禮",
+          "start": 1.36,
+          "end": 1.62,
+          "probability": 0.977601021528244
+        }
+      ]
+    },
+    {
+      "file": "05-reception-en-raw.wav",
+      "word": "reception",
+      "language": "en",
+      "expected": "reception.",
+      "recognized": "Reception.",
+      "word_timestamps": [
+        {
+          "word": " Reception.",
+          "start": 0.0,
+          "end": 0.86,
+          "probability": 0.7044078707695007
+        }
+      ]
+    },
+    {
+      "file": "05-reception-zh-raw.wav",
+      "word": "reception",
+      "language": "zh",
+      "expected": "名词，招待会。",
+      "recognized": "名詞招待會",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.7157756686210632
+        },
+        {
+          "word": "詞",
+          "start": 0.3,
+          "end": 0.72,
+          "probability": 0.928682416677475
+        },
+        {
+          "word": "招",
+          "start": 0.72,
+          "end": 1.14,
+          "probability": 0.6682932674884796
+        },
+        {
+          "word": "待",
+          "start": 1.14,
+          "end": 1.28,
+          "probability": 0.9991750121116638
+        },
+        {
+          "word": "會",
+          "start": 1.28,
+          "end": 1.5,
+          "probability": 0.9901779294013977
+        }
+      ]
+    },
+    {
+      "file": "06-sort-en-raw.wav",
+      "word": "sort",
+      "language": "en",
+      "expected": "The noun: sort.",
+      "recognized": "The noun sort",
+      "word_timestamps": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.6631923913955688
+        },
+        {
+          "word": " noun",
+          "start": 0.46,
+          "end": 0.9,
+          "probability": 0.855935275554657
+        },
+        {
+          "word": " sort",
+          "start": 0.9,
+          "end": 1.68,
+          "probability": 0.5589451789855957
+        }
+      ]
+    },
+    {
+      "file": "06-sort-zh-raw.wav",
+      "word": "sort",
+      "language": "zh",
+      "expected": "名词，种类。",
+      "recognized": "名詞種類",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.8153684735298157
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.74,
+          "probability": 0.9078125357627869
+        },
+        {
+          "word": "種",
+          "start": 0.74,
+          "end": 1.24,
+          "probability": 0.4473055303096771
+        },
+        {
+          "word": "類",
+          "start": 1.24,
+          "end": 1.56,
+          "probability": 0.9987939596176147
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "circle": [
+      1.34,
+      2.24
+    ],
+    "admire": [
+      0.66,
+      1.68
+    ],
+    "close": [
+      1.82,
+      2.72
+    ],
+    "wedding": [
+      1.07,
+      1.84
+    ],
+    "reception": [
+      0,
+      1.28
+    ],
+    "sort": [
+      1.215,
+      2.0
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "book": 2,
+  "lesson": 65,
+  "title": "Jumbo versus the police",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "seed_base": 6500,
+  "english_text": {
+    "versus": "versus.",
+    "Christmas": "Christmas.",
+    "circus": "circus.",
+    "present": "The noun: present.",
+    "accompany": "accompany.",
+    "approach": "approach.",
+    "ought": "ought.",
+    "weigh": "weigh.",
+    "fortunate": "fortunate."
+  },
+  "trim_file": "scripts/lesson-65-trims.json",
+  "raw_archive": "voices/lesson-57-teacher/lessons/book2-65/raw",
+  "english_seeds": {
+    "present": 3065
+  }
+}

@@ -13,7 +13,7 @@ description: 为 Read Alone 新概念英语第二册生成下一课单词跟读�
 - 中英文参考音频及准确转写：按 profile 的 `references` 读取，校验 SHA-256。
 - 音色向量：`voices/lesson-57-teacher/speaker-embeddings.npz`，对应模型与校验值在 `features.json`。
 - 词表：`words/nce_words.json` 中 `book == 2`、`lesson_seq == 目标课号` 的完整词条。
-- 已确认的第 63 课配方、原始合成片段、截取时间及成品：`voices/lesson-57-teacher/recipes/book2-63.json` 指向的文件。
+- 第 63 课当前配方、原始合成片段、截取时间及成品：`voices/lesson-57-teacher/recipes/book2-63.json` 指向的文件；发音验收状态见配方的 `pronunciation_review`。
 
 项目根目录是本技能目录所在的 `skills/` 目录的父目录；定位时先解析符号链接。全部生成输入已经独立保存，直接使用参考 WAV 与转写，无需原始视频。
 

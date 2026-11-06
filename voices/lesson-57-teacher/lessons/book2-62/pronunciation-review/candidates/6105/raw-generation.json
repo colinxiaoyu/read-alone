@@ -1,0 +1,101 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "02-smoke-en-raw.wav",
+      "word": "smoke",
+      "language": "en",
+      "text": "smoke.",
+      "seed": 6105
+    },
+    {
+      "file": "03-desolate-en-raw.wav",
+      "word": "desolate",
+      "language": "en",
+      "text": "desolate.",
+      "seed": 6105
+    },
+    {
+      "file": "04-threaten-en-raw.wav",
+      "word": "threaten",
+      "language": "en",
+      "text": "threaten.",
+      "seed": 6105
+    },
+    {
+      "file": "05-surrounding-en-raw.wav",
+      "word": "surrounding",
+      "language": "en",
+      "text": "surrounding.",
+      "seed": 6105
+    },
+    {
+      "file": "06-destruction-en-raw.wav",
+      "word": "destruction",
+      "language": "en",
+      "text": "destruction.",
+      "seed": 6105
+    },
+    {
+      "file": "07-flood-en-raw.wav",
+      "word": "flood",
+      "language": "en",
+      "text": "flood.",
+      "seed": 6105
+    },
+    {
+      "file": "08-authority-en-raw.wav",
+      "word": "authority",
+      "language": "en",
+      "text": "authority.",
+      "seed": 6105
+    },
+    {
+      "file": "09-grass-seed-en-raw.wav",
+      "word": "grass-seed",
+      "language": "en",
+      "text": "grass seed.",
+      "seed": 6105
+    },
+    {
+      "file": "10-spray-en-raw.wav",
+      "word": "spray",
+      "language": "en",
+      "text": "spray.",
+      "seed": 6105
+    },
+    {
+      "file": "11-quantity-en-raw.wav",
+      "word": "quantity",
+      "language": "en",
+      "text": "quantity.",
+      "seed": 6105
+    },
+    {
+      "file": "12-root-en-raw.wav",
+      "word": "root",
+      "language": "en",
+      "text": "root.",
+      "seed": 6105
+    },
+    {
+      "file": "15-blacken-en-raw.wav",
+      "word": "blacken",
+      "language": "en",
+      "text": "blacken.",
+      "seed": 6105
+    }
+  ]
+}

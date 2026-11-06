@@ -125,7 +125,8 @@
       "file": "10-spray-en-raw.wav",
       "word": "spray",
       "language": "en",
-      "text": "spray."
+      "text": "spray.",
+      "seed": 3105
     },
     {
       "file": "10-spray-zh-raw.wav",
@@ -598,13 +599,13 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.72,
-      "duration": 1.8,
-      "sha256": "67a9efdad3f587d115cdb8e2a20410f55789e001b21ef251bba516647b1963fa",
+      "duration": 1.255,
+      "sha256": "a7f81d3a7cff4aff9106191efd6c8c8c807c3e98f42c31c7797944baaa05de1d",
       "synthesis_text": "spray.",
-      "raw_sha256": "1740fce3b0c2ea51d48a7f5d5674542f4aa3f46a30576c9fd369358229ef1c62",
+      "raw_sha256": "435995987d272c6fdf181cc9649401463e2d8829a671211b07cf0310fbf03176",
       "word_interval": [
-        0,
-        1.12
+        0.15,
+        0.88
       ]
     },
     {
@@ -613,13 +614,13 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.86,
-      "duration": 1.508,
-      "sha256": "52233efe136d1d2d4038cae931ed8eb8632963092830a7c8fd65f0f274fbfa02",
+      "duration": 1.055,
+      "sha256": "902f6855ab162882e011146b937fb6c0cc772363e7f108a8fbb95d81506d8aa6",
       "synthesis_text": "spray.",
-      "raw_sha256": "1740fce3b0c2ea51d48a7f5d5674542f4aa3f46a30576c9fd369358229ef1c62",
+      "raw_sha256": "435995987d272c6fdf181cc9649401463e2d8829a671211b07cf0310fbf03176",
       "word_interval": [
-        0,
-        1.12
+        0.15,
+        0.88
       ]
     },
     {
@@ -724,12 +725,12 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.72,
-      "duration": 1.575,
-      "sha256": "a0bce7c258912397aea47258f269f9dfeb36a0148e6b9d898214529a63c70e7c",
+      "duration": 1.229,
+      "sha256": "615330546bbb7d9fa2a1d0efaadf0a75f9b5e6c3f04d8c20217b936e5199601b",
       "synthesis_text": "century.",
       "raw_sha256": "e2b5a20387910834981cfba2abe41717f90ab958cec13e5707050a40b5b903cd",
       "word_interval": [
-        0,
+        0.25,
         0.96
       ]
     },
@@ -739,12 +740,12 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.86,
-      "duration": 1.321,
-      "sha256": "86b6f0af463b1d80016ca8f846202a01ac39be70d60c203c80192b3d4e9e43cc",
+      "duration": 1.032,
+      "sha256": "3546690c240fcfd1e6ceae860d387b4f812ffc220deab2d21b041c8e3fc1e24b",
       "synthesis_text": "century.",
       "raw_sha256": "e2b5a20387910834981cfba2abe41717f90ab958cec13e5707050a40b5b903cd",
       "word_interval": [
-        0,
+        0.25,
         0.96
       ]
     },
@@ -766,12 +767,12 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.72,
-      "duration": 1.245,
-      "sha256": "43d52536d333adf53cef325c3d99ba5925c5d0354ffa6ce13a2f324117f60af9",
+      "duration": 1.103,
+      "sha256": "b0a6272172e12f620ea6b42e72280d721f7167e5583254e965159270467add31",
       "synthesis_text": "patch.",
       "raw_sha256": "88069e5cb32900e7402907a2aff3ee8f2cba3efdcdde854a807794076884e54f",
       "word_interval": [
-        0,
+        0.1,
         0.72
       ]
     },
@@ -781,12 +782,12 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.86,
-      "duration": 1.042,
-      "sha256": "51a8874552ee38db116524910e55a0b7a313c065e74758e0a16e61568ff87d6c",
+      "duration": 0.927,
+      "sha256": "6d9c7f2e6e7e649007f1cc0c9dc16fcbb5390bc9d01625b5beaafaba0a110981",
       "synthesis_text": "patch.",
       "raw_sha256": "88069e5cb32900e7402907a2aff3ee8f2cba3efdcdde854a807794076884e54f",
       "word_interval": [
-        0,
+        0.1,
         0.72
       ]
     },
@@ -847,6 +848,6 @@
   ],
   "full_audio": {
     "file": "audio/book2/lesson-62/lesson-62-full.wav",
-    "sha256": "66fc40780db0d3eee2647a075213307f1384d803d897bf39cda2b611ea757f3d"
+    "sha256": "a81ad02ea8c851f66b8a922bd0cab91fadb3d0b25b666eb6a734a1f6a1232353"
   }
 }

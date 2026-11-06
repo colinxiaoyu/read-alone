@@ -1,0 +1,486 @@
+{
+  "lesson": 65,
+  "mode": "final",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "audio/book2/lesson-65/01-versus-teacher-slow.wav",
+      "word": "versus",
+      "language": "en",
+      "expected": "versus",
+      "recognized": "versus",
+      "word_timestamps": [
+        {
+          "word": " versus",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.6127698421478271
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/01-versus-teacher-meaning.wav",
+      "word": "versus",
+      "language": "zh",
+      "expected": "介词，对。",
+      "recognized": "戒詞,對",
+      "word_timestamps": [
+        {
+          "word": "戒",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.7607636749744415
+        },
+        {
+          "word": "詞,",
+          "start": 0.56,
+          "end": 1.04,
+          "probability": 0.6419315934181213
+        },
+        {
+          "word": "對",
+          "start": 1.16,
+          "end": 1.44,
+          "probability": 0.949892520904541
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/02-christmas-teacher-slow.wav",
+      "word": "Christmas",
+      "language": "en",
+      "expected": "Christmas",
+      "recognized": "Christmas!",
+      "word_timestamps": [
+        {
+          "word": " Christmas!",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.8479204773902893
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/02-christmas-teacher-meaning.wav",
+      "word": "Christmas",
+      "language": "zh",
+      "expected": "名词，圣诞节。",
+      "recognized": "名詞聖誕節",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9360958933830261
+        },
+        {
+          "word": "詞",
+          "start": 0.32,
+          "end": 0.74,
+          "probability": 0.9621526896953583
+        },
+        {
+          "word": "聖",
+          "start": 0.74,
+          "end": 1.12,
+          "probability": 0.6432142704725266
+        },
+        {
+          "word": "誕",
+          "start": 1.12,
+          "end": 1.3,
+          "probability": 0.9954264461994171
+        },
+        {
+          "word": "節",
+          "start": 1.3,
+          "end": 1.56,
+          "probability": 0.9941787719726562
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/03-circus-teacher-slow.wav",
+      "word": "circus",
+      "language": "en",
+      "expected": "circus",
+      "recognized": "Circus",
+      "word_timestamps": [
+        {
+          "word": " Circus",
+          "start": 0.0,
+          "end": 1.08,
+          "probability": 0.69499771296978
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/03-circus-teacher-meaning.wav",
+      "word": "circus",
+      "language": "zh",
+      "expected": "名词，马戏团。",
+      "recognized": "名詞馬戲團",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9437716007232666
+        },
+        {
+          "word": "詞",
+          "start": 0.32,
+          "end": 0.7,
+          "probability": 0.9873735010623932
+        },
+        {
+          "word": "馬",
+          "start": 0.7,
+          "end": 1.04,
+          "probability": 0.5565720796585083
+        },
+        {
+          "word": "戲",
+          "start": 1.04,
+          "end": 1.28,
+          "probability": 0.9549033045768738
+        },
+        {
+          "word": "團",
+          "start": 1.28,
+          "end": 1.5,
+          "probability": 0.9937344193458557
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/04-present-teacher-slow.wav",
+      "word": "present",
+      "language": "en",
+      "expected": "present",
+      "recognized": "present",
+      "word_timestamps": [
+        {
+          "word": " present",
+          "start": 0.0,
+          "end": 0.7,
+          "probability": 0.6390621066093445
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/04-present-teacher-meaning.wav",
+      "word": "present",
+      "language": "zh",
+      "expected": "名词，礼物。",
+      "recognized": "名詞禮物",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.905297040939331
+        },
+        {
+          "word": "詞",
+          "start": 0.34,
+          "end": 0.8,
+          "probability": 0.9199690222740173
+        },
+        {
+          "word": "禮",
+          "start": 0.8,
+          "end": 1.28,
+          "probability": 0.798905074596405
+        },
+        {
+          "word": "物",
+          "start": 1.28,
+          "end": 1.46,
+          "probability": 0.9986618757247925
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/05-accompany-teacher-slow.wav",
+      "word": "accompany",
+      "language": "en",
+      "expected": "accompany",
+      "recognized": "Accompany",
+      "word_timestamps": [
+        {
+          "word": " Accompany",
+          "start": 0.0,
+          "end": 1.02,
+          "probability": 0.7747322221597036
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/05-accompany-teacher-meaning.wav",
+      "word": "accompany",
+      "language": "zh",
+      "expected": "动词，陪伴，随行。",
+      "recognized": "動詞 陪伴 隨行",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.3850795328617096
+        },
+        {
+          "word": "詞",
+          "start": 0.3,
+          "end": 0.7,
+          "probability": 0.9948418736457825
+        },
+        {
+          "word": " 陪",
+          "start": 0.9,
+          "end": 1.14,
+          "probability": 0.9957177340984344
+        },
+        {
+          "word": "伴",
+          "start": 1.14,
+          "end": 1.4,
+          "probability": 0.9997309148311615
+        },
+        {
+          "word": " 隨",
+          "start": 1.66,
+          "end": 1.76,
+          "probability": 0.9863796830177307
+        },
+        {
+          "word": "行",
+          "start": 1.76,
+          "end": 2.0,
+          "probability": 0.8159613609313965
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/06-approach-teacher-slow.wav",
+      "word": "approach",
+      "language": "en",
+      "expected": "approach",
+      "recognized": "Approach.",
+      "word_timestamps": [
+        {
+          "word": " Approach.",
+          "start": 0.0,
+          "end": 1.08,
+          "probability": 0.8310371339321136
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/06-approach-teacher-meaning.wav",
+      "word": "approach",
+      "language": "zh",
+      "expected": "动词，走近。",
+      "recognized": "動詞走近",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.5450038313865662
+        },
+        {
+          "word": "詞",
+          "start": 0.22,
+          "end": 0.68,
+          "probability": 0.9914565086364746
+        },
+        {
+          "word": "走",
+          "start": 0.68,
+          "end": 1.04,
+          "probability": 0.8795439004898071
+        },
+        {
+          "word": "近",
+          "start": 1.04,
+          "end": 1.34,
+          "probability": 0.5015503764152527
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/07-ought-teacher-slow.wav",
+      "word": "ought",
+      "language": "en",
+      "expected": "ought",
+      "recognized": "art",
+      "word_timestamps": [
+        {
+          "word": " art",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.20041491091251373
+        }
+      ],
+      "matches": false
+    },
+    {
+      "file": "audio/book2/lesson-65/07-ought-teacher-meaning.wav",
+      "word": "ought",
+      "language": "zh",
+      "expected": "情态动词，应该。",
+      "recognized": "情态动词应该",
+      "word_timestamps": [
+        {
+          "word": "情",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.6676594614982605
+        },
+        {
+          "word": "态",
+          "start": 0.38,
+          "end": 0.64,
+          "probability": 0.6292995065450668
+        },
+        {
+          "word": "动",
+          "start": 0.64,
+          "end": 0.8,
+          "probability": 0.6485306620597839
+        },
+        {
+          "word": "词",
+          "start": 0.8,
+          "end": 1.18,
+          "probability": 0.84718257188797
+        },
+        {
+          "word": "应",
+          "start": 1.18,
+          "end": 1.6,
+          "probability": 0.6233479380607605
+        },
+        {
+          "word": "该",
+          "start": 1.6,
+          "end": 1.8,
+          "probability": 0.9996069073677063
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/08-weigh-teacher-slow.wav",
+      "word": "weigh",
+      "language": "en",
+      "expected": "weigh",
+      "recognized": "way",
+      "word_timestamps": [
+        {
+          "word": " way",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.3341367244720459
+        }
+      ],
+      "matches": false
+    },
+    {
+      "file": "audio/book2/lesson-65/08-weigh-teacher-meaning.wav",
+      "word": "weigh",
+      "language": "zh",
+      "expected": "动词，重。",
+      "recognized": "動詞 重",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.36284273862838745
+        },
+        {
+          "word": "詞",
+          "start": 0.3,
+          "end": 0.78,
+          "probability": 0.995985746383667
+        },
+        {
+          "word": " 重",
+          "start": 1.02,
+          "end": 1.34,
+          "probability": 0.39896783232688904
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-65/09-fortunate-teacher-slow.wav",
+      "word": "fortunate",
+      "language": "en",
+      "expected": "fortunate",
+      "recognized": "Fortunate.",
+      "word_timestamps": [
+        {
+          "word": " Fortunate.",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.5919122993946075
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-65/09-fortunate-teacher-meaning.wav",
+      "word": "fortunate",
+      "language": "zh",
+      "expected": "形容词，幸运的。",
+      "recognized": "形容詞 幸運的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.9582622051239014
+        },
+        {
+          "word": "容",
+          "start": 0.38,
+          "end": 0.54,
+          "probability": 0.9973498582839966
+        },
+        {
+          "word": "詞",
+          "start": 0.54,
+          "end": 0.9,
+          "probability": 0.9867650270462036
+        },
+        {
+          "word": " 幸",
+          "start": 1.36,
+          "end": 1.48,
+          "probability": 0.9461759924888611
+        },
+        {
+          "word": "運",
+          "start": 1.48,
+          "end": 1.68,
+          "probability": 0.9937049746513367
+        },
+        {
+          "word": "的",
+          "start": 1.68,
+          "end": 1.84,
+          "probability": 0.8815109729766846
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {}
+}

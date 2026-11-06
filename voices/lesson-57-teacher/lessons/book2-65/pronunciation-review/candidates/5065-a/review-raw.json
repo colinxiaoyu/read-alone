@@ -1,0 +1,111 @@
+{
+  "lesson": 65,
+  "mode": "raw",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "03-circus-en-raw.wav",
+      "word": "circus",
+      "language": "en",
+      "expected": "circus.",
+      "recognized": "Circus.",
+      "word_timestamps": [
+        {
+          "word": " Circus.",
+          "start": 0.0,
+          "end": 0.7,
+          "probability": 0.6000373065471649
+        }
+      ]
+    },
+    {
+      "file": "04-present-en-raw.wav",
+      "word": "present",
+      "language": "en",
+      "expected": "a present.",
+      "recognized": "a present.",
+      "word_timestamps": [
+        {
+          "word": " a",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.5500452518463135
+        },
+        {
+          "word": " present.",
+          "start": 0.44,
+          "end": 0.82,
+          "probability": 0.9269430041313171
+        }
+      ]
+    },
+    {
+      "file": "06-approach-en-raw.wav",
+      "word": "approach",
+      "language": "en",
+      "expected": "approach.",
+      "recognized": "approach.",
+      "word_timestamps": [
+        {
+          "word": " approach.",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.6931287050247192
+        }
+      ]
+    },
+    {
+      "file": "07-ought-en-raw.wav",
+      "word": "ought",
+      "language": "en",
+      "expected": "ought.",
+      "recognized": "I",
+      "word_timestamps": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.03300168737769127
+        }
+      ]
+    },
+    {
+      "file": "08-weigh-en-raw.wav",
+      "word": "weigh",
+      "language": "en",
+      "expected": "weigh.",
+      "recognized": "Wait.",
+      "word_timestamps": [
+        {
+          "word": " Wait.",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.19296568632125854
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "circus": [
+      0,
+      0.88
+    ],
+    "present": [
+      0.44,
+      1.12
+    ],
+    "approach": [
+      0,
+      0.96
+    ],
+    "ought": [
+      0,
+      0.72
+    ],
+    "weigh": [
+      0,
+      0.8
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+[
+ {
+  "file": "02-port-en-raw.wav",
+  "word": "port",
+  "duration": 0.96,
+  "asr": "port.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.03
+   ],
+   [
+    0.38,
+    0.9
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.08
+   ],
+   [
+    0.38,
+    0.93
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.03
+   ]
+  ],
+  "main_onset": 0.38,
+  "main_end": 0.9,
+  "pitch": {
+   "peak_hz": 247.2,
+   "peak_t": 0.49,
+   "tail_hz": 155.2,
+   "drop_st": 8.06,
+   "tail_delta_st": -6.81
+  },
+  "clip_peak": 0.17
+ },
+ {
+  "file": "07-ventilation-en-raw.wav",
+  "word": "ventilation",
+  "duration": 1.2,
+  "asr": "ventilation.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.2,
+    1.16
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.19,
+    1.17
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.2,
+  "main_end": 1.16,
+  "pitch": {
+   "peak_hz": 248.2,
+   "peak_t": 0.87,
+   "tail_hz": 153.8,
+   "drop_st": 8.29,
+   "tail_delta_st": -15.49
+  },
+  "clip_peak": 0.193
+ },
+ {
+  "file": "10-officially-en-raw.wav",
+  "word": "officially",
+  "duration": 1.04,
+  "asr": "officially.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.0,
+    0.03
+   ],
+   [
+    0.35,
+    0.97
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.05
+   ],
+   [
+    0.35,
+    0.98
+   ]
+  ],
+  "leading_blips": [
+   [
+    0.0,
+    0.03
+   ]
+  ],
+  "main_onset": 0.35,
+  "main_end": 0.97,
+  "pitch": {
+   "peak_hz": 342.4,
+   "peak_t": 0.58,
+   "tail_hz": 123.9,
+   "drop_st": 17.59,
+   "tail_delta_st": -14.25
+  },
+  "clip_peak": 0.23
+ },
+ {
+  "file": "11-connect-en-raw.wav",
+  "word": "connect",
+  "duration": 0.8,
+  "asr": "Connect.",
+  "asr_strict": true,
+  "segments_2.5pct": [
+   [
+    0.28,
+    0.75
+   ]
+  ],
+  "segments_0.5pct": [
+   [
+    0.0,
+    0.01
+   ],
+   [
+    0.05,
+    0.06
+   ],
+   [
+    0.28,
+    0.78
+   ]
+  ],
+  "leading_blips": [],
+  "main_onset": 0.28,
+  "main_end": 0.75,
+  "pitch": {
+   "peak_hz": 206.3,
+   "peak_t": 0.52,
+   "tail_hz": 172.3,
+   "drop_st": 3.12,
+   "tail_delta_st": -4.23
+  },
+  "clip_peak": 0.124
+ }
+]

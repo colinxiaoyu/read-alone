@@ -1,0 +1,125 @@
+{
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "references": {
+    "en": {
+      "file": "audio/reference/lesson-57/15-english-full-sentence.wav",
+      "text": "The assistant who served her did not like the way she was dressed.",
+      "sha256": "d316439ab8b5a02f47c12eef19feb15b66a03cb5b1a14dcac24438670f630a0e"
+    },
+    "zh": {
+      "file": "audio/reference/lesson-57/01-chinese-reference.wav",
+      "text": "就是服务行业里的服务员啊，或者说店员啊，他们会说的一句话。我能帮你吗？你要买什么呢？我给你看，我帮你去推荐。",
+      "sha256": "4bd816626296946a2550527b5531d5e92882270c34c0f021ee704e33436cd5a5"
+    }
+  },
+  "requests": [
+    {
+      "file": "01-versus-en-raw.wav",
+      "word": "versus",
+      "language": "en",
+      "text": "versus."
+    },
+    {
+      "file": "01-versus-zh-raw.wav",
+      "word": "versus",
+      "language": "zh",
+      "text": "介词，对。"
+    },
+    {
+      "file": "02-christmas-en-raw.wav",
+      "word": "Christmas",
+      "language": "en",
+      "text": "Christmas."
+    },
+    {
+      "file": "02-christmas-zh-raw.wav",
+      "word": "Christmas",
+      "language": "zh",
+      "text": "名词，圣诞节。"
+    },
+    {
+      "file": "03-circus-en-raw.wav",
+      "word": "circus",
+      "language": "en",
+      "text": "circus."
+    },
+    {
+      "file": "03-circus-zh-raw.wav",
+      "word": "circus",
+      "language": "zh",
+      "text": "名词，马戏团。"
+    },
+    {
+      "file": "04-present-en-raw.wav",
+      "word": "present",
+      "language": "en",
+      "text": "a birthday present."
+    },
+    {
+      "file": "04-present-zh-raw.wav",
+      "word": "present",
+      "language": "zh",
+      "text": "名词，礼物。"
+    },
+    {
+      "file": "05-accompany-en-raw.wav",
+      "word": "accompany",
+      "language": "en",
+      "text": "accompany."
+    },
+    {
+      "file": "05-accompany-zh-raw.wav",
+      "word": "accompany",
+      "language": "zh",
+      "text": "动词，陪伴，随行。"
+    },
+    {
+      "file": "06-approach-en-raw.wav",
+      "word": "approach",
+      "language": "en",
+      "text": "approach."
+    },
+    {
+      "file": "06-approach-zh-raw.wav",
+      "word": "approach",
+      "language": "zh",
+      "text": "动词，走近。"
+    },
+    {
+      "file": "07-ought-en-raw.wav",
+      "word": "ought",
+      "language": "en",
+      "text": "ought."
+    },
+    {
+      "file": "07-ought-zh-raw.wav",
+      "word": "ought",
+      "language": "zh",
+      "text": "情态动词，应该。"
+    },
+    {
+      "file": "08-weigh-en-raw.wav",
+      "word": "weigh",
+      "language": "en",
+      "text": "weigh."
+    },
+    {
+      "file": "08-weigh-zh-raw.wav",
+      "word": "weigh",
+      "language": "zh",
+      "text": "动词，重。"
+    },
+    {
+      "file": "09-fortunate-en-raw.wav",
+      "word": "fortunate",
+      "language": "en",
+      "text": "fortunate."
+    },
+    {
+      "file": "09-fortunate-zh-raw.wav",
+      "word": "fortunate",
+      "language": "zh",
+      "text": "形容词，幸运的。"
+    }
+  ]
+}

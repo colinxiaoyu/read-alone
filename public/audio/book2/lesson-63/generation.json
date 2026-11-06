@@ -88,6 +88,14 @@
   ],
   "license": "Apache-2.0 (model); MIT (MLX Audio)",
   "runtime": "mlx-audio==0.6.3",
+  "voice_profile": "voices/lesson-57-teacher/profile.json",
+  "synthesis": {
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "max_tokens": 192,
+    "seed_rule": "lesson_number * 100 + request_index; English then Chinese per word",
+    "seed_base": 6300
+  },
   "processing": {
     "english_speeds": [
       0.72,
@@ -272,12 +280,12 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.72,
-      "duration": 2.02,
-      "sha256": "3dc4a02ea9eb1ea3e05fc875a10b83d1f79f01f7020192733114a314fb6c6cae",
+      "duration": 1.685,
+      "sha256": "a5f9433ca2a138b56e8c8193add36b5983ab6cc41a40cab74baeb7ec58d3ea8f",
       "synthesis_text": "reception.",
       "raw_sha256": "f34adce5aeff07d4095aba831b84d5d1accde638b65c1e02ac13a33020bf0525",
       "word_interval": [
-        0,
+        0.24,
         1.28
       ]
     },
@@ -287,12 +295,12 @@
       "voice": "lesson-57-teacher",
       "language": "en",
       "speed": 0.86,
-      "duration": 1.695,
-      "sha256": "4864161156d1302844fd662c06c925d545e4d7fa4c8312e2c063bd60e97c5915",
+      "duration": 1.416,
+      "sha256": "3ec3bdb1302439b0531ab025bc0875bac50f1dc0597f97f65a399370223ef77c",
       "synthesis_text": "reception.",
       "raw_sha256": "f34adce5aeff07d4095aba831b84d5d1accde638b65c1e02ac13a33020bf0525",
       "word_interval": [
-        0,
+        0.24,
         1.28
       ]
     },
@@ -353,6 +361,6 @@
   ],
   "full_audio": {
     "file": "audio/book2/lesson-63/lesson-63-full.wav",
-    "sha256": "136552f9ce5743b055f67bfc3d5047c2caea8645a6eaa49dea276c05e539f915"
+    "sha256": "304e58bba1e5cd01a9c71d66fa37ee4b465ccfb27605a0a52d64aa5383cf7dc3"
   }
 }

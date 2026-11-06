@@ -1,0 +1,734 @@
+{
+  "lesson": 64,
+  "mode": "raw",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "01-tunnel-en-raw.wav",
+      "word": "tunnel",
+      "language": "en",
+      "expected": "tunnel.",
+      "recognized": "tunnel",
+      "word_timestamps": [
+        {
+          "word": " tunnel",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.7469117641448975
+        }
+      ]
+    },
+    {
+      "file": "01-tunnel-zh-raw.wav",
+      "word": "tunnel",
+      "language": "zh",
+      "expected": "名词，隧道。",
+      "recognized": "名詞 隧道",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.8609301447868347
+        },
+        {
+          "word": "詞",
+          "start": 0.26,
+          "end": 0.7,
+          "probability": 0.9802205860614777
+        },
+        {
+          "word": " 隧",
+          "start": 0.94,
+          "end": 1.28,
+          "probability": 0.7709771394729614
+        },
+        {
+          "word": "道",
+          "start": 1.28,
+          "end": 1.46,
+          "probability": 0.9999023675918579
+        }
+      ]
+    },
+    {
+      "file": "02-port-en-raw.wav",
+      "word": "port",
+      "language": "en",
+      "expected": "port.",
+      "recognized": "port",
+      "word_timestamps": [
+        {
+          "word": " port",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.32772397994995117
+        }
+      ]
+    },
+    {
+      "file": "02-port-zh-raw.wav",
+      "word": "port",
+      "language": "zh",
+      "expected": "名词，港口。",
+      "recognized": "名词 港口",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.9468795657157898
+        },
+        {
+          "word": "词",
+          "start": 0.24,
+          "end": 0.68,
+          "probability": 0.8197129368782043
+        },
+        {
+          "word": " 港",
+          "start": 0.9,
+          "end": 1.14,
+          "probability": 0.9269160628318787
+        },
+        {
+          "word": "口",
+          "start": 1.14,
+          "end": 1.5,
+          "probability": 0.9998173117637634
+        }
+      ]
+    },
+    {
+      "file": "03-ventilate-en-raw.wav",
+      "word": "ventilate",
+      "language": "en",
+      "expected": "ventilate.",
+      "recognized": "Ventilate.",
+      "word_timestamps": [
+        {
+          "word": " Ventilate.",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.7558447420597076
+        }
+      ]
+    },
+    {
+      "file": "03-ventilate-zh-raw.wav",
+      "word": "ventilate",
+      "language": "zh",
+      "expected": "动词，通风。",
+      "recognized": "動詞通風",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.12,
+          "probability": 0.19750218093395233
+        },
+        {
+          "word": "詞",
+          "start": 0.12,
+          "end": 0.5,
+          "probability": 0.6799523830413818
+        },
+        {
+          "word": "通",
+          "start": 0.5,
+          "end": 0.84,
+          "probability": 0.7617673277854919
+        },
+        {
+          "word": "風",
+          "start": 0.84,
+          "end": 1.08,
+          "probability": 0.9680672883987427
+        }
+      ]
+    },
+    {
+      "file": "04-chimney-en-raw.wav",
+      "word": "chimney",
+      "language": "en",
+      "expected": "chimney.",
+      "recognized": "Chimney.",
+      "word_timestamps": [
+        {
+          "word": " Chimney.",
+          "start": 0.0,
+          "end": 0.98,
+          "probability": 0.7149000465869904
+        }
+      ]
+    },
+    {
+      "file": "04-chimney-zh-raw.wav",
+      "word": "chimney",
+      "language": "zh",
+      "expected": "名词，烟囱。",
+      "recognized": "名词 烟冲",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.7278519868850708
+        },
+        {
+          "word": "词",
+          "start": 0.14,
+          "end": 0.48,
+          "probability": 0.7101457715034485
+        },
+        {
+          "word": " 烟",
+          "start": 0.74,
+          "end": 0.94,
+          "probability": 0.9594109356403351
+        },
+        {
+          "word": "冲",
+          "start": 0.94,
+          "end": 1.26,
+          "probability": 0.6892484128475189
+        }
+      ]
+    },
+    {
+      "file": "05-sea-level-en-raw.wav",
+      "word": "sea level",
+      "language": "en",
+      "expected": "sea level.",
+      "recognized": "sea level.",
+      "word_timestamps": [
+        {
+          "word": " sea",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.4804598093032837
+        },
+        {
+          "word": " level.",
+          "start": 0.42,
+          "end": 0.78,
+          "probability": 0.9489507675170898
+        }
+      ]
+    },
+    {
+      "file": "05-sea-level-zh-raw.wav",
+      "word": "sea level",
+      "language": "zh",
+      "expected": "名词，海平面。",
+      "recognized": "名詞 海平面",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.5185731053352356
+        },
+        {
+          "word": "詞",
+          "start": 0.3,
+          "end": 0.74,
+          "probability": 0.9751193821430206
+        },
+        {
+          "word": " 海",
+          "start": 0.98,
+          "end": 1.2,
+          "probability": 0.9662060737609863
+        },
+        {
+          "word": "平",
+          "start": 1.2,
+          "end": 1.4,
+          "probability": 0.703503429889679
+        },
+        {
+          "word": "面",
+          "start": 1.4,
+          "end": 1.6,
+          "probability": 0.9220396280288696
+        }
+      ]
+    },
+    {
+      "file": "06-double-en-raw.wav",
+      "word": "double",
+      "language": "en",
+      "expected": "double.",
+      "recognized": "Double.",
+      "word_timestamps": [
+        {
+          "word": " Double.",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.3609188497066498
+        }
+      ]
+    },
+    {
+      "file": "06-double-zh-raw.wav",
+      "word": "double",
+      "language": "zh",
+      "expected": "形容词，双的。",
+      "recognized": "形容詞,雙的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.9955283999443054
+        },
+        {
+          "word": "容",
+          "start": 0.62,
+          "end": 0.82,
+          "probability": 0.9973614811897278
+        },
+        {
+          "word": "詞,",
+          "start": 0.82,
+          "end": 1.2,
+          "probability": 0.8162523210048676
+        },
+        {
+          "word": "雙",
+          "start": 1.54,
+          "end": 1.86,
+          "probability": 0.7066560536623001
+        },
+        {
+          "word": "的",
+          "start": 1.86,
+          "end": 2.1,
+          "probability": 0.8758007884025574
+        }
+      ]
+    },
+    {
+      "file": "07-ventilation-en-raw.wav",
+      "word": "ventilation",
+      "language": "en",
+      "expected": "ventilation.",
+      "recognized": "ventilation.",
+      "word_timestamps": [
+        {
+          "word": " ventilation.",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.7419153451919556
+        }
+      ]
+    },
+    {
+      "file": "07-ventilation-zh-raw.wav",
+      "word": "ventilation",
+      "language": "zh",
+      "expected": "名词，通风。",
+      "recognized": "名詞通風",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.7529024481773376
+        },
+        {
+          "word": "詞",
+          "start": 0.16,
+          "end": 0.56,
+          "probability": 0.9493552148342133
+        },
+        {
+          "word": "通",
+          "start": 0.56,
+          "end": 0.94,
+          "probability": 0.2580738067626953
+        },
+        {
+          "word": "風",
+          "start": 0.94,
+          "end": 1.18,
+          "probability": 0.9601877331733704
+        }
+      ]
+    },
+    {
+      "file": "08-fear-en-raw.wav",
+      "word": "fear",
+      "language": "en",
+      "expected": "fear.",
+      "recognized": "fear.",
+      "word_timestamps": [
+        {
+          "word": " fear.",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.5588828325271606
+        }
+      ]
+    },
+    {
+      "file": "08-fear-zh-raw.wav",
+      "word": "fear",
+      "language": "zh",
+      "expected": "动词，害怕。",
+      "recognized": "動詞害怕",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.4247608482837677
+        },
+        {
+          "word": "詞",
+          "start": 0.14,
+          "end": 0.56,
+          "probability": 0.9594857394695282
+        },
+        {
+          "word": "害",
+          "start": 0.56,
+          "end": 1.04,
+          "probability": 0.909065842628479
+        },
+        {
+          "word": "怕",
+          "start": 1.04,
+          "end": 1.3,
+          "probability": 0.9993894100189209
+        }
+      ]
+    },
+    {
+      "file": "09-invasion-en-raw.wav",
+      "word": "invasion",
+      "language": "en",
+      "expected": "invasion.",
+      "recognized": "Invasion.",
+      "word_timestamps": [
+        {
+          "word": " Invasion.",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.8163497149944305
+        }
+      ]
+    },
+    {
+      "file": "09-invasion-zh-raw.wav",
+      "word": "invasion",
+      "language": "zh",
+      "expected": "名词，入侵，侵略。",
+      "recognized": "名詞入侵侵略",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.9539473056793213
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.7,
+          "probability": 0.9362683892250061
+        },
+        {
+          "word": "入",
+          "start": 0.7,
+          "end": 1.2,
+          "probability": 0.29082170128822327
+        },
+        {
+          "word": "侵",
+          "start": 1.2,
+          "end": 1.66,
+          "probability": 0.958278477191925
+        },
+        {
+          "word": "侵",
+          "start": 1.66,
+          "end": 2.14,
+          "probability": 0.9961021542549133
+        },
+        {
+          "word": "略",
+          "start": 2.14,
+          "end": 2.42,
+          "probability": 0.997047632932663
+        }
+      ]
+    },
+    {
+      "file": "10-officially-en-raw.wav",
+      "word": "officially",
+      "language": "en",
+      "expected": "officially.",
+      "recognized": "officially.",
+      "word_timestamps": [
+        {
+          "word": " officially.",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.6469045877456665
+        }
+      ]
+    },
+    {
+      "file": "10-officially-zh-raw.wav",
+      "word": "officially",
+      "language": "zh",
+      "expected": "副词，正式地。",
+      "recognized": "复辞正式地",
+      "word_timestamps": [
+        {
+          "word": "复",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.5462085604667664
+        },
+        {
+          "word": "辞",
+          "start": 0.28,
+          "end": 0.62,
+          "probability": 0.7527715563774109
+        },
+        {
+          "word": "正",
+          "start": 0.62,
+          "end": 1.16,
+          "probability": 0.9204539060592651
+        },
+        {
+          "word": "式",
+          "start": 1.16,
+          "end": 1.5,
+          "probability": 0.8048458695411682
+        },
+        {
+          "word": "地",
+          "start": 1.5,
+          "end": 1.74,
+          "probability": 0.8001595139503479
+        }
+      ]
+    },
+    {
+      "file": "11-connect-en-raw.wav",
+      "word": "connect",
+      "language": "en",
+      "expected": "connect.",
+      "recognized": "connect",
+      "word_timestamps": [
+        {
+          "word": " connect",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.1992136687040329
+        }
+      ]
+    },
+    {
+      "file": "11-connect-zh-raw.wav",
+      "word": "connect",
+      "language": "zh",
+      "expected": "动词，连接。",
+      "recognized": "凍死連接",
+      "word_timestamps": [
+        {
+          "word": "凍",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.6505583971738815
+        },
+        {
+          "word": "死",
+          "start": 0.2,
+          "end": 0.5,
+          "probability": 0.965175211429596
+        },
+        {
+          "word": "連",
+          "start": 0.5,
+          "end": 0.94,
+          "probability": 0.45404142141342163
+        },
+        {
+          "word": "接",
+          "start": 0.94,
+          "end": 1.28,
+          "probability": 0.9566128849983215
+        }
+      ]
+    },
+    {
+      "file": "12-european-en-raw.wav",
+      "word": "European",
+      "language": "en",
+      "expected": "European.",
+      "recognized": "European.",
+      "word_timestamps": [
+        {
+          "word": " European.",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.7592332363128662
+        }
+      ]
+    },
+    {
+      "file": "12-european-zh-raw.wav",
+      "word": "European",
+      "language": "zh",
+      "expected": "形容词，欧洲的。",
+      "recognized": "形容词欧洲的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.44653308391571045
+        },
+        {
+          "word": "容",
+          "start": 0.62,
+          "end": 0.82,
+          "probability": 0.9698541760444641
+        },
+        {
+          "word": "词",
+          "start": 0.82,
+          "end": 1.06,
+          "probability": 0.7075089365243912
+        },
+        {
+          "word": "欧",
+          "start": 1.06,
+          "end": 1.64,
+          "probability": 0.5875972956418991
+        },
+        {
+          "word": "洲",
+          "start": 1.64,
+          "end": 1.84,
+          "probability": 0.9930960536003113
+        },
+        {
+          "word": "的",
+          "start": 1.84,
+          "end": 2.02,
+          "probability": 0.861451268196106
+        }
+      ]
+    },
+    {
+      "file": "13-continent-en-raw.wav",
+      "word": "continent",
+      "language": "en",
+      "expected": "continent.",
+      "recognized": "continent.",
+      "word_timestamps": [
+        {
+          "word": " continent.",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.7160251140594482
+        }
+      ]
+    },
+    {
+      "file": "13-continent-zh-raw.wav",
+      "word": "continent",
+      "language": "zh",
+      "expected": "名词，大陆。",
+      "recognized": "名詞大陸",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.9336997866630554
+        },
+        {
+          "word": "詞",
+          "start": 0.34,
+          "end": 0.76,
+          "probability": 0.8830491900444031
+        },
+        {
+          "word": "大",
+          "start": 0.76,
+          "end": 1.18,
+          "probability": 0.5508156418800354
+        },
+        {
+          "word": "陸",
+          "start": 1.18,
+          "end": 1.44,
+          "probability": 0.9046418368816376
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "tunnel": [
+      0,
+      0.88
+    ],
+    "port": [
+      0,
+      0.8
+    ],
+    "ventilate": [
+      0,
+      1.04
+    ],
+    "chimney": [
+      0,
+      1.12
+    ],
+    "sea level": [
+      0,
+      0.96
+    ],
+    "double": [
+      0,
+      1.04
+    ],
+    "ventilation": [
+      0,
+      0.96
+    ],
+    "fear": [
+      0,
+      0.8
+    ],
+    "invasion": [
+      0,
+      1.04
+    ],
+    "officially": [
+      0,
+      1.04
+    ],
+    "connect": [
+      0,
+      0.72
+    ],
+    "European": [
+      0,
+      0.96
+    ],
+    "continent": [
+      0,
+      1.04
+    ]
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "lesson": 64,
+  "mode": "final",
+  "method": "faster-whisper-small",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "audio/book2/lesson-64/01-tunnel-teacher-slow.wav",
+      "word": "tunnel",
+      "language": "en",
+      "expected": "tunnel",
+      "recognized": "tunnel",
+      "word_timestamps": [
+        {
+          "word": " tunnel",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.7819438576698303
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/01-tunnel-teacher-meaning.wav",
+      "word": "tunnel",
+      "language": "zh",
+      "expected": "名词，隧道。",
+      "recognized": "名詞 隧道",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.9165164828300476
+        },
+        {
+          "word": "詞",
+          "start": 0.3,
+          "end": 0.76,
+          "probability": 0.9830210506916046
+        },
+        {
+          "word": " 隧",
+          "start": 1.12,
+          "end": 1.32,
+          "probability": 0.833329051733017
+        },
+        {
+          "word": "道",
+          "start": 1.32,
+          "end": 1.52,
+          "probability": 0.9999078512191772
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/02-port-teacher-slow.wav",
+      "word": "port",
+      "language": "en",
+      "expected": "port",
+      "recognized": "port",
+      "word_timestamps": [
+        {
+          "word": " port",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.4824215769767761
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/02-port-teacher-meaning.wav",
+      "word": "port",
+      "language": "zh",
+      "expected": "名词，港口。",
+      "recognized": "名詞 港口",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9616388082504272
+        },
+        {
+          "word": "詞",
+          "start": 0.32,
+          "end": 0.78,
+          "probability": 0.9359681606292725
+        },
+        {
+          "word": " 港",
+          "start": 1.02,
+          "end": 1.22,
+          "probability": 0.9480037093162537
+        },
+        {
+          "word": "口",
+          "start": 1.22,
+          "end": 1.58,
+          "probability": 0.9998641014099121
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/03-ventilate-teacher-slow.wav",
+      "word": "ventilate",
+      "language": "en",
+      "expected": "ventilate",
+      "recognized": "Ventilate.",
+      "word_timestamps": [
+        {
+          "word": " Ventilate.",
+          "start": 0.0,
+          "end": 1.12,
+          "probability": 0.7800683975219727
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/03-ventilate-teacher-meaning.wav",
+      "word": "ventilate",
+      "language": "zh",
+      "expected": "动词，通风。",
+      "recognized": "凍死通風",
+      "word_timestamps": [
+        {
+          "word": "凍",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.6941322535276413
+        },
+        {
+          "word": "死",
+          "start": 0.24,
+          "end": 0.5,
+          "probability": 0.9697550535202026
+        },
+        {
+          "word": "通",
+          "start": 0.5,
+          "end": 0.92,
+          "probability": 0.8864245414733887
+        },
+        {
+          "word": "風",
+          "start": 0.92,
+          "end": 1.16,
+          "probability": 0.7448388934135437
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/04-chimney-teacher-slow.wav",
+      "word": "chimney",
+      "language": "en",
+      "expected": "chimney",
+      "recognized": "Chimney",
+      "word_timestamps": [
+        {
+          "word": " Chimney",
+          "start": 0.0,
+          "end": 0.9,
+          "probability": 0.8122885723908743
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/04-chimney-teacher-meaning.wav",
+      "word": "chimney",
+      "language": "zh",
+      "expected": "名词，烟囱。",
+      "recognized": "名词,烟葱",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.7375401258468628
+        },
+        {
+          "word": "词,",
+          "start": 0.22,
+          "end": 0.58,
+          "probability": 0.6371137201786041
+        },
+        {
+          "word": "烟",
+          "start": 0.74,
+          "end": 1.02,
+          "probability": 0.9190230369567871
+        },
+        {
+          "word": "葱",
+          "start": 1.02,
+          "end": 1.32,
+          "probability": 0.7110006362199783
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/05-sea-level-teacher-slow.wav",
+      "word": "sea level",
+      "language": "en",
+      "expected": "sea level",
+      "recognized": "sea level",
+      "word_timestamps": [
+        {
+          "word": " sea",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.22808925807476044
+        },
+        {
+          "word": " level",
+          "start": 0.56,
+          "end": 1.08,
+          "probability": 0.9377300143241882
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/05-sea-level-teacher-meaning.wav",
+      "word": "sea level",
+      "language": "zh",
+      "expected": "名词，海平面。",
+      "recognized": "名詞 海平面",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.561244785785675
+        },
+        {
+          "word": "詞",
+          "start": 0.36,
+          "end": 0.82,
+          "probability": 0.969683438539505
+        },
+        {
+          "word": " 海",
+          "start": 1.1,
+          "end": 1.26,
+          "probability": 0.9439454078674316
+        },
+        {
+          "word": "平",
+          "start": 1.26,
+          "end": 1.44,
+          "probability": 0.4084056615829468
+        },
+        {
+          "word": "面",
+          "start": 1.44,
+          "end": 1.66,
+          "probability": 0.9491059184074402
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/06-double-teacher-slow.wav",
+      "word": "double",
+      "language": "en",
+      "expected": "double",
+      "recognized": "Double",
+      "word_timestamps": [
+        {
+          "word": " Double",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.49600186944007874
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/06-double-teacher-meaning.wav",
+      "word": "double",
+      "language": "zh",
+      "expected": "形容词，双的。",
+      "recognized": "形容詞,雙的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.9978435039520264
+        },
+        {
+          "word": "容",
+          "start": 0.36,
+          "end": 0.56,
+          "probability": 0.998616099357605
+        },
+        {
+          "word": "詞,",
+          "start": 0.56,
+          "end": 0.96,
+          "probability": 0.9769536256790161
+        },
+        {
+          "word": "雙",
+          "start": 1.12,
+          "end": 1.6,
+          "probability": 0.7045468837022781
+        },
+        {
+          "word": "的",
+          "start": 1.6,
+          "end": 1.82,
+          "probability": 0.8686769008636475
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/07-ventilation-teacher-slow.wav",
+      "word": "ventilation",
+      "language": "en",
+      "expected": "ventilation",
+      "recognized": "Ventilation",
+      "word_timestamps": [
+        {
+          "word": " Ventilation",
+          "start": 0.0,
+          "end": 1.16,
+          "probability": 0.6596260964870453
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/07-ventilation-teacher-meaning.wav",
+      "word": "ventilation",
+      "language": "zh",
+      "expected": "名词，通风。",
+      "recognized": "名詞通風",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.842368483543396
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.62,
+          "probability": 0.9475317001342773
+        },
+        {
+          "word": "通",
+          "start": 0.62,
+          "end": 1.02,
+          "probability": 0.163106307387352
+        },
+        {
+          "word": "風",
+          "start": 1.02,
+          "end": 1.26,
+          "probability": 0.9606195092201233
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/08-fear-teacher-slow.wav",
+      "word": "fear",
+      "language": "en",
+      "expected": "fear",
+      "recognized": "Fear",
+      "word_timestamps": [
+        {
+          "word": " Fear",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.5454540848731995
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/08-fear-teacher-meaning.wav",
+      "word": "fear",
+      "language": "zh",
+      "expected": "动词，害怕。",
+      "recognized": "動詞害怕",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.4824422299861908
+        },
+        {
+          "word": "詞",
+          "start": 0.22,
+          "end": 0.62,
+          "probability": 0.9610986113548279
+        },
+        {
+          "word": "害",
+          "start": 0.62,
+          "end": 1.1,
+          "probability": 0.8063780665397644
+        },
+        {
+          "word": "怕",
+          "start": 1.1,
+          "end": 1.36,
+          "probability": 0.9994857311248779
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/09-invasion-teacher-slow.wav",
+      "word": "invasion",
+      "language": "en",
+      "expected": "invasion",
+      "recognized": "Invasion",
+      "word_timestamps": [
+        {
+          "word": " Invasion",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.8550799489021301
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/09-invasion-teacher-meaning.wav",
+      "word": "invasion",
+      "language": "zh",
+      "expected": "名词，入侵，侵略。",
+      "recognized": "名詞入侵侵略",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9365084767341614
+        },
+        {
+          "word": "詞",
+          "start": 0.32,
+          "end": 0.78,
+          "probability": 0.9285300970077515
+        },
+        {
+          "word": "入",
+          "start": 0.78,
+          "end": 1.28,
+          "probability": 0.3125430941581726
+        },
+        {
+          "word": "侵",
+          "start": 1.28,
+          "end": 1.74,
+          "probability": 0.9547758400440216
+        },
+        {
+          "word": "侵",
+          "start": 1.74,
+          "end": 2.24,
+          "probability": 0.9974591732025146
+        },
+        {
+          "word": "略",
+          "start": 2.24,
+          "end": 2.5,
+          "probability": 0.9973194003105164
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/10-officially-teacher-slow.wav",
+      "word": "officially",
+      "language": "en",
+      "expected": "officially",
+      "recognized": "Officially.",
+      "word_timestamps": [
+        {
+          "word": " Officially.",
+          "start": 0.0,
+          "end": 1.16,
+          "probability": 0.6052035540342331
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/10-officially-teacher-meaning.wav",
+      "word": "officially",
+      "language": "zh",
+      "expected": "副词，正式地。",
+      "recognized": "復辞正式地",
+      "word_timestamps": [
+        {
+          "word": "復",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.5385574847459793
+        },
+        {
+          "word": "辞",
+          "start": 0.38,
+          "end": 0.7,
+          "probability": 0.7565469741821289
+        },
+        {
+          "word": "正",
+          "start": 0.7,
+          "end": 1.24,
+          "probability": 0.8507232069969177
+        },
+        {
+          "word": "式",
+          "start": 1.24,
+          "end": 1.58,
+          "probability": 0.7734984159469604
+        },
+        {
+          "word": "地",
+          "start": 1.58,
+          "end": 1.82,
+          "probability": 0.698900580406189
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/11-connect-teacher-slow.wav",
+      "word": "connect",
+      "language": "en",
+      "expected": "connect",
+      "recognized": "Connect",
+      "word_timestamps": [
+        {
+          "word": " Connect",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.8011817336082458
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/11-connect-teacher-meaning.wav",
+      "word": "connect",
+      "language": "zh",
+      "expected": "动词，连接。",
+      "recognized": "凍死連接",
+      "word_timestamps": [
+        {
+          "word": "凍",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.7236437797546387
+        },
+        {
+          "word": "死",
+          "start": 0.28,
+          "end": 0.58,
+          "probability": 0.99029141664505
+        },
+        {
+          "word": "連",
+          "start": 0.58,
+          "end": 1.02,
+          "probability": 0.5957410335540771
+        },
+        {
+          "word": "接",
+          "start": 1.02,
+          "end": 1.34,
+          "probability": 0.9541293382644653
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/12-european-teacher-slow.wav",
+      "word": "European",
+      "language": "en",
+      "expected": "European",
+      "recognized": "European",
+      "word_timestamps": [
+        {
+          "word": " European",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.9038897752761841
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/12-european-teacher-meaning.wav",
+      "word": "European",
+      "language": "zh",
+      "expected": "形容词，欧洲的。",
+      "recognized": "形容词 欧洲的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.5330564379692078
+        },
+        {
+          "word": "容",
+          "start": 0.34,
+          "end": 0.56,
+          "probability": 0.9572339653968811
+        },
+        {
+          "word": "词",
+          "start": 0.56,
+          "end": 0.78,
+          "probability": 0.6587028056383133
+        },
+        {
+          "word": " 欧",
+          "start": 1.06,
+          "end": 1.34,
+          "probability": 0.9929335415363312
+        },
+        {
+          "word": "洲",
+          "start": 1.34,
+          "end": 1.56,
+          "probability": 0.992567777633667
+        },
+        {
+          "word": "的",
+          "start": 1.56,
+          "end": 1.72,
+          "probability": 0.8562215566635132
+        }
+      ]
+    },
+    {
+      "file": "audio/book2/lesson-64/13-continent-teacher-slow.wav",
+      "word": "continent",
+      "language": "en",
+      "expected": "continent",
+      "recognized": "Continent",
+      "word_timestamps": [
+        {
+          "word": " Continent",
+          "start": 0.0,
+          "end": 0.92,
+          "probability": 0.6176915317773819
+        }
+      ],
+      "matches": true
+    },
+    {
+      "file": "audio/book2/lesson-64/13-continent-teacher-meaning.wav",
+      "word": "continent",
+      "language": "zh",
+      "expected": "名词，大陆。",
+      "recognized": "名詞大陸",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.8943037986755371
+        },
+        {
+          "word": "詞",
+          "start": 0.38,
+          "end": 0.8,
+          "probability": 0.8859861493110657
+        },
+        {
+          "word": "大",
+          "start": 0.8,
+          "end": 1.22,
+          "probability": 0.5785967707633972
+        },
+        {
+          "word": "陸",
+          "start": 1.22,
+          "end": 1.48,
+          "probability": 0.8962576687335968
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {}
+}

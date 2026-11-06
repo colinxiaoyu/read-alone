@@ -1,0 +1,886 @@
+{
+  "lesson": 62,
+  "mode": "raw",
+  "method": "faster-whisper-/Users/colin/.cache/huggingface/hub/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120",
+  "interval_status": "suggestions_require_boundary_review",
+  "clips": [
+    {
+      "file": "01-control-en-raw.wav",
+      "word": "control",
+      "language": "en",
+      "expected": "control.",
+      "recognized": "Control",
+      "word_timestamps": [
+        {
+          "word": " Control",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.5066894292831421
+        }
+      ]
+    },
+    {
+      "file": "01-control-zh-raw.wav",
+      "word": "control",
+      "language": "zh",
+      "expected": "名词，控制。",
+      "recognized": "名詞 控制",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.7308449745178223
+        },
+        {
+          "word": "詞",
+          "start": 0.26,
+          "end": 0.68,
+          "probability": 0.7948115468025208
+        },
+        {
+          "word": " 控",
+          "start": 1.04,
+          "end": 1.28,
+          "probability": 0.9815816879272461
+        },
+        {
+          "word": "制",
+          "start": 1.28,
+          "end": 1.58,
+          "probability": 0.9856060147285461
+        }
+      ]
+    },
+    {
+      "file": "02-smoke-en-raw.wav",
+      "word": "smoke",
+      "language": "en",
+      "expected": "The noun: smoke.",
+      "recognized": "the now smoke.",
+      "word_timestamps": [
+        {
+          "word": " the",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.443774551153183
+        },
+        {
+          "word": " now",
+          "start": 0.3,
+          "end": 0.68,
+          "probability": 0.7319799065589905
+        },
+        {
+          "word": " smoke.",
+          "start": 0.68,
+          "end": 1.26,
+          "probability": 0.7804516553878784
+        }
+      ]
+    },
+    {
+      "file": "02-smoke-zh-raw.wav",
+      "word": "smoke",
+      "language": "zh",
+      "expected": "名词，烟。",
+      "recognized": "鸣死 烟",
+      "word_timestamps": [
+        {
+          "word": "鸣",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.6578742663065592
+        },
+        {
+          "word": "死",
+          "start": 0.34,
+          "end": 0.7,
+          "probability": 0.6088088750839233
+        },
+        {
+          "word": " 烟",
+          "start": 1.02,
+          "end": 1.34,
+          "probability": 0.7919041514396667
+        }
+      ]
+    },
+    {
+      "file": "03-desolate-en-raw.wav",
+      "word": "desolate",
+      "language": "en",
+      "expected": "The adjective: desolate.",
+      "recognized": "The adjectives desolate.",
+      "word_timestamps": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.6814669370651245
+        },
+        {
+          "word": " adjectives",
+          "start": 0.44,
+          "end": 1.28,
+          "probability": 0.5920877531170845
+        },
+        {
+          "word": " desolate.",
+          "start": 1.28,
+          "end": 2.34,
+          "probability": 0.8401416540145874
+        }
+      ]
+    },
+    {
+      "file": "03-desolate-zh-raw.wav",
+      "word": "desolate",
+      "language": "zh",
+      "expected": "形容词，荒凉的。",
+      "recognized": "形容詞 荒涼的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.98854660987854
+        },
+        {
+          "word": "容",
+          "start": 0.68,
+          "end": 0.82,
+          "probability": 0.9985532164573669
+        },
+        {
+          "word": "詞",
+          "start": 0.82,
+          "end": 1.26,
+          "probability": 0.9403254985809326
+        },
+        {
+          "word": " 荒",
+          "start": 1.5,
+          "end": 1.66,
+          "probability": 0.9521952271461487
+        },
+        {
+          "word": "涼",
+          "start": 1.66,
+          "end": 2.06,
+          "probability": 0.9614963531494141
+        },
+        {
+          "word": "的",
+          "start": 2.06,
+          "end": 2.2,
+          "probability": 0.9376242160797119
+        }
+      ]
+    },
+    {
+      "file": "04-threaten-en-raw.wav",
+      "word": "threaten",
+      "language": "en",
+      "expected": "threaten.",
+      "recognized": "threatened.",
+      "word_timestamps": [
+        {
+          "word": " threatened.",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.3952520787715912
+        }
+      ]
+    },
+    {
+      "file": "04-threaten-zh-raw.wav",
+      "word": "threaten",
+      "language": "zh",
+      "expected": "动词，威胁。",
+      "recognized": "動詞威脅",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.17464737594127655
+        },
+        {
+          "word": "詞",
+          "start": 0.14,
+          "end": 0.54,
+          "probability": 0.9945734441280365
+        },
+        {
+          "word": "威",
+          "start": 0.54,
+          "end": 1.08,
+          "probability": 0.8243529796600342
+        },
+        {
+          "word": "脅",
+          "start": 1.08,
+          "end": 1.54,
+          "probability": 0.9974752068519592
+        }
+      ]
+    },
+    {
+      "file": "05-surrounding-en-raw.wav",
+      "word": "surrounding",
+      "language": "en",
+      "expected": "surrounding.",
+      "recognized": "surrounding",
+      "word_timestamps": [
+        {
+          "word": " surrounding",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.7041753530502319
+        }
+      ]
+    },
+    {
+      "file": "05-surrounding-zh-raw.wav",
+      "word": "surrounding",
+      "language": "zh",
+      "expected": "形容词，周围的。",
+      "recognized": "形容词周围的",
+      "word_timestamps": [
+        {
+          "word": "形",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.9970930814743042
+        },
+        {
+          "word": "容",
+          "start": 0.5,
+          "end": 0.62,
+          "probability": 0.9984005093574524
+        },
+        {
+          "word": "词",
+          "start": 0.62,
+          "end": 0.86,
+          "probability": 0.7186003476381302
+        },
+        {
+          "word": "周",
+          "start": 0.86,
+          "end": 1.32,
+          "probability": 0.9456560015678406
+        },
+        {
+          "word": "围",
+          "start": 1.32,
+          "end": 1.58,
+          "probability": 0.973622053861618
+        },
+        {
+          "word": "的",
+          "start": 1.58,
+          "end": 1.74,
+          "probability": 0.9699973464012146
+        }
+      ]
+    },
+    {
+      "file": "06-destruction-en-raw.wav",
+      "word": "destruction",
+      "language": "en",
+      "expected": "destruction.",
+      "recognized": "Destruction.",
+      "word_timestamps": [
+        {
+          "word": " Destruction.",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.6983432918787003
+        }
+      ]
+    },
+    {
+      "file": "06-destruction-zh-raw.wav",
+      "word": "destruction",
+      "language": "zh",
+      "expected": "名词，破坏，毁灭。",
+      "recognized": "名詞破壞毀滅",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.9084222316741943
+        },
+        {
+          "word": "詞",
+          "start": 0.22,
+          "end": 0.68,
+          "probability": 0.9760980606079102
+        },
+        {
+          "word": "破",
+          "start": 0.68,
+          "end": 1.22,
+          "probability": 0.9426271915435791
+        },
+        {
+          "word": "壞",
+          "start": 1.22,
+          "end": 1.62,
+          "probability": 0.9997468888759613
+        },
+        {
+          "word": "毀",
+          "start": 1.62,
+          "end": 2.08,
+          "probability": 0.9559493064880371
+        },
+        {
+          "word": "滅",
+          "start": 2.08,
+          "end": 2.36,
+          "probability": 0.9984973073005676
+        }
+      ]
+    },
+    {
+      "file": "07-flood-en-raw.wav",
+      "word": "flood",
+      "language": "en",
+      "expected": "flood.",
+      "recognized": "Flood",
+      "word_timestamps": [
+        {
+          "word": " Flood",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.5277385711669922
+        }
+      ]
+    },
+    {
+      "file": "07-flood-zh-raw.wav",
+      "word": "flood",
+      "language": "zh",
+      "expected": "名词，洪水，水灾。",
+      "recognized": "名詞洪水水災",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.9395121335983276
+        },
+        {
+          "word": "詞",
+          "start": 0.28,
+          "end": 0.74,
+          "probability": 0.9612840414047241
+        },
+        {
+          "word": "洪",
+          "start": 0.74,
+          "end": 1.28,
+          "probability": 0.5408019572496414
+        },
+        {
+          "word": "水",
+          "start": 1.28,
+          "end": 1.64,
+          "probability": 0.994371235370636
+        },
+        {
+          "word": "水",
+          "start": 1.64,
+          "end": 2.22,
+          "probability": 0.9254881739616394
+        },
+        {
+          "word": "災",
+          "start": 2.22,
+          "end": 2.56,
+          "probability": 0.9867900013923645
+        }
+      ]
+    },
+    {
+      "file": "08-authority-en-raw.wav",
+      "word": "authority",
+      "language": "en",
+      "expected": "authority.",
+      "recognized": "authority.",
+      "word_timestamps": [
+        {
+          "word": " authority.",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.36159923672676086
+        }
+      ]
+    },
+    {
+      "file": "08-authority-zh-raw.wav",
+      "word": "authority",
+      "language": "zh",
+      "expected": "名词，(常用复数)当局。",
+      "recognized": "名詞常用復述當局",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.8916997909545898
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.72,
+          "probability": 0.9435905814170837
+        },
+        {
+          "word": "常",
+          "start": 0.72,
+          "end": 1.12,
+          "probability": 0.7814632058143616
+        },
+        {
+          "word": "用",
+          "start": 1.12,
+          "end": 1.32,
+          "probability": 0.9931158423423767
+        },
+        {
+          "word": "復",
+          "start": 1.32,
+          "end": 1.66,
+          "probability": 0.5608058944344521
+        },
+        {
+          "word": "述",
+          "start": 1.66,
+          "end": 1.9,
+          "probability": 0.7339073568582535
+        },
+        {
+          "word": "當",
+          "start": 1.9,
+          "end": 2.22,
+          "probability": 0.7585596442222595
+        },
+        {
+          "word": "局",
+          "start": 2.22,
+          "end": 2.56,
+          "probability": 0.9992747902870178
+        }
+      ]
+    },
+    {
+      "file": "09-grass-seed-en-raw.wav",
+      "word": "grass-seed",
+      "language": "en",
+      "expected": "grass seed.",
+      "recognized": "grass seed.",
+      "word_timestamps": [
+        {
+          "word": " grass",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.6415804624557495
+        },
+        {
+          "word": " seed.",
+          "start": 0.76,
+          "end": 1.2,
+          "probability": 0.9758416414260864
+        }
+      ]
+    },
+    {
+      "file": "09-grass-seed-zh-raw.wav",
+      "word": "grass-seed",
+      "language": "zh",
+      "expected": "名词，草籽。",
+      "recognized": "名詞 曹子",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.4926398992538452
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.66,
+          "probability": 0.815073549747467
+        },
+        {
+          "word": " 曹",
+          "start": 0.9,
+          "end": 1.24,
+          "probability": 0.7696467936038971
+        },
+        {
+          "word": "子",
+          "start": 1.24,
+          "end": 1.5,
+          "probability": 0.9619302749633789
+        }
+      ]
+    },
+    {
+      "file": "10-spray-en-raw.wav",
+      "word": "spray",
+      "language": "en",
+      "expected": "spray.",
+      "recognized": "spray.",
+      "word_timestamps": [
+        {
+          "word": " spray.",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.7568713426589966
+        }
+      ]
+    },
+    {
+      "file": "10-spray-zh-raw.wav",
+      "word": "spray",
+      "language": "zh",
+      "expected": "动词，喷撒。",
+      "recognized": "動詞噴灑",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.6493735909461975
+        },
+        {
+          "word": "詞",
+          "start": 0.14,
+          "end": 0.46,
+          "probability": 0.9973020255565643
+        },
+        {
+          "word": "噴",
+          "start": 0.46,
+          "end": 0.82,
+          "probability": 0.8843757510185242
+        },
+        {
+          "word": "灑",
+          "start": 0.82,
+          "end": 1.0,
+          "probability": 0.9292271733283997
+        }
+      ]
+    },
+    {
+      "file": "11-quantity-en-raw.wav",
+      "word": "quantity",
+      "language": "en",
+      "expected": "quantity.",
+      "recognized": "quantity.",
+      "word_timestamps": [
+        {
+          "word": " quantity.",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.7045722007751465
+        }
+      ]
+    },
+    {
+      "file": "11-quantity-zh-raw.wav",
+      "word": "quantity",
+      "language": "zh",
+      "expected": "名词，量。",
+      "recognized": "名詞 量",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.8043884038925171
+        },
+        {
+          "word": "詞",
+          "start": 0.34,
+          "end": 0.84,
+          "probability": 0.8563134074211121
+        },
+        {
+          "word": " 量",
+          "start": 1.1,
+          "end": 1.38,
+          "probability": 0.5849627256393433
+        }
+      ]
+    },
+    {
+      "file": "12-root-en-raw.wav",
+      "word": "root",
+      "language": "en",
+      "expected": "root.",
+      "recognized": "Root",
+      "word_timestamps": [
+        {
+          "word": " Root",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.6930648535490036
+        }
+      ]
+    },
+    {
+      "file": "12-root-zh-raw.wav",
+      "word": "root",
+      "language": "zh",
+      "expected": "名词，根。",
+      "recognized": "名詞 跟",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.928691029548645
+        },
+        {
+          "word": "詞",
+          "start": 0.24,
+          "end": 0.7,
+          "probability": 0.9174596667289734
+        },
+        {
+          "word": " 跟",
+          "start": 0.92,
+          "end": 1.12,
+          "probability": 0.3383561670780182
+        }
+      ]
+    },
+    {
+      "file": "13-century-en-raw.wav",
+      "word": "century",
+      "language": "en",
+      "expected": "century.",
+      "recognized": "century.",
+      "word_timestamps": [
+        {
+          "word": " century.",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.6764975786209106
+        }
+      ]
+    },
+    {
+      "file": "13-century-zh-raw.wav",
+      "word": "century",
+      "language": "zh",
+      "expected": "名词，世纪。",
+      "recognized": "名詞世紀",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.5685023069381714
+        },
+        {
+          "word": "詞",
+          "start": 0.2,
+          "end": 0.62,
+          "probability": 0.9484148919582367
+        },
+        {
+          "word": "世",
+          "start": 0.62,
+          "end": 1.14,
+          "probability": 0.47716024518013
+        },
+        {
+          "word": "紀",
+          "start": 1.14,
+          "end": 1.48,
+          "probability": 0.8773304224014282
+        }
+      ]
+    },
+    {
+      "file": "14-patch-en-raw.wav",
+      "word": "patch",
+      "language": "en",
+      "expected": "patch.",
+      "recognized": "patch.",
+      "word_timestamps": [
+        {
+          "word": " patch.",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.5988072156906128
+        }
+      ]
+    },
+    {
+      "file": "14-patch-zh-raw.wav",
+      "word": "patch",
+      "language": "zh",
+      "expected": "名词，小片。",
+      "recognized": "名詞小片",
+      "word_timestamps": [
+        {
+          "word": "名",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.4860991835594177
+        },
+        {
+          "word": "詞",
+          "start": 0.18,
+          "end": 0.58,
+          "probability": 0.9805561006069183
+        },
+        {
+          "word": "小",
+          "start": 0.58,
+          "end": 1.08,
+          "probability": 0.41669464111328125
+        },
+        {
+          "word": "片",
+          "start": 1.08,
+          "end": 1.44,
+          "probability": 0.9328462481498718
+        }
+      ]
+    },
+    {
+      "file": "15-blacken-en-raw.wav",
+      "word": "blacken",
+      "language": "en",
+      "expected": "blacken.",
+      "recognized": "blackened",
+      "word_timestamps": [
+        {
+          "word": " blackened",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.27948741614818573
+        }
+      ]
+    },
+    {
+      "file": "15-blacken-zh-raw.wav",
+      "word": "blacken",
+      "language": "zh",
+      "expected": "动词，变黑，发暗。",
+      "recognized": "動詞變黑發案",
+      "word_timestamps": [
+        {
+          "word": "動",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.3460896909236908
+        },
+        {
+          "word": "詞",
+          "start": 0.58,
+          "end": 1.04,
+          "probability": 0.9975168406963348
+        },
+        {
+          "word": "變",
+          "start": 1.04,
+          "end": 1.48,
+          "probability": 0.3463304936885834
+        },
+        {
+          "word": "黑",
+          "start": 1.48,
+          "end": 1.88,
+          "probability": 0.9951062202453613
+        },
+        {
+          "word": "發",
+          "start": 1.88,
+          "end": 2.36,
+          "probability": 0.6932321786880493
+        },
+        {
+          "word": "案",
+          "start": 2.36,
+          "end": 2.62,
+          "probability": 0.8516361117362976
+        }
+      ]
+    }
+  ],
+  "suggested_trims": {
+    "control": [
+      0,
+      0.88
+    ],
+    "smoke": [
+      0.68,
+      1.6
+    ],
+    "desolate": [
+      1.44,
+      2.56
+    ],
+    "threaten": [
+      0,
+      1.04
+    ],
+    "surrounding": [
+      0,
+      1.12
+    ],
+    "destruction": [
+      0,
+      1.2
+    ],
+    "flood": [
+      0,
+      0.8
+    ],
+    "authority": [
+      0,
+      1.28
+    ],
+    "grass-seed": [
+      0,
+      1.36
+    ],
+    "spray": [
+      0,
+      0.88
+    ],
+    "quantity": [
+      0,
+      0.8
+    ],
+    "root": [
+      0,
+      0.64
+    ],
+    "century": [
+      0,
+      0.96
+    ],
+    "patch": [
+      0,
+      0.72
+    ],
+    "blacken": [
+      0,
+      0.88
+    ]
+  }
+}
